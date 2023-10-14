@@ -1,11 +1,31 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <app-header></app-header>
+  <header-space></header-space>
+
+  <router-view />
 </template>
 
+<script>
+import AppHeader from "./components/AppComponents/AppHeader.vue";
+import AppFooterNav from "./components/AppComponents/AppFooterNav.vue";
+import HeaderSpace from "./components/AppComponents/HeaderSpace.vue";
+import CategoriesHeader from "./views/CategoriesPage/CategoriesHeader.vue";
+
+export default {
+  name: "App",
+
+  data() {
+    return {};
+  },
+  components: {
+    AppHeader,
+    AppFooterNav,
+    HeaderSpace,
+    CategoriesHeader,
+  },
+  methods: {},
+};
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,18 +33,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  margin: 0;
+  padding: 0;
 }
 </style>
+<!-- color: #42b983; -->
