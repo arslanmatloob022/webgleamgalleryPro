@@ -12,7 +12,7 @@
         <div class="table-head">
           <h2>Login</h2>
         </div>
-        <fieldset>
+        <fieldset class="fieldset">
           <legend>Email</legend>
           <div class="input_box max-margin">
             <input id="email" type="email" placeholder="Enter Email" required />
@@ -20,7 +20,7 @@
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="fieldset">
           <legend>Password</legend>
           <div class="input_box max-margin">
             <input
@@ -86,7 +86,7 @@
           <h2>Signup</h2>
         </div>
 
-        <fieldset>
+        <fieldset class="fieldset">
           <legend>Full-Name</legend>
           <div class="input_box light-margin">
             <input type="text" placeholder="Firstname" required />
@@ -94,7 +94,7 @@
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="fieldset">
           <legend>Email</legend>
           <div class="input_box light-margin">
             <input type="email" placeholder="Email" required />
@@ -102,7 +102,7 @@
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="fieldset">
           <legend>Password</legend>
           <div class="input_box light-margin">
             <input
@@ -221,13 +221,13 @@ form {
 
 .form_close {
   position: absolute;
-  padding: 4px 5px;
+  padding: 1px 5px;
   border: none;
   border-radius: 4px;
   top: 8px;
   right: 8px;
-  color: #315ef3;
-  background-color: #fff;
+  color: #fff;
+  background-color: #315ef3;
   font-size: 1rem;
   cursor: pointer;
   transition: transform 0.25s, opacity 0.25s;
@@ -252,9 +252,9 @@ form {
 .input_box input {
   box-sizing: border-box;
   position: absolute;
+  outline: none;
   height: 100%;
   width: 100%;
-  outline: none;
   padding: 1px 30px;
   border: none;
   background-color: transparent;
@@ -264,6 +264,9 @@ form {
 }
 .input_box input::placeholder {
   color: #ffffff;
+}
+.input_box input:active {
+  background-color: transparent;
 }
 .light-margin {
   margin-top: -7px;
@@ -410,14 +413,23 @@ h1 {
 .twitter i {
   color: #315ef3;
   padding: 2px 3px;
-}
+} /*
 fieldset {
   margin-top: 10px;
-  padding: 0;
   border-radius: 6px;
+  border: 1px solid #ffffff;
+}
+legend {
   color: #ffffff;
-  border: #fff;
+  font-size: 0.8rem;
+}*/
+
+.fieldset {
+  margin-top: 10px;
+  border: 1px solid #fff;
+  border-top: 1px solid #fff;
   border-color: #ffffff;
+  border-radius: 6px;
 }
 legend {
   color: #ffffff;

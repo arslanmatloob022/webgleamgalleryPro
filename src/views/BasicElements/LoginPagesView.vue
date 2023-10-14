@@ -277,7 +277,7 @@ export default {
 </script>
 <style scoped>
 section {
-  background-color: #aab1af;
+  background-color: #ececec;
 }
 .container-box {
   margin-top: 20pt;

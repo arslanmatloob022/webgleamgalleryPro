@@ -203,7 +203,7 @@ export default {
 }
 .form_close {
   position: absolute;
-  padding: 4px;
+  padding: 0px 4px;
   border: 1px solid #ffffff;
   border-radius: 6px;
   top: 10px;

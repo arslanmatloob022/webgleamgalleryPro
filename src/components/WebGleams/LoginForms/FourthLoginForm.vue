@@ -217,7 +217,7 @@ form {
 }
 .form_close {
   position: absolute;
-  padding: 1px 5px;
+  padding: 0px 4px;
   border: none;
   border-radius: 50%;
   top: 4px;
