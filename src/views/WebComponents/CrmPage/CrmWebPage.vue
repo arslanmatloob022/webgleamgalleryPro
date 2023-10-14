@@ -8,14 +8,18 @@
 </template>
 
 <script>
-import DashboardOneVue from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/Dashboards/DashboardOne.vue";
-import ContactsListVue from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/ContactsList.vue";
-import CustomerSupport from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/CustomerSupport.vue";
-import DocumentList from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/DocumentList.vue";
-import LeadListVue from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/LeadList.vue";
-import OpertunityList from "@/components/WGGComponents/ByWebsiteComponents/CRMWebComponents/OpertunityList.vue";
+import DashboardOneVue from "@/components/WebComponents/CRMWebComponents/Dashboards/DashboardOne.vue";
+import ContactsListVue from "@/components/WebComponents/CRMWebComponents/ContactsList.vue";
+import CustomerSupport from "@/components/WebComponents/CRMWebComponents/CustomerSupport.vue";
+import DocumentList from "@/components/WebComponents/CRMWebComponents/DocumentList.vue";
+import LeadListVue from "@/components/WebComponents/CRMWebComponents/LeadList.vue";
+import OpertunityList from "@/components/WebComponents/CRMWebComponents/OpertunityList.vue";
+
 export default {
   name: "CrmWebPage",
+  data() {
+    return {};
+  },
   components: {
     DashboardOneVue,
     ContactsListVue,

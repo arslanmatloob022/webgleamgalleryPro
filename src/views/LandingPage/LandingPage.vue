@@ -6,12 +6,9 @@
   </section>
 </template>
 <script>
-import AnimatoryScreenVue from "@/components/AppComponents/AnimatoryScreen.vue";
 export default {
   name: "LandingPage",
-  components: {
-    AnimatoryScreenVue,
-  },
+  components: {},
 };
 </script>
 <style scoped>

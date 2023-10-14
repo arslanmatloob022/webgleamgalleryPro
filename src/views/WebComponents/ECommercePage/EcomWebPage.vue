@@ -925,11 +925,11 @@ document.addEventListener("DOMContentLoaded", () => {
 </template>
 
 <script>
-import eComStoreGallery from "@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/eComGallery.vue";
-import eComGalleryTwo from "@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/eComGalleryTwo.vue";
-import EcomHeader from "@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/eComHeaders/EcomWebHeader.vue";
-import EcomSecondHeader from "@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/eComHeaders/EcomWebHeaderTwo.vue";
-import EcomHomePageVue from "@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/HomePageElements/EcomHomePage.vue";
+import eComStoreGallery from "@/components/WebComponents/eCommerceComponents/eComGallery.vue";
+import eComGalleryTwo from "@/components/WebComponents/eCommerceComponents/eComGalleryTwo.vue";
+import EcomHeader from "@/components/WebComponents/eCommerceComponents/eComHeaders/EcomWebHeader.vue";
+import EcomSecondHeader from "@/components/WebComponents/eCommerceComponents/eComHeaders/EcomWebHeaderTwo.vue";
+import EcomHomePageVue from "@/components/WebComponents/eCommerceComponents/HomePageElements/EcomHomePage.vue";
 export default {
   name: "EComWeb",
 
@@ -3044,9 +3044,9 @@ export default {
           description:
             "Here we write the description of the product, description may contains anything",
           images: [
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/high-heels.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/shoe.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/high-heels.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
           ], // List of image file names
           totalLikes: 17,
         },
@@ -3057,10 +3057,10 @@ export default {
           description:
             "Here we write the description of the product, description may contains anything",
           images: [
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/high-heels.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/high-heels.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/shoe.jpg"),
 
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
           ], // List of image file names
           totalLikes: 34,
         },
@@ -3071,10 +3071,10 @@ export default {
         //   description:
         //     "Here we write the description of the product, description may contains anything",
         //   images: [
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe4.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/high-heels.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/shoe4.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/shoe.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/high-heels.jpg"),
         //   ], // List of image file names
         //   totalLikes: 96,
         // },
@@ -3085,10 +3085,10 @@ export default {
         //   description:
         //     "Here we write the description of the product, description may contains anything",
         //   images: [
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe5.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/shoe.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/high-heels.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/shoe5.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/womens-shoes-.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/shoe.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/high-heels.jpg"),
         //   ], // List of image file names
         //   totalLikes: 96,
         // },
@@ -3102,11 +3102,11 @@ export default {
           description:
             "Here we write the description of the product, description may contains anything",
           images: [
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e1.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e2.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e3.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e4.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e5.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e1.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e2.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e3.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e4.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e5.jpg"),
           ], // List of image file names
           totalLikes: 65,
         },
@@ -3117,11 +3117,11 @@ export default {
           description:
             "Here we write the description of the product, description may contains anything",
           images: [
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e5.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e1.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e2.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e3.jpg"),
-            require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e4.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e5.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e1.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e2.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e3.jpg"),
+            require("@/components/WebComponents/eCommerceComponents/Images/e4.jpg"),
           ], // List of image file names
           totalLikes: 34,
         },
@@ -3132,11 +3132,11 @@ export default {
         //   description:
         //     "Here we write the description of the product, description may contains anything",
         //   images: [
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e4.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e5.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e1.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e2.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e3.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e4.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e5.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e1.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e2.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e3.jpg"),
         //   ], // List of image file names
         //   totalLikes: 96,
         // },
@@ -3147,11 +3147,11 @@ export default {
         //   description:
         //     "Here we write the description of the product, description may contains anything",
         //   images: [
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e3.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e4.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e5.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e1.jpg"),
-        //     require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e2.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e3.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e4.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e5.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e1.jpg"),
+        //     require("@/components/WebComponents/eCommerceComponents/Images/e2.jpg"),
         //   ], // List of image file names
         //   totalLikes: 96,
         // },

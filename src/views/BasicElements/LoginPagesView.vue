@@ -239,12 +239,12 @@
   </section>
 </template>
 <script>
-import FirstLoginForm from "@/components/WGGComponents/WebGleams/LoginForms/FirstLoginForm.vue";
-import SecondLoginVue from "@/components/WGGComponents/WebGleams/LoginForms/SecondLogin.vue";
-import ThirdLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/ThirdLoginForm.vue";
-import FourthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/FourthLoginForm.vue";
-import FifthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/FifthLoginForm.vue";
-import SixthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/SixthLoginForm.vue";
+import FirstLoginForm from "@/components/WebGleams/LoginForms/FirstLoginForm.vue";
+import SecondLoginVue from "@/components/WebGleams/LoginForms/SecondLogin.vue";
+import ThirdLoginFormVue from "@/components/WebGleams/LoginForms/ThirdLoginForm.vue";
+import FourthLoginFormVue from "@/components/WebGleams/LoginForms/FourthLoginForm.vue";
+import FifthLoginFormVue from "@/components/WebGleams/LoginForms/FifthLoginForm.vue";
+import SixthLoginFormVue from "@/components/WebGleams/LoginForms/SixthLoginForm.vue";
 
 export default {
   name: "LoginPagesView",

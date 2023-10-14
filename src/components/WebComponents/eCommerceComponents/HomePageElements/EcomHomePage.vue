@@ -47,9 +47,9 @@
 </template>
 
 <script>
-import EcomWebHeaderTwo from "../eComHeaders/EcomWebHeaderTwo.vue";
-import HeroBanner from "./HeroBanner.vue";
-import ProductsCategories from "./ProductsCategories.vue";
+import EcomWebHeaderTwo from "@/components/WebComponents/eCommerceComponents/eComHeaders/EcomWebHeaderTwo.vue";
+import HeroBanner from "@/components/WebComponents/eCommerceComponents/HomePageElements/HeroBanner.vue";
+import ProductsCategories from "@/components/WebComponents/eCommerceComponents/HomePageElements/ProductsCategories.vue";
 import DealsAndPromotions from "./DealsAndPromotions.vue";
 import FeaturedProduct from "./FeaturedProduct.vue";
 import TestimonialsView from "./TestimonialsView.vue";

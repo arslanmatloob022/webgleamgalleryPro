@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import FilterAndSorting from "./FilterAndSorting.vue";
-import ProductCard from "./ProductCard.vue";
+import FilterAndSorting from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/FilterAndSorting.vue";
+import ProductCard from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/ProductListing.vue";
 export default {
   components: {
     FilterAndSorting,
@@ -41,7 +41,7 @@ export default {
         {
           id: 1,
           name: "Laptop",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e2.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e2.jpg"),
           price: 49.99,
           category: "Electronics",
           color: "White",
@@ -49,7 +49,7 @@ export default {
         {
           id: 2,
           name: "Earphone",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e3.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e3.jpg"),
           price: 29.99,
           category: "Electronics",
           color: "White",
@@ -57,7 +57,7 @@ export default {
         {
           id: 3,
           name: "Camera",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e4.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e4.jpg"),
           price: 99.99,
           category: "Electronics",
           color: "Black",
@@ -65,7 +65,7 @@ export default {
         {
           id: 4,
           name: "Headphone",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e1.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e1.jpg"),
           price: 99.99,
           category: "Electronics",
           color: "Black",
@@ -73,7 +73,7 @@ export default {
         {
           id: 5,
           name: "Game Rem",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e7.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e7.jpg"),
           price: 99.99,
           category: "Electronics",
           color: "White",
@@ -81,7 +81,7 @@ export default {
         {
           id: 6,
           name: "Game Remo",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e8.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e8.jpg"),
           price: 99.99,
           category: "Electronics",
           color: "White",
@@ -89,7 +89,7 @@ export default {
         {
           id: 7,
           name: "Headphone",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e9.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e9.jpg"),
           price: 79.99,
           category: "Electronics",
           color: "Blue",
@@ -97,7 +97,7 @@ export default {
         {
           id: 8,
           name: "Mobile Phone",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/e10.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/e10.jpg"),
           price: 79.99,
           category: "Electronics",
           color: "Black",
@@ -105,7 +105,7 @@ export default {
         {
           id: 9,
           name: "Black Gawn",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f2.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f2.jpg"),
           price: 139.99,
           category: "Fashion",
           color: "Black",
@@ -113,7 +113,7 @@ export default {
         {
           id: 10,
           name: "Skirt",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f4.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f4.jpg"),
           price: 19.99,
           category: "Fashion",
           color: "White",
@@ -121,7 +121,7 @@ export default {
         {
           id: 11,
           name: "Party Skirt",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f7.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f7.jpg"),
           price: 199.99,
           category: "Fashion",
           color: "Blue",
@@ -129,7 +129,7 @@ export default {
         {
           id: 12,
           name: "Winter Coat",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f1.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f1.jpg"),
           price: 179.99,
           category: "Fashion",
           color: "Brown",
@@ -137,7 +137,7 @@ export default {
         {
           id: 13,
           name: "Baby Skirt",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f3.png"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f3.png"),
           price: 179.99,
           category: "Fashion",
           color: "Black",
@@ -145,7 +145,7 @@ export default {
         {
           id: 14,
           name: "Bribel Skirt",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f5.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f5.jpg"),
           price: 69.99,
           category: "Fashion",
           color: "White",
@@ -153,7 +153,7 @@ export default {
         {
           id: 15,
           name: "Formal Gawn",
-          image: require("@/components/WGGComponents/ByWebsiteComponents/eCommerceComponents/Images/f6.jpg"),
+          image: require("@/components/WebComponents/eCommerceComponents/Images/f6.jpg"),
           price: 19.99,
           category: "Fashion",
           color: "White",
