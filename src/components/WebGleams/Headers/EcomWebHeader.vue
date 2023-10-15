@@ -28,11 +28,12 @@
       Cart ({{ cartItems }})
       <div class="cart-dropdown" v-if="cartOpen">
         <div class="user-data">
-          <img src="../Images/e1.jpg" alt="" srcset="" />
+          <img src="" alt="" srcset="" />
           <a href="">HeadPhone</a><span><p>$16</p></span>
         </div>
+
         <div class="user-data">
-          <img src="../Images/e1.jpg" alt="" srcset="" />
+          <img src="" alt="" srcset="" />
           <a href="">HeadPhone</a><span><p>$16</p></span>
         </div>
       </div>

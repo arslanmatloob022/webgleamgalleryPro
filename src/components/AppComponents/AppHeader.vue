@@ -3,7 +3,11 @@
     <div class="header" ref="dropdown">
       <div class="logo-div">
         <router-link class="linker" to="/">
-          <img class="logo" src="" alt="WebGleamGallery" />
+          <img
+            class="logo"
+            src="@/components/Media/Images/finalgleam.png"
+            alt="WebGleamGallery"
+          />
         </router-link>
         <h3>WGG</h3>
       </div>

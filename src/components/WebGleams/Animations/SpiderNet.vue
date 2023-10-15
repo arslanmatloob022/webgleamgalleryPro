@@ -65,15 +65,19 @@ export default {
 <style scoped>
 .particle-container {
   position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
 }
 
 .particle {
   position: absolute;
+  overflow: hidden;
   width: 10px;
   height: 10px;
   border-radius: 50%;

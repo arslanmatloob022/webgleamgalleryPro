@@ -47,10 +47,11 @@ export default {
 
 <style scoped>
 .container {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   background: black;
+  overflow: hidden;
 }
 
 .particle {
@@ -58,6 +59,7 @@ export default {
   background-color: #3498db;
   border-radius: 50%;
   pointer-events: none;
+  overflow: hidden;
   transform-origin: center;
 }
 

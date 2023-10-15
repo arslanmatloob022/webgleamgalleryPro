@@ -52,7 +52,7 @@ export default {
   height: 92vh;
   overflow: hidden;
   position: relative;
-  background-image: url("@/assets/sky.jpg");
+  background-image: url("@/components/Media/Images/sky.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;

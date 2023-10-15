@@ -1,7 +1,7 @@
 <template>
   <div class="falling-stars">
     <div class="sun">
-      <img src="@/assets/moon.png" alt="" />
+      <img src="@/components/Media/Images/moon.png" alt="" />
     </div>
 
     <div

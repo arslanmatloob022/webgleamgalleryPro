@@ -55,7 +55,7 @@ export default {
   width: 100%;
   height: 93vh;
   position: relative;
-  background-color: #282c36;
+  background-color: #414142;
   overflow: hidden;
 }
 

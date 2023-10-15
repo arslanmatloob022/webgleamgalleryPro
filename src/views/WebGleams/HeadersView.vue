@@ -12,5 +12,11 @@ export default {
   data() {
     return {};
   },
+  components: {
+    AppTopNav,
+    SecondTopNav,
+    ThirdTopNav,
+    EcomWebHeader,
+  },
 };
 </script>

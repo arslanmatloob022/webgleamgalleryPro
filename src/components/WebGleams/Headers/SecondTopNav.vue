@@ -87,7 +87,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 .header {
   margin: 0;
   background-color: #333;
