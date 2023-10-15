@@ -8,7 +8,7 @@
 
       <!-- v-if="showFormById === 1" @closeLoginForm="closeLoginForm" -->
 
-      <anim-gradient></anim-gradient>
+      <anim-gradient class="screen"></anim-gradient>
     </div>
     <div class="text-content">
       <h3>Login and Signup Forms</h3>
@@ -135,6 +135,10 @@ section {
   font-family: "Playfair Display", "AR One Sans", sans-serif;
   color: #f26419;
 }
+.screen {
+  width: 90%;
+  height: 100%;
+}
 .form-imgs {
   width: 100%;
   padding: 10px 30px;
@@ -166,7 +170,6 @@ section {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-
   color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
