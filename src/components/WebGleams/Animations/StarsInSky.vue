@@ -54,7 +54,6 @@ export default {
   position: relative;
   background-image: url("@/components/Media/Images/sky.jpg");
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }

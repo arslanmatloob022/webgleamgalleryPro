@@ -265,7 +265,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Side-scroll Particles Animation</h3>
+          <h3>Spider Net Particles Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -332,6 +332,64 @@
       </div>
       <div class="text-content">
         <h3>Stars Background Animation</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms. So here we offers all types of
+          Login/Signup forms for all types of Applications. <br />Here we
+          present you a simple, responsive and attractive Login/Signup forms.
+          And you can text them clicking on <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Get Source Code</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial For Full Understanding
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- water bubbles Animation -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>Water Bubbles Animation</h3>
+        </div>
+
+        <div class="form-imgs">
+          <water-bubbles-vue class="anim-gradients"></water-bubbles-vue>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>Water Bubbles Animation</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms. So here we offers all types of
+          Login/Signup forms for all types of Applications. <br />Here we
+          present you a simple, responsive and attractive Login/Signup forms.
+          And you can text them clicking on <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Get Source Code</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial For Full Understanding
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- water bubbles Animation -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>Div border waves Animation</h3>
+        </div>
+
+        <div class="form-imgs">
+          <wave-anim class="anim-gradients"></wave-anim>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>Water Bubbles Animation</h3>
         <p>
           Authentication and Autherization in any Application are the process
           are done by Login and Signup forms. So here we offers all types of
