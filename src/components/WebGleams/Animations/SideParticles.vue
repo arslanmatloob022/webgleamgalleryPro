@@ -33,7 +33,7 @@ export default {
 .particle-container {
   position: relative;
   width: 100%;
-  height: 93vh;
+  height: 100%;
   background-color: #1a1a1a;
   overflow: hidden;
 }

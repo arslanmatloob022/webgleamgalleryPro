@@ -289,6 +289,64 @@
         </div>
       </div>
     </div>
+
+    <!-- Stars Background Animation -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>Stars Background Animation</h3>
+        </div>
+
+        <div class="form-imgs">
+          <stars-anim class="anim-gradients"></stars-anim>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>Stars Background Animation</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms. So here we offers all types of
+          Login/Signup forms for all types of Applications. <br />Here we
+          present you a simple, responsive and attractive Login/Signup forms.
+          And you can text them clicking on <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Get Source Code</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial For Full Understanding
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stars in the Sky Animation -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>Stars Animation</h3>
+        </div>
+
+        <div class="form-imgs">
+          <stars-in-sky-vue class="anim-gradients"> </stars-in-sky-vue>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>Stars Background Animation</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms. So here we offers all types of
+          Login/Signup forms for all types of Applications. <br />Here we
+          present you a simple, responsive and attractive Login/Signup forms.
+          And you can text them clicking on <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Get Source Code</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial For Full Understanding
+          </button>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
