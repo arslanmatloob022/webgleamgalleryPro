@@ -106,6 +106,19 @@ const routes = [
     name: "loginpages",
     component: LoginPagesViewVue,
   },
+
+  // WebGleams
+  {
+    path: "/aimations",
+    name: "animations",
+    component: () =>
+      import(/*"animations"*/ "@/views/WebGleams/AnimationsView.vue"),
+  },
+  {
+    path: "/headers",
+    name: "headers",
+    component: () => import(/*"headers"*/ "@/views/WebGleams/HeadersView.vue"),
+  },
 ];
 
 const router = createRouter({

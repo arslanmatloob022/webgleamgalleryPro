@@ -138,11 +138,14 @@
                     </p>
                   </div>
                   <div class="row link-tab">
-                    <a
-                      class="dropdown-link col-lg-12 col-md-12 col-sm-12"
-                      href=""
-                      >Anim Screens</a
+                    <router-link to="/aimations" class="linker">
+                      <a
+                        class="dropdown-link col-lg-12 col-md-12 col-sm-12"
+                        href=""
+                        >Anim Screens</a
+                      ></router-link
                     >
+
                     <p
                       class="link-description-text col-lg-12 col-md-12 col-sm-12"
                     >
@@ -194,7 +197,7 @@
                 <div class="dropdown-list col-lg-3 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading single-tab">UI Elements</h4>
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/ecomweb">
+                    <router-link class="dropdown-link" to="/headers">
                       <a
                         class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
                         href=""

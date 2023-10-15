@@ -12,6 +12,7 @@
           <img src="@/assets/ComponentsImages/11.png" alt="login form" />
           <img src="@/assets/ComponentsImages/12.png" alt="login form" />
         </div>
+
         <first-login-form
           v-if="showFormById === 1"
           @closeLoginForm="closeLoginForm"
@@ -210,11 +211,11 @@
           <img src="@/assets/ComponentsImages/62.png" alt="login form" />
         </div>
 
-        <sixth-login-form-vue
+        <first-login-form
           v-if="showFormById === 6"
           @closeLoginForm="closeLoginForm"
         >
-        </sixth-login-form-vue>
+        </first-login-form>
       </div>
       <div class="text-content">
         <h3>Login and Signup Forms</h3>
@@ -275,10 +276,12 @@ export default {
   },
 };
 </script>
-<style scoped>
+
+<style lang="scss" scoped>
 section {
   background-color: #aab1af;
 }
+
 .container-box {
   margin-top: 20pt;
   width: 100%;
