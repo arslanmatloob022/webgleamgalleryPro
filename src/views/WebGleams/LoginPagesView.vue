@@ -277,7 +277,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 section {
   background-color: #aab1af;
 }
