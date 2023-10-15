@@ -54,7 +54,7 @@ export default {
 .balloon-animation {
   position: relative;
   width: 50%;
-  height: 83vh;
+  height: 100%;
   overflow: hidden;
   background-color: #87ceeb;
 }
