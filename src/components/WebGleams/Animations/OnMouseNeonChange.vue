@@ -21,6 +21,7 @@ export default {
         width: "10px", // Neon light width
         height: "10px", // Neon light height
         background: this.colors[Math.floor(Math.random() * this.colors.length)],
+        transition: "background 0.6s ease-in-out",
         position: "absolute",
         borderRadius: "50%",
         pointerEvents: "none",
@@ -31,8 +32,8 @@ export default {
   },
   methods: {
     moveLight(event) {
-      this.lightX = event.clientX - 10; // Adjusting position to center the neon light
-      this.lightY = event.clientY - 15;
+      this.lightX = event.clientX - 1; // Adjusting position to center the neon light
+      this.lightY = event.clientY - 1;
     },
   },
 };
@@ -41,8 +42,8 @@ export default {
 <style scoped>
 .neon-light {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #000;
   overflow: hidden;
   cursor: default;

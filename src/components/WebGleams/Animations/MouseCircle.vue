@@ -36,8 +36,8 @@ export default {
 .neon-light {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-color: #6b6b6b;
+  height: 100%;
+  background-color: #c9c9c9;
   overflow: hidden;
   cursor: none;
 }
