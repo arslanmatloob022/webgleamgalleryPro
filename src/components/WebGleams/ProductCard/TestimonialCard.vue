@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       testimonial: {
-        profilePicture: require("@/assets/Images/ent1.jpg"),
+        profilePicture: require("@/assets/Images/e1.jpg"),
         name: "Trvis Scott",
         feedback: "This is amazing site youo will find what you want exactly!",
       },

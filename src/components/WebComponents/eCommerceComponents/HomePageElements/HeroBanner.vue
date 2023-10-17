@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 .hero-banner {
-  background-image: url("../Images/e2.jpg");
+  background-image: url("@/components/WebComponents/eCommerceComponents/Images/e1.jpg");
   background-size: cover;
   background-position: center;
   color: rgb(22, 20, 20);

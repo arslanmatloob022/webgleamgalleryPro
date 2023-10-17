@@ -119,6 +119,12 @@ const routes = [
     name: "headers",
     component: () => import(/*"headers"*/ "@/views/WebGleams/HeadersView.vue"),
   },
+  {
+    path: "/productcards",
+    name: "productcards",
+    component: () =>
+      import(/*"productcards"*/ "@/views/WebGleams/ProductCradsView.vue"),
+  },
 ];
 
 const router = createRouter({

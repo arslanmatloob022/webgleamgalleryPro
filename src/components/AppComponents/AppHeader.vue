@@ -211,7 +211,7 @@
                   </div>
 
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/crmweb">
+                    <router-link class="dropdown-link" to="/">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
@@ -231,7 +231,7 @@
                   </div>
 
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/analyticsweb">
+                    <router-link class="dropdown-link" to="/productcards">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""

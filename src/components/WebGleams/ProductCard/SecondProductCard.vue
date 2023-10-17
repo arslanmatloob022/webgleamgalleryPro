@@ -22,13 +22,14 @@
 
 <script>
 export default {
+  name: "SecondProductCard",
   data() {
     return {
       product: {
         images: [
-          "@/assets/Images/art1.jpg",
-          require("@/assets/Images/bgecom.jpg"),
-          require("@/assets/Images/ecom1.jpg"),
+          require("@/assets/Images/e3.jpg"),
+          require("@/assets/Images/e1.jpg"),
+          require("@/assets/Images/e2.jpg"),
         ],
         name: "Product Name",
         price: 60,

@@ -1,7 +1,7 @@
 <template>
   <div class="product-card">
     <div class="product-image">
-      <img src="@/assets/Images/bgecom.jpg" alt="Product Image" />
+      <img src="@/assets/Images/e1.jpg" alt="Product Image" />
     </div>
     <div class="product-details">
       <h2>{{ product.name }}</h2>
@@ -13,6 +13,7 @@
 
 <script>
 export default {
+  name: "FirstProductCard",
   data() {
     return {
       product: {
@@ -33,7 +34,7 @@ export default {
 
 <style scoped>
 .product-card {
-  width: 25%;
+  width: 50%;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;

@@ -16,10 +16,11 @@
     </div>
     <div class="product-details">
       <h2>{{ product.name }}</h2>
-      <p class="description">{{ product.description }}</p>
       <p class="price">${{ product.price.toFixed(2) }}</p>
-      <button class="add-to-cart" @click="addToCart">Add to Cart</button>
-      <button class="quick-view" @click="openQuickView">Quick View</button>
+      <div class="buttons">
+        <button class="add-to-cart" @click="addToCart">Add to Cart</button>
+        <button class="quick-view" @click="openQuickView">Quick View</button>
+      </div>
     </div>
     <div v-if="showQuickView" class="quick-view-modal">
       <div class="main-image">
@@ -36,16 +37,17 @@
 
 <script>
 export default {
+  name: "ThirdProductCard",
   data() {
     return {
       product: {
         images: [
-          require("@/assets/Images/art1.jpg"),
-          require("@/assets/Images/bgecom.jpg"),
-          require("@/assets/Images/ecom1.jpg"),
+          require("@/assets/Images/e1.jpg"),
+          require("@/assets/Images/e2.jpg"),
+          require("@/assets/Images/e3.jpg"),
         ],
         name: "Product Name",
-        price: 60,
+        price: 60.2353,
         description: "Here you will write the description of your product",
       },
 
@@ -121,7 +123,7 @@ export default {
   background-color: #4caf50;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 10px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -147,5 +149,9 @@ export default {
   flex-direction: column;
   text-align: center;
   color: white;
+}
+
+.buttons {
+  display: flex;
 }
 </style>

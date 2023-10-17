@@ -451,18 +451,6 @@ export default {
     WaterBubblesVue,
     WaveAnim,
   },
-  methods: {
-    showLoginForm(id) {
-      if (!this.showFormById) {
-        this.showFormById = id;
-      } else {
-        this.showFormById = null;
-      }
-    },
-    closeLoginForm() {
-      this.showFormById = null;
-    },
-  },
 };
 </script>
 
