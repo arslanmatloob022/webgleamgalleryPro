@@ -115,6 +115,35 @@
       </div>
     </div>
   </div>
+
+  <!-- Entertainment App-Header -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>App-Header for E-Commerce Websites</h3>
+      </div>
+
+      <div class="headers-div">
+        <ecom-web-header-two class="header-view"></ecom-web-header-two>
+      </div>
+    </div>
+    <div class="text-content">
+      <h3>App-Header for E-Commerce Websites</h3>
+      <p>
+        Welcome to a world of seamless online shopping at your fingertips!
+        Introducing our meticulously crafted e-commerce website header, where
+        style meets functionality, and your shopping desires come to life.
+        Explore a universe of possibilities with our feature-rich header
+        component, designed to enhance your shopping journey in every way.
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -122,6 +151,7 @@ import AppTopNav from "@/components/WebGleams/Headers/AppTopNav.vue";
 import SecondTopNav from "@/components/WebGleams/Headers/SecondTopNav.vue";
 import ThirdTopNav from "@/components/WebGleams/Headers/ThirdTopNav.vue";
 import EcomWebHeader from "@/components/WebGleams/Headers/EcomWebHeader.vue";
+import EcomWebHeaderTwo from "@/components/WebComponents/eCommerceComponents/eComHeaders/EcomWebHeaderTwo.vue";
 export default {
   name: "HeadersView",
   data() {
@@ -132,6 +162,7 @@ export default {
     SecondTopNav,
     ThirdTopNav,
     EcomWebHeader,
+    EcomWebHeaderTwo,
   },
 };
 </script>
