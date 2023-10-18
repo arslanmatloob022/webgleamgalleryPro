@@ -101,13 +101,13 @@ const routes = [
   },
 
   // Basic elements
+
+  // WebGleams
   {
     path: "/loginpages",
     name: "loginpages",
     component: LoginPagesViewVue,
   },
-
-  // WebGleams
   {
     path: "/aimations",
     name: "animations",

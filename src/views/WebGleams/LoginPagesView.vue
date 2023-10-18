@@ -1,244 +1,243 @@
 <template>
-  <section>
-    <!-- First Forms -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(1)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/11.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/12.png" alt="login form" />
-        </div>
-
-        <first-login-form
-          v-if="showFormById === 1"
-          @closeLoginForm="closeLoginForm"
-        ></first-login-form>
+  <!-- First Forms -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(1)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/11.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/12.png" alt="login form" />
+      </div>
+
+      <first-login-form
+        v-if="showFormById === 1"
+        @closeLoginForm="closeLoginForm"
+      ></first-login-form>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Second Forms -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(2)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/21.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/22.png" alt="login form" />
-        </div>
-        <second-login-vue
-          v-if="showFormById === 2"
-          @closeLoginForm="closeLoginForm"
-        >
-        </second-login-vue>
+  <!-- Second Forms -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(2)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/21.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/22.png" alt="login form" />
+      </div>
+      <second-login-vue
+        v-if="showFormById === 2"
+        @closeLoginForm="closeLoginForm"
+      >
+      </second-login-vue>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Third Forms -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(3)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/31.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/32.png" alt="login form" />
-        </div>
-
-        <third-login-form-vue
-          v-if="showFormById === 3"
-          @closeLoginForm="closeLoginForm"
-        >
-        </third-login-form-vue>
+  <!-- Third Forms -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(3)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/31.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/32.png" alt="login form" />
+      </div>
+
+      <third-login-form-vue
+        v-if="showFormById === 3"
+        @closeLoginForm="closeLoginForm"
+      >
+      </third-login-form-vue>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Fourth Forms -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(4)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/41.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/42.png" alt="login form" />
-        </div>
-
-        <fourth-login-form-vue
-          v-if="showFormById === 4"
-          @closeLoginForm="closeLoginForm"
-        >
-        </fourth-login-form-vue>
+  <!-- Fourth Forms -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(4)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/41.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/42.png" alt="login form" />
+      </div>
+
+      <fourth-login-form-vue
+        v-if="showFormById === 4"
+        @closeLoginForm="closeLoginForm"
+      >
+      </fourth-login-form-vue>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Fifth Forms -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(5)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/51.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/52.png" alt="login form" />
-        </div>
-
-        <fifth-login-form-vue
-          v-if="showFormById === 5"
-          @closeLoginForm="closeLoginForm"
-        >
-        </fifth-login-form-vue>
+  <!-- Fifth Forms -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(5)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/51.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/52.png" alt="login form" />
+      </div>
+
+      <fifth-login-form-vue
+        v-if="showFormById === 5"
+        @closeLoginForm="closeLoginForm"
+      >
+      </fifth-login-form-vue>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Sixth Forms  -->
-    <div class="container-box">
-      <div class="media">
-        <div class="media-header">
-          <h3>Check Login/Signup Forms</h3>
-          <button class="showBtn" @click="showLoginForm(6)">Show Forms</button>
-        </div>
-
-        <div class="form-imgs">
-          <img src="@/assets/ComponentsImages/61.png" alt="login form" />
-          <img src="@/assets/ComponentsImages/62.png" alt="login form" />
-        </div>
-
-        <first-login-form
-          v-if="showFormById === 6"
-          @closeLoginForm="closeLoginForm"
-        >
-        </first-login-form>
+  <!-- Sixth Forms  -->
+  <div class="container-box">
+    <div class="media">
+      <div class="media-header">
+        <h3>Check Login/Signup Forms</h3>
+        <button class="showBtn" @click="showLoginForm(6)">Show Forms</button>
       </div>
-      <div class="text-content">
-        <h3>Login and Signup Forms</h3>
-        <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          So here we offers all types of Login/Signup forms for all types of
-          Applications. <br />Here we present you a simple, responsive and
-          attractive Login/Signup forms. And you can text them clicking on
-          <b>Show Forms</b> buttons
-        </p>
-        <div class="links">
-          <button class="code-btn">Get Source Code</button>
-          <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
-          </button>
-        </div>
+
+      <div class="form-imgs">
+        <img src="@/assets/ComponentsImages/61.png" alt="login form" />
+        <img src="@/assets/ComponentsImages/62.png" alt="login form" />
+      </div>
+
+      <first-login-form
+        v-if="showFormById === 6"
+        @closeLoginForm="closeLoginForm"
+      >
+      </first-login-form>
+    </div>
+    <div class="text-content">
+      <h3>Login and Signup Forms</h3>
+      <p>
+        Authentication and Autherization in any Application are the process are
+        done by Login and Signup forms.<br />login/Signup froms are the first
+        major component of the Web Application are developed by Web Frontend
+        Developers and Secured by Backend Wed Developers.<br />
+        So here we offers all types of Login/Signup forms for all types of
+        Applications. <br />Here we present you a simple, responsive and
+        attractive Login/Signup forms. And you can text them clicking on
+        <b>Show Forms</b> buttons
+      </p>
+      <div class="links">
+        <button class="code-btn">Get Source Code</button>
+        <button class="tutorial-btn">
+          Watch Tuttorial For Full Understanding
+        </button>
       </div>
     </div>
-  </section>
+  </div>
 </template>
+
 <script>
 import FirstLoginForm from "@/components/WGGComponents/WebGleams/LoginForms/FirstLoginForm.vue";
 import SecondLoginVue from "@/components/WGGComponents/WebGleams/LoginForms/SecondLogin.vue";
@@ -249,6 +248,11 @@ import SixthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/S
 
 export default {
   name: "LoginPagesView",
+  data() {
+    return {
+      showFormById: null,
+    };
+  },
   components: {
     FirstLoginForm,
     SecondLoginVue,
@@ -257,11 +261,7 @@ export default {
     FifthLoginFormVue,
     SixthLoginFormVue,
   },
-  data() {
-    return {
-      showFormById: null,
-    };
-  },
+
   methods: {
     showLoginForm(id) {
       if (!this.showFormById) {

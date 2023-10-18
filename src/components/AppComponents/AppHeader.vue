@@ -19,8 +19,8 @@
         <router-link class="linker" to="/features"
           ><a class="link">Features</a></router-link
         >
-        <div class="linko">
-          <router-link class="linker" to="/categories"
+        <div class="linker">
+          <router-link to="/categories"
             ><a class="link">Categories</a></router-link
           >
           <span class="arrow" @click="toggleDropdown('dropdown1')">
@@ -183,8 +183,8 @@
           </div>
         </transition>
 
-        <div class="linko">
-          <router-link class="linker" to="/elements"
+        <div class="linker">
+          <router-link to="/elements"
             ><a class="link">UI Elements</a> </router-link
           ><span class="arrow" @click="toggleDropdown('dropdown2')">{{
             ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;"
@@ -396,11 +396,6 @@ export default {
   font-size: 14px;
   padding: 0px 6px;
 }
-.linko {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-}
 .header {
   z-index: 1000;
   position: fixed;
@@ -496,7 +491,7 @@ export default {
   .links {
     display: none;
     flex-direction: column;
-    background-color: #2a9d8f;
+    background-color: #2aa395;
     position: absolute;
     top: 65px;
     left: 0;
@@ -584,6 +579,7 @@ export default {
 .link-description-text {
   font-family: Arial, Helvetica, sans-serif;
   color: #f6ae1d;
+  font-size: 0.7rem;
 }
 
 .elements-dd {

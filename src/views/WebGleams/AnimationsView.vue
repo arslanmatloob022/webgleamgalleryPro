@@ -419,7 +419,6 @@ import OnMouseNeonChange from "@/components/WebGleams/Animations/OnMouseNeonChan
 import ParticlesAnim from "@/components/WebGleams/Animations/ParticlesAnim.vue";
 import RainingAnim from "@/components/WebGleams/Animations/RainingAnim.vue";
 import SideParticles from "@/components/WebGleams/Animations/SideParticles.vue";
-import SmallBlood from "@/components/WebGleams/Animations/SmallBlood.vue";
 import SpiderNetVue from "@/components/WebGleams/Animations/SpiderNet.vue";
 import StarsAnim from "@/components/WebGleams/Animations/StarsAnim.vue";
 import StarsInSkyVue from "@/components/WebGleams/Animations/StarsInSky.vue";
@@ -444,7 +443,6 @@ export default {
     ParticlesAnim,
     RainingAnim,
     SideParticles,
-    SmallBlood,
     SpiderNetVue,
     StarsAnim,
     StarsInSkyVue,
