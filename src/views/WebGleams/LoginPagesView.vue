@@ -210,11 +210,10 @@
         <img src="@/assets/ComponentsImages/62.png" alt="login form" />
       </div>
 
-      <first-login-form
+      <sixth-login-form-vue
         v-if="showFormById === 6"
         @closeLoginForm="closeLoginForm"
-      >
-      </first-login-form>
+      ></sixth-login-form-vue>
     </div>
     <div class="text-content">
       <h3>Login and Signup Forms</h3>
@@ -239,12 +238,12 @@
 </template>
 
 <script>
-import FirstLoginForm from "@/components/WGGComponents/WebGleams/LoginForms/FirstLoginForm.vue";
-import SecondLoginVue from "@/components/WGGComponents/WebGleams/LoginForms/SecondLogin.vue";
-import ThirdLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/ThirdLoginForm.vue";
-import FourthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/FourthLoginForm.vue";
-import FifthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/FifthLoginForm.vue";
-import SixthLoginFormVue from "@/components/WGGComponents/WebGleams/LoginForms/SixthLoginForm.vue";
+import FirstLoginForm from "@/components/WebGleams/LoginForms/FirstLoginForm.vue";
+import SecondLoginVue from "@/components/WebGleams/LoginForms/SecondLogin.vue";
+import ThirdLoginFormVue from "@/components/WebGleams/LoginForms/ThirdLoginForm.vue";
+import FourthLoginFormVue from "@/components/WebGleams/LoginForms/FourthLoginForm.vue";
+import FifthLoginFormVue from "@/components/WebGleams/LoginForms/FifthLoginForm.vue";
+import SixthLoginFormVue from "@/components/WebGleams/LoginForms/SixthLoginForm.vue";
 
 export default {
   name: "LoginPagesView",
@@ -391,9 +390,17 @@ section {
     color: #0055c5;
     font-size: 1.2rem;
   }
+  .form-imgs {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #fff;
+    display: -webkit-flex;
+    border-radius: 8px;
+    gap: 26px;
+  }
 
   .form-imgs img {
-    width: 140pt;
+    width: 120pt;
     height: 160pt;
   }
   .text-content {

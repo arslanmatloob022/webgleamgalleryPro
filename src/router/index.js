@@ -14,7 +14,6 @@ import ShippingAndBillingVue from "@/components/WebComponents/eCommerceComponent
 import ShippingOptionsVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingOptions.vue";
 import PaymentMethodVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/PaymentMethod.vue";
 import OrderSummaryVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/OrderSummary.vue";
-import LoginPagesViewVue from "@/views/BasicElements/LoginPagesView.vue";
 const routes = [
   {
     path: "/",
@@ -106,7 +105,8 @@ const routes = [
   {
     path: "/loginpages",
     name: "loginpages",
-    component: LoginPagesViewVue,
+    component: () =>
+      import(/*"loginpages"*/ "@/views/WebGleams/LoginPagesView.vue"),
   },
   {
     path: "/aimations",

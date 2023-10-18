@@ -439,6 +439,9 @@ legend {
   .form_close {
     z-index: 1000;
   }
+  .form_container {
+    background-image: -webkit-linear-gradient(90deg, #ffffff 50%, #0010f4 50%);
+  }
   .form_container h2 {
     font-size: 22px;
     text-align: center;
