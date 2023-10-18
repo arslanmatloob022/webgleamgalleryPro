@@ -125,6 +125,11 @@ const routes = [
     component: () =>
       import(/*"productcards"*/ "@/views/WebGleams/ProductCradsView.vue"),
   },
+  {
+    path: "/loaders",
+    name: "loaders",
+    component: () => import(/*"loaders"*/ "@/views/WebGleams/LoadersView.vue"),
+  },
 ];
 
 const router = createRouter({

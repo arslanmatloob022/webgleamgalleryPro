@@ -130,11 +130,12 @@
                     </p>
                   </div>
                   <div class="row link-tab">
-                    <a
-                      class="dropdown-link col-lg-12 col-md-12 col-sm-12"
-                      href=""
-                      >Loaders</a
-                    >
+                    <router-link to="/loaders" class="linker">
+                      <a class="dropdown-link col-lg-12 col-md-12 col-sm-12"
+                        >Loaders</a
+                      >
+                    </router-link>
+
                     <p
                       class="link-description-text col-lg-12 col-md-12 col-sm-12"
                     >
