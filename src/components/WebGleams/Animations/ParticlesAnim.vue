@@ -1,5 +1,6 @@
 <template>
   <div class="particle-explosion">
+    <h3>Particles explosion animation</h3>
     <div
       class="particle"
       v-for="(particle, index) in particles"
@@ -58,7 +59,11 @@ export default {
   background-color: #414142;
   overflow: hidden;
 }
-
+.particle-explosion h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 .particle {
   position: absolute;
   width: 10px;

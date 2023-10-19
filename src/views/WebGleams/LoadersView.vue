@@ -287,10 +287,10 @@ export default {
 
 <style scoped>
 section {
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 .container-box {
-  background-color: #ffffff;
+  background-color: #e9e9e9;
   margin-top: 20pt;
   width: 100%;
   display: -webkit-flex;
@@ -302,12 +302,12 @@ section {
   display: -webkit-flex;
   flex-direction: column;
   padding: 20pt 10pt;
-  background-color: #ffffff;
+  background-color: #e9e9e9;
 }
 .loader-div {
   width: 100%;
   padding: 0;
-  background-color: #eeeeee;
+  background-color: #e9e9e9;
   display: -webkit-flex;
   border-radius: 8px;
   gap: 26px;
@@ -331,12 +331,12 @@ section {
 }
 .showBtn {
   padding: 4pt 6pt;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.8rem;
-  background-color: #f26419;
-  color: #fff;
-  border: none;
+  border: 3px solid #57bd8f;
+  color: #57bd8f;
   cursor: pointer;
+  background-color: transparent;
   transition: all 0.2s ease-in-out;
 }
 .showBtn:hover {
@@ -369,16 +369,17 @@ section {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 .code-btn {
-  border: #1370eb;
-  background-color: #267ff3;
+  background-color: transparent;
+  color: #267ff3;
+  border: 3px solid #267ff3;
 }
 .tutorial-btn {
-  border: #b2071d;
-  background-color: #b2071d;
+  border: 3px solid #b2071d;
+  color: #b2071d;
+  background-color: transparent;
 }
 
 .links button:hover {

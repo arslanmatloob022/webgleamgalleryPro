@@ -1,5 +1,6 @@
 <template>
   <div class="fire-animation">
+    <h3>Candle Light Animation</h3>
     <div class="fire">
       <div class="flame"></div>
     </div>
@@ -66,7 +67,11 @@ export default {
   opacity: 0.8;
   mix-blend-mode: lighten;
 }
-
+.fire-animation h3 {
+  z-index: 1;
+  position: absolute;
+  color: #fff;
+}
 @keyframes flicker {
   0% {
     transform: scaleY(1);

@@ -1,5 +1,6 @@
 <template>
   <div class="particle-container">
+    <h3>Sider shaped particles</h3>
     <div
       v-for="(particle, index) in particles"
       :key="index"
@@ -71,7 +72,11 @@ export default {
   height: 100%;
   overflow: hidden;
 }
-
+.particle-container h3 {
+  color: #2e2e2e;
+  text-align: center;
+  z-index: 1;
+}
 .particle {
   position: absolute;
   width: 10px;

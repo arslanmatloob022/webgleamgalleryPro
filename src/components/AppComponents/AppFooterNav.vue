@@ -127,7 +127,7 @@ export default {
 .footerTop {
   height: 280px;
   width: 100%;
-  background-color: purple;
+  background-color: #27a596;
   border-radius: 0% 0% 50% 50%;
   display: flex;
   flex-direction: column;

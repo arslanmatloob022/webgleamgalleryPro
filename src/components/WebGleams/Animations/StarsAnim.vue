@@ -1,5 +1,6 @@
 <template>
   <div class="falling-stars">
+    <h3>Shinning and moving stars</h3>
     <div class="sun">
       <img src="@/components/Media/Images/moon.png" alt="" />
     </div>
@@ -52,6 +53,11 @@ export default {
   height: 92vh;
   overflow: hidden;
   background-color: #c5ddf8;
+}
+.falling-stars {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
 }
 .star {
   position: absolute;

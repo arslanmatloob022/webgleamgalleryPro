@@ -1,5 +1,6 @@
 <template>
   <div class="underwater-animation">
+    <h3>Water bubbles animation</h3>
     <div class="wave"></div>
     <div
       v-for="(bubble, index) in bubbles"
@@ -47,6 +48,11 @@ export default {
   height: 100vh;
   background-color: #5bc0de; /* Ocean Blue */
   overflow: hidden;
+}
+.underwater-animation h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
 }
 /*
 .wave {

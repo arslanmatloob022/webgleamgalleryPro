@@ -227,23 +227,10 @@ export default {
   align-items: center;
   justify-content: space-between;
 }
-.showBtn {
-  padding: 4pt 6pt;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  background-color: #f26419;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-.showBtn:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 0px 1px 1px #f26419;
-}
+
 .media-header h3 {
-  font-family: "Playfair Display", "AR One Sans", sans-serif;
-  color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #57bd8f;
 }
 .headers-div {
   width: 100%;
@@ -278,17 +265,17 @@ export default {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-
-  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 .code-btn {
-  border: #1370eb;
-  background-color: #267ff3;
+  background-color: transparent;
+  color: #267ff3;
+  border: 3px solid #267ff3;
 }
 .tutorial-btn {
-  border: #b2071d;
-  background-color: #b2071d;
+  border: 3px solid #b2071d;
+  color: #b2071d;
+  background-color: transparent;
 }
 
 .links button:hover {
@@ -312,8 +299,6 @@ export default {
     padding: 2pt 4pt;
   }
   .media-header h3 {
-    font-family: "Playfair Display", "AR One Sans", sans-serif;
-    color: #0055c5;
     font-size: 1.2rem;
   }
 

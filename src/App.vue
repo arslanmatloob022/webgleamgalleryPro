@@ -1,8 +1,8 @@
 <template>
   <app-header></app-header>
   <header-space></header-space>
-
   <router-view />
+  <app-footer-nav></app-footer-nav>
 </template>
 
 <script>

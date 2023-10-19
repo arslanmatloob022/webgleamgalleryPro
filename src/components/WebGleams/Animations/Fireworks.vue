@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h3>Fire Work Animation</h3>
     <div
       v-for="particle in particles"
       :key="particle.id"
@@ -53,7 +54,11 @@ export default {
   background: black;
   overflow: hidden;
 }
-
+.container h3 {
+  text-align: center;
+  z-index: 1000;
+  color: #fff;
+}
 .particle {
   position: absolute;
   background-color: #3498db;

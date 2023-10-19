@@ -1,5 +1,6 @@
 <template>
   <div class="neon-light" @mousemove="moveLight">
+    <h3>Move Cursor In Div</h3>
     <div class="neon-glow" :style="lightStyle"></div>
   </div>
 </template>
@@ -51,7 +52,11 @@ export default {
   overflow: hidden;
   cursor: none;
 }
-
+.neon-light h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 .neon-glow {
   animation: smoke 3s linear infinite;
 }

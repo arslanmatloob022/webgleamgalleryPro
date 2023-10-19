@@ -1,6 +1,8 @@
 <template>
   <div class="wave-container">
-    <div class="wave"></div>
+    <div class="wave">
+      <h3>Moving corners animation</h3>
+    </div>
   </div>
 </template>
 
@@ -22,7 +24,11 @@
   bottom: 0;
   animation: wave-animation 3s infinite linear;
 }
-
+.wave h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 @keyframes wave-animation {
   0% {
     transform: skewX(0deg);

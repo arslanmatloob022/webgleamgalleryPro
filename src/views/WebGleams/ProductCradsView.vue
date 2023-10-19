@@ -9,6 +9,7 @@
 
         <div class="form-imgs">
           <first-product-card-vue class=""></first-product-card-vue>
+          <first-product-card-vue class="hide"></first-product-card-vue>
         </div>
       </div>
       <div class="text-content">
@@ -42,6 +43,7 @@
 
         <div class="form-imgs">
           <second-product-card-vue class=""></second-product-card-vue>
+          <second-product-card-vue class="hide"></second-product-card-vue>
         </div>
       </div>
       <div class="text-content">
@@ -76,6 +78,7 @@
 
         <div class="form-imgs">
           <third-product-card-vue class=""></third-product-card-vue>
+          <third-product-card-vue class="hide"></third-product-card-vue>
         </div>
       </div>
       <div class="text-content">
@@ -112,6 +115,7 @@
 
         <div class="form-imgs">
           <fourth-product-card-vue class=""></fourth-product-card-vue>
+          <fourth-product-card-vue class="hide"></fourth-product-card-vue>
         </div>
       </div>
       <div class="text-content">
@@ -148,6 +152,7 @@
 
         <div class="form-imgs">
           <fifth-product-card-vue class=""></fifth-product-card-vue>
+          <fifth-product-card-vue class="hide"></fifth-product-card-vue>
         </div>
       </div>
       <div class="text-content">
@@ -273,17 +278,17 @@ export default {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-
-  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 .code-btn {
-  border: #1370eb;
-  background-color: #267ff3;
+  background-color: transparent;
+  color: #267ff3;
+  border: 3px solid #267ff3;
 }
 .tutorial-btn {
-  border: #b2071d;
-  background-color: #b2071d;
+  border: 3px solid #b2071d;
+  color: #b2071d;
+  background-color: transparent;
 }
 
 .links button:hover {
@@ -291,6 +296,9 @@ export default {
 }
 
 @media screen and (max-width: 868px) {
+  .hide {
+    display: none;
+  }
   .container-box {
     flex-direction: column;
   }
@@ -307,8 +315,8 @@ export default {
     padding: 2pt 4pt;
   }
   .media-header h3 {
-    font-family: "Playfair Display", "AR One Sans", sans-serif;
-    color: #0055c5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
     font-size: 1.2rem;
   }
 

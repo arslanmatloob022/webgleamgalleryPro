@@ -1,5 +1,6 @@
 <template>
   <div class="balloon-animation">
+    <h3>Flying balloons Animation</h3>
     <div
       class="balloon"
       v-for="(balloon, index) in balloons"
@@ -56,9 +57,12 @@ export default {
   width: 50%;
   height: 100%;
   overflow: hidden;
-  background-color: #87ceeb;
+  background-color: #e0e0e0;
 }
-
+.balloon-animation h3 {
+  text-align: center;
+  color: #fff;
+}
 .balloon {
   position: absolute;
   width: 20px;

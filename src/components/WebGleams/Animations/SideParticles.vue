@@ -1,5 +1,7 @@
 <template>
-  <div class="particle-container" @mousemove="createParticle"></div>
+  <div class="particle-container" @mousemove="createParticle">
+    <h3>Click and move the cursor.</h3>
+  </div>
 </template>
 
 <script>
@@ -36,7 +38,11 @@ export default {
   height: 100%;
   background-color: #ffffff;
 }
-
+.particle-container h3 {
+  color: #3b3b3b;
+  text-align: center;
+  z-index: 1;
+}
 .particle {
   position: absolute;
   border-radius: 50%;

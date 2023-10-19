@@ -20,7 +20,7 @@
           ><a class="link">Features</a></router-link
         >
         <div class="linker">
-          <router-link to="/categories"
+          <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
           >
           <span class="arrow" @click="toggleDropdown('dropdown1')">
@@ -185,7 +185,7 @@
         </transition>
 
         <div class="linker">
-          <router-link to="/elements"
+          <router-link class="linker" to="/elements"
             ><a class="link">UI Elements</a> </router-link
           ><span class="arrow" @click="toggleDropdown('dropdown2')">{{
             ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;"
@@ -437,9 +437,11 @@ export default {
   cursor: pointer;
   animation: rollup 1.6s;
 }
+
 .linker {
   text-decoration: none;
 }
+
 .linker:hover {
   transition: all 0.1s ease-in-out;
   transform: scale(1.05);

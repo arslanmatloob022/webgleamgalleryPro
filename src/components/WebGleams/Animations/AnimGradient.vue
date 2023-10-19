@@ -32,6 +32,7 @@ export default {
 }
 
 .gradient h3 {
+  text-align: center;
   color: #fff;
   font-style: italic;
 }

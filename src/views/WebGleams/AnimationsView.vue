@@ -542,12 +542,12 @@ export default {
 }
 .showBtn {
   padding: 4pt 6pt;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.8rem;
-  background-color: #f26419;
-  color: #fff;
-  border: none;
+  border: 3px solid #57bd8f;
+  color: #57bd8f;
   cursor: pointer;
+  background-color: transparent;
   transition: all 0.2s ease-in-out;
 }
 .showBtn:hover {
@@ -555,8 +555,8 @@ export default {
   box-shadow: 0px 0px 1px 1px #f26419;
 }
 .media-header h3 {
-  font-family: "Playfair Display", "AR One Sans", sans-serif;
-  color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #57bd8f;
 }
 .form-imgs {
   width: 100%;
@@ -578,7 +578,9 @@ export default {
   width: 50%;
 }
 .text-content h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20pt;
+  color: #0f0f0f;
 }
 .text-content p {
   font-family: "Onest", "AR One Sans", sans-serif;
@@ -591,17 +593,17 @@ export default {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-
-  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 .code-btn {
-  border: #1370eb;
-  background-color: #267ff3;
+  background-color: transparent;
+  color: #267ff3;
+  border: 3px solid #267ff3;
 }
 .tutorial-btn {
-  border: #b2071d;
-  background-color: #b2071d;
+  border: 3px solid #b2071d;
+  color: #b2071d;
+  background-color: transparent;
 }
 
 .links button:hover {
@@ -625,8 +627,6 @@ export default {
     padding: 2pt 4pt;
   }
   .media-header h3 {
-    font-family: "Playfair Display", "AR One Sans", sans-serif;
-    color: #000000;
     font-size: 1.4rem;
     font-weight: bold;
   }

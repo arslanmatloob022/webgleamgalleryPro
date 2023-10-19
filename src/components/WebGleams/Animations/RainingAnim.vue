@@ -1,5 +1,6 @@
 <template>
   <div class="rain-animation">
+    <h3>Rainning Animation</h3>
     <div
       v-for="(drop, index) in drops"
       :key="index"
@@ -21,7 +22,11 @@
   overflow: hidden;
   background-color: #dff3fc;
 }
-
+.rain-animation h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 .drop {
   position: absolute;
   width: 3px;

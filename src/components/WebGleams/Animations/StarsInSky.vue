@@ -1,5 +1,6 @@
 <template>
   <div class="light-animation">
+    <h3>Shinning mid-night stars animation</h3>
     <div
       v-for="(light, index) in lights"
       :key="index"
@@ -57,7 +58,11 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.light-animation h3 {
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 .light {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.8);
