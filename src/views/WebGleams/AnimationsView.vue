@@ -21,9 +21,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -50,9 +53,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -79,9 +85,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -108,9 +117,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -137,9 +149,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -166,9 +181,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -195,9 +213,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -224,9 +245,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -253,9 +277,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -282,9 +309,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -311,9 +341,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -340,9 +373,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -369,9 +405,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -398,9 +437,12 @@
           And you can text them clicking on <b>Show Forms</b> buttons
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>

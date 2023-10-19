@@ -1,250 +1,289 @@
 <template>
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+  <section>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader-1.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <first-loader-vue class="loader"> </first-loader-vue>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- second loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- second loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader2.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <second-loader-vue class="loader"> </second-loader-vue>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader3.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <third-loader class="loader"> </third-loader>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader4.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <fourth-loader class="loader"> </fourth-loader>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader5.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <fifth-loader class="loader"> </fifth-loader>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader6.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <sixth-loader class="loader"> </sixth-loader>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
 
-  <!-- first loader  -->
-  <div class="container-box">
-    <div class="media">
-      <div class="media-header">
-        <h3>1. Website Loader</h3>
+    <!-- first loader  -->
+    <div class="container-box">
+      <div class="media">
+        <div class="media-header">
+          <h3>1. Website Loader</h3>
+        </div>
+        <div class="loader-div">
+          <video
+            autoplay
+            loop
+            muted
+            class="loader"
+            src="@/components/WebGleams/Loaders/loader7.mp4"
+          ></video>
+        </div>
       </div>
-      <div class="loader-div">
-        <seventh-loader class="loader"> </seventh-loader>
+      <div class="text-content">
+        <h3>Login and Signup Forms</h3>
+        <p>
+          Authentication and Autherization in any Application are the process
+          are done by Login and Signup forms.<br />login/Signup froms are the
+          first major component of the Web Application are developed by Web
+          Frontend Developers and Secured by Backend Wed Developers.<br />
+          And you can text them clicking on
+          <b>Show Forms</b> buttons
+        </p>
+        <div class="links">
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="text-content">
-      <h3>Login and Signup Forms</h3>
-      <p>
-        Authentication and Autherization in any Application are the process are
-        done by Login and Signup forms.<br />login/Signup froms are the first
-        major component of the Web Application are developed by Web Frontend
-        Developers and Secured by Backend Wed Developers.<br />
-        So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
-      </p>
-      <div class="links">
-        <button class="code-btn">Get Source Code</button>
-        <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
-        </button>
-      </div>
-    </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import FirstLoaderVue from "@/components/WebGleams/Loaders/FirstLoader.vue";
-import ThirdLoader from "@/components/WebGleams/Loaders/ThirdLoader.vue";
-import SecondLoaderVue from "@/components/WebGleams/Loaders/SecondLoader.vue";
-import FourthLoader from "@/components/WebGleams/Loaders/FourthLoader.vue";
-import FifthLoader from "@/components/WebGleams/Loaders/FifthLoader.vue";
-import SixthLoader from "@/components/WebGleams/Loaders/SixthLoader.vue";
-import SeventhLoader from "@/components/WebGleams/Loaders/SeventhLoader.vue";
 export default {
   name: "LoadersView",
   data() {
     return {};
   },
-  components: {
-    FirstLoaderVue,
-    SecondLoaderVue,
-    ThirdLoader,
-    FourthLoader,
-    FifthLoader,
-    SixthLoader,
-    SeventhLoader,
-  },
+  components: {},
 };
 </script>
 
 <style scoped>
-.container-box {
+section {
   background-color: #eeeeee;
+}
+.container-box {
+  background-color: #ffffff;
   margin-top: 20pt;
   width: 100%;
   display: -webkit-flex;
@@ -256,9 +295,21 @@ export default {
   display: -webkit-flex;
   flex-direction: column;
   padding: 20pt 10pt;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
-
+.loader-div {
+  width: 100%;
+  padding: 0;
+  background-color: #eeeeee;
+  display: -webkit-flex;
+  border-radius: 8px;
+  gap: 26px;
+}
+.loader-div video {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
 .loader {
   width: 100%;
   height: 340px;
@@ -289,18 +340,7 @@ export default {
   font-family: "Playfair Display", "AR One Sans", sans-serif;
   color: #000000;
 }
-.loader-div {
-  width: 100%;
-  padding: 10px 30px;
-  background-color: #eeeeee;
-  display: -webkit-flex;
-  border-radius: 8px;
-  gap: 26px;
-}
-.loader-div img {
-  width: 50%;
-  height: 260pt;
-}
+
 .media button {
   margin: 20px;
 }
@@ -322,7 +362,6 @@ export default {
 .links button {
   border-radius: 6px;
   padding: 4pt 6pt;
-
   color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
