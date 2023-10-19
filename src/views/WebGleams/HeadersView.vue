@@ -17,11 +17,18 @@
         header component! Crafted with precision and designed for seamless
         integration, our header module simplifies the process for frontend web
         developers, ensuring an intuitive and responsive user experience.
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -46,11 +53,18 @@
         style meets functionality, and your shopping desires come to life.
         Explore a universe of possibilities with our feature-rich header
         component, designed to enhance your shopping journey in every way.
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -74,13 +88,18 @@
         entertainment website header. Get ready to embark on an exhilarating
         journey through the realms of movies, music, gaming, and more. Our
         header is your gateway to a universe of entertainment possibilities,
-        designed to thrill, engage, and captivate every visitor. We are always
-        here to help the Web developers from all the ways!
+        designed to thrill, engage, and captivate every visitor. <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -104,13 +123,18 @@
         entertainment website header. Get ready to embark on an exhilarating
         journey through the realms of movies, music, gaming, and more. Our
         header is your gateway to a universe of entertainment possibilities,
-        designed to thrill, engage, and captivate every visitor. We are always
-        here to help the Web developers from all the ways!
+        designed to thrill, engage, and captivate every visitor. <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -135,11 +159,18 @@
         style meets functionality, and your shopping desires come to life.
         Explore a universe of possibilities with our feature-rich header
         component, designed to enhance your shopping journey in every way.
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>

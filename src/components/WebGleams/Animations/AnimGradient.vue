@@ -1,6 +1,6 @@
 <template>
   <div class="animated-gradient-background">
-    <div class="gradient"></div>
+    <div class="gradient"><h3>The Animated Gradient Background.</h3></div>
   </div>
 </template>
 <script>
@@ -29,6 +29,11 @@ export default {
   background: linear-gradient(45deg, #ff00cc, #3333ff, #00ffcc, #ffcc00);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
+}
+
+.gradient h3 {
+  color: #fff;
+  font-style: italic;
 }
 
 @keyframes gradientAnimation {

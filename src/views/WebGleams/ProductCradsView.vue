@@ -4,7 +4,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Product Card For E-Commerce Website</h3>
+          <h3><b>1.</b>Product-Card</h3>
         </div>
 
         <div class="form-imgs">
@@ -14,16 +14,20 @@
       <div class="text-content">
         <h3>Product Card For E-Commerce Website</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          A simple and single display product card to describe your product with
+          an image, name, and price. a button that use to add the specific
+          product to add to your cart. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
@@ -33,7 +37,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Product Card For E-Commerce Website</h3>
+          <h3><b>2.</b> Product Card</h3>
         </div>
 
         <div class="form-imgs">
@@ -43,26 +47,31 @@
       <div class="text-content">
         <h3>Product Card For E-Commerce Website</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          A simple and single display product card to describe your product with
+          an flip style display image, name, and price, a button that use to add
+          the specific product to add to your cart. You can pass one more image
+          to display the second image when the first image flip.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Colors gradient animations -->
+    <!-- Third product card -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Product Card For E-Commerce Website</h3>
+          <h3><b>3.</b> Product Card</h3>
         </div>
 
         <div class="form-imgs">
@@ -72,26 +81,33 @@
       <div class="text-content">
         <h3>Product Card For E-Commerce Website</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          A modern and responsive product card with multiple image displayer.
+          Right below the main image we set thumbails of others available images
+          of product, So when you will hover cursor on the thumbnail of the
+          images the displayer will display that image as main image. The Quick
+          View butto will display the description and currrent image on your
+          full screen. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Colors gradient animations -->
+    <!-- 4th product card  -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Product Card For E-Commerce Website</h3>
+          <h3><b>4.</b> Product Card</h3>
         </div>
 
         <div class="form-imgs">
@@ -99,28 +115,35 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Product Card For E-Commerce Website</h3>
+        <h3>Modern Product Card For E-Commerce Website</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Full modern and fully featured e-commerce product card, with multiple
+          image displayer, next and previous image navigations, product name,
+          product price, the total likes, like button and functionality add to
+          cart and product details button, that display the details of image
+          within the card. and when you click on the image the image will
+          display in full window of card.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Colors gradient animations -->
+    <!-- 5th product card -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Product Card For E-Commerce Website</h3>
+          <h3><b>4.</b> Product Card</h3>
         </div>
 
         <div class="form-imgs">
@@ -130,16 +153,23 @@
       <div class="text-content">
         <h3>Product Card For E-Commerce Website</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Full modern and fully featured e-commerce product card, with multiple
+          image displayer, next and previous image navigations, product name,
+          product price, the ratings , and the rating functionality that use to
+          get rating of product in stars,and product details button, that
+          display the details of image within the card. and when you click on
+          the image the image will display in full window of card <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Get Source Code</button>
+          <button class="code-btn">Vanilla Js</button>
+          <button class="code-btn">React.Js</button>
+          <button class="code-btn">Vue.Js</button>
           <button class="tutorial-btn">
-            Watch Tuttorial For Full Understanding
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
           </button>
         </div>
       </div>

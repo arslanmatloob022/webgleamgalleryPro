@@ -4,7 +4,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Animated colors gradient</h3>
+          <h3><b>1.</b>Backgound Animation Screen</h3>
         </div>
 
         <div class="form-imgs">
@@ -12,13 +12,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>Random colors gradient background animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Simple, light and attractive animation screen that you can use on the
+          background of any element you want to be us it, the colors and
+          gradient changes by the time to make the div attractive.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -36,7 +37,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Animated colors gradient</h3>
+          <h3><b>2.</b> background Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -44,13 +45,15 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Candle light Animations</h3>
+        <h3>Candle light Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          An austhetic and attractive animation of kinda candle, in which the
+          candle flare's intensity and size changes itself by the time. This is
+          light weight but attractive animation for your element to make
+          background more attractive.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -64,11 +67,11 @@
       </div>
     </div>
 
-    <!-- Candle light animations -->
+    <!-- Animated fireworks animations -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Animated Fire Works</h3>
+          <h3><b>3.</b>Animated Fire Works</h3>
         </div>
 
         <div class="form-imgs">
@@ -76,13 +79,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Candle light Animations</h3>
+        <h3>Animated Fire Works Animation.</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          A fimple firework animation for attractive and eye catching animation
+          for the background of your element, better not to use within text-data
+          element.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -100,7 +104,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Animated Fire Works</h3>
+          <h3><b>4.</b> Animated Fllying Balloons</h3>
         </div>
 
         <div class="form-imgs">
@@ -108,13 +112,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Candle light Animations</h3>
+        <h3>Animated flying ballooons for kids related website.</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Animations contains ballons that are flying above randomly after
+          sometime. as you will refresh or revisit the website the balloons's
+          color got change. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -132,7 +137,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Circuler cursor On-Mouse Animation</h3>
+          <h3><b>5.</b>On-mouse Animated Circle</h3>
         </div>
 
         <div class="form-imgs">
@@ -140,13 +145,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Circuler cursor On-Mouse Animation</h3>
+        <h3>On-Mouse Circuler Cursor Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          When you move cursor on the div, the cursor got shape of the animated
+          circle that changes it's dia and color by the time or by the change of
+          position of the circle. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -164,7 +170,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>On-mouse Neon Animations</h3>
+          <h3><b>6.</b>On-mouse Neon Animations</h3>
         </div>
 
         <div class="form-imgs">
@@ -174,11 +180,13 @@
       <div class="text-content">
         <h3>On-mouse Neon Animations</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          When you move cursor on the div, the cursor got shape of the animated
+          circle and animated neon light that changes it's dia of the neon light
+          and color by the time or by the change of position of the circle.
+          <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -196,7 +204,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Moving Particles Animations</h3>
+          <h3><b>7.</b>Moving Particles Animations</h3>
         </div>
 
         <div class="form-imgs">
@@ -206,11 +214,12 @@
       <div class="text-content">
         <h3>Moving Particles Animations</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Small moving animation of small moving particles in the surrounding.
+          the particles moves randomly in the background and particles also
+          changes the size while moving around. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -228,7 +237,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Background Raining Animations</h3>
+          <h3><b>8.</b>Background Raining Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -236,13 +245,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Background Raining Animations</h3>
+        <h3>Background Raining Animation Screen for background.</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Background of animated raining that you can use in any of your html
+          element. you can ajust the count of raining particles and the speed of
+          rain. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -260,7 +270,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Side-scroll Particles Animation</h3>
+          <h3><b>9.</b>Side-scroll Particles Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -268,13 +278,15 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Side-scroll Particles Animation</h3>
+        <h3>Side-scroll Particles Animation Screen</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          When you move cursor on a div there will create a random boxes and
+          random color's bar will start scrolling down on the left side of the
+          element. When you stopd moving the cursor the animated bar will
+          disappear after moving upwards.<br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -292,7 +304,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Spider Net Particles Animation</h3>
+          <h3><b>10.</b>Spider Net Particles Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -302,11 +314,12 @@
       <div class="text-content">
         <h3>Side-scroll Particles Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          An attractive and animated screen that contains some random moving
+          particles of random colors. You can customize the the count of
+          particles and the moving speed of them <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -324,7 +337,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Stars Background Animation</h3>
+          <h3><b>11.</b>Stars Background Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -332,13 +345,14 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Stars Background Animation</h3>
+        <h3>Shining Stars Background Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Animated sky screen for attractive background , containing shining
+          stars of star-shape stars also shine and also moves around their axis
+          to make the animation more attractive and eye-catching. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -356,7 +370,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Stars Animation</h3>
+          <h3><b>12.</b>Stars in Dark Sky Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -366,11 +380,12 @@
       <div class="text-content">
         <h3>Stars Background Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Animated sky screen for attractive background , containing shining
+          stars of star-shape stars also shine and also moves around their axis
+          to make the animation more attractive and eye-catching. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -388,7 +403,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Water Bubbles Animation</h3>
+          <h3><b>12.</b>Water Bubbles Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -398,11 +413,13 @@
       <div class="text-content">
         <h3>Water Bubbles Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          Animation that make your div a water container by making and bouncing
+          the water bubbles on the surface of the div. The water bulles count
+          can be change and the bouncing of the bubbles can also be cgange.
+          <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -420,7 +437,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>Div border waves Animation</h3>
+          <h3><b>13.</b>Div Border Waves Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -428,13 +445,13 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Water Bubbles Animation</h3>
+        <h3>Border Waves Animation</h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms. So here we offers all types of
-          Login/Signup forms for all types of Applications. <br />Here we
-          present you a simple, responsive and attractive Login/Signup forms.
-          And you can text them clicking on <b>Show Forms</b> buttons
+          This animation applied on a div to make it like a live banner that
+          make it's corner moving like waves's moves in the air. <br />
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the code.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -609,14 +626,20 @@ export default {
   }
   .media-header h3 {
     font-family: "Playfair Display", "AR One Sans", sans-serif;
-    color: #0055c5;
-    font-size: 1.2rem;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: bold;
   }
 
-  .form-imgs img {
-    width: 140pt;
+  .form-imgs {
+    width: 100%;
     height: 160pt;
   }
+  .form-imgs .anim-gradients {
+    width: 100%;
+    height: 100%;
+  }
+
   .text-content {
     padding: 10pt;
     width: 100%;

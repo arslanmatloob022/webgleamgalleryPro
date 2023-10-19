@@ -31,7 +31,7 @@ export default {
           require("@/assets/Images/e1.jpg"),
           require("@/assets/Images/e2.jpg"),
         ],
-        name: "Product Name",
+        name: "Mobile Phone",
         price: 60,
       },
     };
@@ -102,7 +102,7 @@ export default {
 
 .product-details h2 {
   font-size: 1.4rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .description {
@@ -114,7 +114,7 @@ export default {
 .price {
   font-size: 1.2rem;
   color: #e74c3c;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 button {

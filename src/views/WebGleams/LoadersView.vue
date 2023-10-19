@@ -23,8 +23,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -61,8 +62,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -99,8 +101,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -137,8 +140,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -175,8 +179,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -213,8 +218,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>
@@ -251,8 +257,9 @@
           are done by Login and Signup forms.<br />login/Signup froms are the
           first major component of the Web Application are developed by Web
           Frontend Developers and Secured by Backend Wed Developers.<br />
-          And you can text them clicking on
-          <b>Show Forms</b> buttons
+          Here you can select any of the following frameworks you are working on
+          to get you desired code format or watch the tutorial to get full
+          understanding of the logics.
         </p>
         <div class="links">
           <button class="code-btn">Vanilla Js</button>

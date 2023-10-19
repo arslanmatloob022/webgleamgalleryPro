@@ -25,14 +25,19 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -64,14 +69,18 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -104,14 +113,19 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -144,14 +158,19 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -184,14 +203,19 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>
@@ -223,14 +247,19 @@
         major component of the Web Application are developed by Web Frontend
         Developers and Secured by Backend Wed Developers.<br />
         So here we offers all types of Login/Signup forms for all types of
-        Applications. <br />Here we present you a simple, responsive and
-        attractive Login/Signup forms. And you can text them clicking on
-        <b>Show Forms</b> buttons
+        Applications. <br />
+        <br />
+        Here you can select any of the following frameworks you are working on
+        to get you desired code format or watch the tutorial to get full
+        understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Get Source Code</button>
+        <button class="code-btn">Vanilla Js</button>
+        <button class="code-btn">React.Js</button>
+        <button class="code-btn">Vue.Js</button>
         <button class="tutorial-btn">
-          Watch Tuttorial For Full Understanding
+          Watch Tuttorial
+          <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
         </button>
       </div>
     </div>

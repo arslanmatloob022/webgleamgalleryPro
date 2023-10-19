@@ -75,4 +75,15 @@ export default {
     transform: scaleY(1.1);
   }
 }
+
+@media screen and (max-width: 678px) {
+  .fire {
+    width: 100px;
+    height: 120px;
+  }
+  .flame {
+    width: 12px;
+    height: 80px;
+  }
+}
 </style>

@@ -66,20 +66,20 @@ export default {
 .product-details p {
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .price {
   font-size: 1.1rem;
   color: #e74c3c;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 button {
   background-color: #3498db;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 8px 14px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -87,5 +87,33 @@ button {
 
 button:hover {
   background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: 80%;
+  }
+
+  .product-details {
+    padding: 12px;
+  }
+
+  .product-details h2 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  .product-details p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+  }
+
+  .price {
+    font-size: 0.7rem;
+  }
+
+  button {
+    padding: 6px 8px;
+  }
 }
 </style>
