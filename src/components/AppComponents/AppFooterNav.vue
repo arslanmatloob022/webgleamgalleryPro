@@ -12,86 +12,88 @@
         <img src="" />
       </div>
 
-      <!-- Why Slack section -->
+      <!-- first column section -->
       <div class="col-lg-2 col-md-4 col-sm-6 col-6 menuText">
         <div class="row">
           <h6 class="col-lg-12 footHeading">Features</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Channels</p>
+          <p class="col-lg-12">Responsive UI</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Engagement</p>
+          <p class="col-lg-12">Reactive Website</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Scale</p>
+          <p class="col-lg-12">UI Elements</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Watch Demo</p>
+          <p class="col-lg-12">Frontend Web</p>
         </div>
       </div>
-      <!-- Product Line -->
+
+      <!-- Second column -->
       <div class="col-lg-2 col-md-4 col-sm-6 col-6 menuText">
         <div class="row">
           <h6 class="col-lg-12 footHeading">UI Elements</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Integrations</p>
+          <p class="col-lg-12">Login/Signup</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Enterprise</p>
+          <p class="col-lg-12">Cards</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Solutions</p>
+          <p class="col-lg-12">Headers</p>
+        </div>
+        <div class="row">
+          <p class="col-lg-12">Footers</p>
+        </div>
+        <div class="row">
+          <p class="col-lg-12">Others</p>
         </div>
       </div>
 
-      <!-- Resources List -->
+      <!-- third List -->
       <div class="col-lg-2 col-md-4 col-sm-6 col-6 menuText">
         <div class="row">
-          <h6 class="col-lg-12 footHeading">Get Supers</h6>
+          <h6 class="col-lg-12 footHeading">Web Gleams</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Partners</p>
+          <p class="col-lg-12">Background Anims</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Developers</p>
+          <p href="/animations" class="col-lg-12">Loaders</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Community</p>
+          <p class="col-lg-12">Elements Anims</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Apps</p>
+          <p class="col-lg-12">Links Anim</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">BLog</p>
-        </div>
-        <div class="row">
-          <p class="col-lg-12">Help Center</p>
-        </div>
-        <div class="row">
-          <p class="col-lg-12">Events</p>
+          <p class="col-lg-12">Buttons Anim</p>
         </div>
       </div>
+
       <!-- Company Section -->
       <div class="col-lg-2 col-md-4 col-sm-6 col-6 menuText">
         <div class="row">
-          <h6 class="col-lg-12 footHeading">SERVICES</h6>
+          <h6 class="col-lg-12 footHeading">Web Devs</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">About Us</p>
+          <p class="col-lg-12">FE Utilities</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Leadership</p>
+          <p class="col-lg-12">Pratices</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">News</p>
+          <p class="col-lg-12">Utilities Links</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Media Kit</p>
+          <p class="col-lg-12"></p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Careers</p>
+          <p class="col-lg-12"></p>
         </div>
       </div>
 
@@ -101,10 +103,13 @@
           <h6 class="col-lg-12 footHeading">ABOUT</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Plans</p>
+          <p class="col-lg-12">What we offers</p>
         </div>
         <div class="row">
           <p class="col-lg-12">Paid vs. Free</p>
+        </div>
+        <div class="row">
+          <p class="col-lg-12">Hire our team</p>
         </div>
       </div>
     </div>
@@ -138,7 +143,7 @@ export default {
   margin-top: 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  font-size: calc(36px + 1vw);
+  font-size: calc(4rem + 1vw);
 }
 .buttons {
   margin-top: 40px;
@@ -169,7 +174,19 @@ export default {
   margin-top: 10px;
   text-align: left;
 }
-@media (max-width: 667px) {
+.menuText h6 {
+  color: #27a596;
+}
+@media (max-width: 768px) {
+  .footerTop {
+    height: 180px;
+  }
+  .footerTop h1 {
+    margin-top: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    font-size: calc(2rem + 1vw);
+  }
   .menuText {
     padding-left: 40px;
   }
