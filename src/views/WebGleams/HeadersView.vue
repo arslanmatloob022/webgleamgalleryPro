@@ -251,9 +251,7 @@ export default {
   padding: 10pt 40pt;
   width: 100%;
 }
-.text-content h3 {
-  margin-top: 20pt;
-}
+
 .text-content p {
   font-family: "Onest", "AR One Sans", sans-serif;
   font-size: 1.2rem;
