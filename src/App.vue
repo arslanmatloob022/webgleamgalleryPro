@@ -3,6 +3,7 @@
   <header-space></header-space>
   <router-view />
   <app-footer-nav></app-footer-nav>
+  <ribbon-view-vue></ribbon-view-vue>
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import AppHeader from "./components/AppComponents/AppHeader.vue";
 import AppFooterNav from "./components/AppComponents/AppFooterNav.vue";
 import HeaderSpace from "./components/AppComponents/HeaderSpace.vue";
 import CategoriesHeader from "./views/CategoriesPage/CategoriesHeader.vue";
+import RibbonViewVue from "./components/AppComponents/RibbonView.vue";
 
 export default {
   name: "App",
@@ -22,6 +24,7 @@ export default {
     AppFooterNav,
     HeaderSpace,
     CategoriesHeader,
+    RibbonViewVue,
   },
   methods: {},
 };

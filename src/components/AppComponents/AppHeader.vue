@@ -490,17 +490,18 @@ export default {
   border-radius: 10px;
   display: inline-block;
   padding: 10px;
+  background-color: #25aa9b;
   z-index: 1000;
 }
 .drop-heading {
   font-weight: bold;
-  color: #29bdab;
+  color: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
 }
 .link-tab:hover {
   transform: scaleY(1.04);
   border-radius: 4px;
-  background-color: #fcf1f2;
+  background-color: #1f998b;
   transition: all 0.2s;
 }
 
@@ -509,13 +510,13 @@ export default {
 }
 .dropdown-link {
   font-size: calc(8px + 1vw);
-  color: #1fccb8;
+  color: #ffffff;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dropdown-link:hover {
-  color: #21ddc7;
+  color: #d3d3d3;
   cursor: pointer;
 }
 .link-description-text {
@@ -538,6 +539,7 @@ export default {
   border-radius: 16px;
   gap: 10px;
   padding: 16px;
+  background-color: #25aa9b;
 }
 .dropdown-list {
   overflow: auto;
