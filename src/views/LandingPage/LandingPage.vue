@@ -51,7 +51,8 @@
       </div>
       <div class="mediaContent">
         <img
-          src="@/assets/AppMedia/UIBg-removebg-preview.png"
+          class="ui-img"
+          src="@/assets/AppMedia/webdevtree.png"
           alt="UI Element Image"
         />
       </div>
@@ -59,7 +60,7 @@
 
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <img src="@/assets/AppMedia/LogicBg-removebg-preview.png" alt="" />
+        <img src="@/assets/AppMedia/animrem.png" alt="" />
       </div>
       <div class="textContent bg-color">
         <h2>Modern and Attractive Animations</h2>
@@ -84,7 +85,10 @@
           Your Ultimate Source for Seamless UI Elements and Web Development
           Magic!
         </h2>
-        <h4>You Apply and build logics leave UI on us.</h4>
+        <h4>
+          Revealing all technologies by creating all element of all types of
+          website.
+        </h4>
         <p>
           As our concern we are here to serve you with the code of each UI
           Element that you think will be use in your website's frontend
@@ -99,7 +103,35 @@
         ></a>
       </div>
       <div class="mediaContent">
-        <img src="@/assets/AppMedia/responsiveBg-removebg-preview.png" alt="" />
+        <img class="ui-img" src="@/assets/AppMedia/allteach.png" alt="" />
+      </div>
+    </div>
+
+    <div class="cont-container">
+      <div class="mediaContent bg-color">
+        <img src="@/assets/AppMedia/teambuild.png" alt="" />
+      </div>
+      <div class="textContent bg-color">
+        <h2>Unleashing Creativity, Empowering Futures</h2>
+        <h4>
+          Explore Expert Web Development Tools and Learn Frontend and Backend
+          Mastery!
+        </h4>
+        <p>
+          Your Gateway to Expert Web Development Tools, Comprehensive Frontend
+          and Backend Learning Resources. Transform Ideas into Interactive
+          Reality! <br />From our platform you can get access to all of your
+          require resources because We also offers you a single page learning
+          materials and resources you might need in your web-development
+          journey.
+        </p>
+
+        <a href=""
+          >View Learninig gateway and Resources.
+
+          <span
+            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
+        ></a>
       </div>
     </div>
   </section>
@@ -213,12 +245,15 @@ h4 {
 
 .mediaContent {
   width: 50%;
-  padding: 20px 30px;
+  padding: 10px 10px;
   background-color: #f1f1f1;
 }
+.ui-img {
+  width: 80%;
+  height: 400px;
+}
 .mediaContent img {
-  width: 100%;
-  float: right;
+  width: 80%;
 }
 /*Second section custom styling*/
 /*Hero Banner styling*/
@@ -358,6 +393,10 @@ h4 {
   .mediaContent {
     width: 100%;
     padding: 10px 16px;
+  }
+  .ui-img {
+    width: 80%;
+    height: 200px;
   }
 }
 </style>

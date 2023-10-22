@@ -15,10 +15,6 @@
         <router-link class="linker" to="/">
           <a class="link">Home</a>
         </router-link>
-
-        <router-link class="linker" to="/features"
-          ><a class="link">Features</a></router-link
-        >
         <div class="linker">
           <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
@@ -332,7 +328,9 @@
             </div>
           </div>
         </transition>
-
+        <router-link class="linker" to="/features"
+          ><a class="link">Learnings</a></router-link
+        >
         <router-link class="linker" to="/about"
           ><a class="link">About</a></router-link
         >
