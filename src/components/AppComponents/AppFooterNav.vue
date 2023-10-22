@@ -9,7 +9,7 @@
 
     <div class="footerMenu row">
       <div class="col-lg-2 col-md-4 col-sm-12 col-12 footerLogo">
-        <img src="" />
+        <img src="@/components/Media/Images/finalgleam.png" />
       </div>
 
       <!-- first column section -->
@@ -185,7 +185,7 @@ export default {
     margin-top: 40px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: white;
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1.6rem + 1vw);
   }
   .menuText {
     padding-left: 40px;

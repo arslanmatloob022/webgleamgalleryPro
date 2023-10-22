@@ -50,28 +50,16 @@
         ></a>
       </div>
       <div class="mediaContent">
-        <video
-          preload
-          autoplay
-          loop
-          muted
-          src="@/assets/AppMedia/mancoding.mp4"
-          poster=""
-        ></video>
+        <img
+          src="@/assets/AppMedia/UIBg-removebg-preview.png"
+          alt="UI Element Image"
+        />
       </div>
     </div>
 
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <video
-          class="curvy-border"
-          preload
-          autoplay
-          loop
-          muted
-          src="@/assets/AppMedia/mancoding.mp4"
-          poster=""
-        ></video>
+        <img src="@/assets/AppMedia/LogicBg-removebg-preview.png" alt="" />
       </div>
       <div class="textContent bg-color">
         <h2>Modern and Attractive Animations</h2>
@@ -111,14 +99,7 @@
         ></a>
       </div>
       <div class="mediaContent">
-        <video
-          preload
-          autoplay
-          loop
-          muted
-          src="@/assets/AppMedia/mancoding.mp4"
-          poster=""
-        ></video>
+        <img src="@/assets/AppMedia/responsiveBg-removebg-preview.png" alt="" />
       </div>
     </div>
   </section>
@@ -205,18 +186,19 @@ export default {
   overflow: visible;
   width: 50%;
   padding: 20px 30px;
-  background-color: #00a5d3;
+  background-color: #f1f1f1;
 }
 .textContent h2,
 h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #fff4ef;
+  color: #28b173;
 }
 .textContent h4 {
-  padding: 10pt 0pt;
+  color: #202020;
+  padding: 6pt 0pt;
 }
 .textContent p {
-  color: #fff4ef;
+  color: #202020;
   font-size: 1.2rem;
   padding: 0pt 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -226,15 +208,15 @@ h4 {
   margin-left: 20%;
   text-align: center;
   text-decoration: none;
-  color: #2beb95;
+  color: #28b173;
 }
 
 .mediaContent {
   width: 50%;
   padding: 20px 30px;
-  background-color: #00a5d3;
+  background-color: #f1f1f1;
 }
-.mediaContent video {
+.mediaContent img {
   width: 100%;
   float: right;
 }
@@ -247,6 +229,7 @@ h4 {
   display: flex;
 }
 .content h4 {
+  color: #f1f1f1;
   text-align: left;
 }
 .caption {
@@ -258,7 +241,7 @@ h4 {
   position: sticky;
 }
 .caption h1 {
-  color: #f26419;
+  color: #2beb95;
 }
 .media-content {
   width: 100%;
@@ -342,8 +325,7 @@ h4 {
     font-size: 1.4rem;
   }
   .multi-lines {
-    width: 60%;
-    color: #2beb95;
+    width: 95%;
   }
   .multi-lines h4 {
     font-size: 1rem;
@@ -361,8 +343,6 @@ h4 {
   }
   .textContent h2,
   h4 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff4ef;
     font-size: calc(1rem + 1vw);
   }
   .textContent h4 {
