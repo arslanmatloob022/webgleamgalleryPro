@@ -31,7 +31,7 @@
             <div class="dropdown-content">
               <div class="row dropdown">
                 <!-- First column -->
-                <div class="dropdown-list col-lg-4 col-md-6 col-sm-6 col-6">
+                <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading">By Websites</h4>
                   <div class="row link-tab">
                     <router-link class="dropdown-link" to="/ecomweb">
@@ -111,9 +111,9 @@
                 </div>
 
                 <!-- Second Column -->
-                <div class="dropdown-list col-lg-4 col-md-6 col-sm-6 col-6">
+                <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading">Website Gleams</h4>
-                  <div class="row link-tab">
+                  <!-- <div class="row link-tab">
                     <a
                       class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                       href=""
@@ -124,7 +124,7 @@
                     >
                       All Types Of Animation That Use To Gleam Websites
                     </p>
-                  </div>
+                  </div> -->
                   <div class="row link-tab">
                     <router-link to="/loaders" class="linker">
                       <a class="dropdown-link col-lg-12 col-md-12 col-sm-12"
@@ -154,27 +154,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- third  Master column -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 master-column">
-                  <div class="row master-content">
-                    <h5
-                      class="col-lg-12 col-md-12 col-sm-12 col-12 master-heading"
-                    >
-                      Features
-                    </h5>
-                    <div
-                      class="col-lg-12 col-md-12 col-sm-12 col-12 feature-image"
-                    >
-                      <img src="" alt="Features" />
-                      <div
-                        class="ai-feature-heading col-lg-12 col-md-12 col-sm-12 col-12"
-                      >
-                        <h6>Order us to get any type of customization</h6>
-                        <a href="#">Read Announcement</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -195,7 +174,7 @@
             <div class="dropdown-content">
               <div class="row dropdown">
                 <!-- First column of UI elemets-->
-                <div class="dropdown-list col-lg-3 col-md-6 col-sm-6 col-6">
+                <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading single-tab">UI Elements</h4>
                   <div class="row single-tab link-tab">
                     <router-link class="dropdown-link" to="/headers">
@@ -256,20 +235,10 @@
                       >
                     </router-link>
                   </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/gamingweb">
-                      <a
-                        class="dropdown-link col-lg-12 col-md-12 col-sm-12"
-                        href=""
-                        >Footers</a
-                      >
-                    </router-link>
-                  </div>
                 </div>
 
                 <!-- Second Column UI Elements-->
-                <div class="dropdown-list col-lg-4 col-md-6 col-sm-6 col-6">
+                <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading single-tab">Web Forms</h4>
                   <div class="row single-tab link-tab">
                     <router-link class="dropdown-link" to="/loginpages">
@@ -277,14 +246,6 @@
                         >Login/SignUp</a
                       >
                     </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <a
-                      class="dropdown-link col-lg-12 col-md-12 col-sm-12"
-                      href=""
-                      >Register Members</a
-                    >
                   </div>
 
                   <div class="row single-tab link-tab">
@@ -301,27 +262,6 @@
                       href=""
                       >Customer Forms</a
                     >
-                  </div>
-                </div>
-                <!-- third  Master column -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12 master-column">
-                  <div class="row master-content">
-                    <h5
-                      class="col-lg-12 col-md-12 col-sm-12 col-12 master-heading"
-                    >
-                      Features
-                    </h5>
-                    <div
-                      class="col-lg-12 col-md-12 col-sm-12 col-12 feature-image"
-                    >
-                      <img src="" alt="Features" />
-                      <div
-                        class="ai-feature-heading col-lg-12 col-md-12 col-sm-12 col-12"
-                      >
-                        <h6>Order us to get any type of customization</h6>
-                        <a href="#">Read Announcement</a>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -391,8 +331,9 @@ export default {
   cursor: pointer;
   color: #f4ede4;
   border-radius: 20%;
-  background-color: #27a596;
+  background-color: #29bdab;
   font-size: 14px;
+  left: 2px;
   padding: 0px 6px;
 }
 .header {
@@ -553,7 +494,7 @@ export default {
 }
 .drop-heading {
   font-weight: bold;
-  color: #f03b56;
+  color: #29bdab;
   font-family: Arial, Helvetica, sans-serif;
 }
 .link-tab:hover {
@@ -568,28 +509,28 @@ export default {
 }
 .dropdown-link {
   font-size: calc(8px + 1vw);
-  color: #f15766;
+  color: #1fccb8;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dropdown-link:hover {
-  color: #f15766;
+  color: #21ddc7;
   cursor: pointer;
 }
 .link-description-text {
   font-family: Arial, Helvetica, sans-serif;
-  color: #f6ae1d;
+  color: #363636;
   font-size: 0.7rem;
 }
 
 .elements-dd {
-  width: 60%;
-  left: 20%;
+  width: 50%;
+  left: 25%;
 }
 .features-dd {
-  width: 70%;
-  left: 15%;
+  width: 50%;
+  left: 25%;
 }
 
 .dropdown-content {
@@ -605,39 +546,7 @@ export default {
 .single-tab {
   margin-bottom: 8px;
 }
-/* Features Column / MAster column*/
-.master-column {
-  border-radius: 4px;
-  width: 100%;
-  background-color: #f4ede4;
-}
-.master-content {
-  width: 115%;
-}
-.master-heading {
-  margin-top: 7px;
-  font-weight: bold;
-  color: #eb4758;
-}
-.feature-image {
-  width: 100%;
-}
-.feature-image img {
-  width: 100%;
-  height: 40%;
-}
-.master-link-tab {
-  margin-top: 12px;
-}
-.ai-feature-heading {
-  margin-top: 10px;
-}
-.ai-feature-heading h5 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.ai-feature-heading a {
-  text-decoration: none;
-}
+
 /* Dropdown Menu anmation*/
 .dropdown-slide-enter-active {
   animation: slideDown 0.3s;
