@@ -3,7 +3,7 @@
     <div class="cont-container">
       <div class="main">
         <div class="media-content">
-          <video playsinline autoplay muted loop poster="">
+          <video playsinline autoplay muted loop poster="@/assets/AppMedia/poster.png">
             <source src="@/assets/AppMedia/networkbg.mp4" type="video/webm" />
             Your browser does not support the video tag.
           </video>
