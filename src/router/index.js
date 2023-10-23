@@ -130,6 +130,18 @@ const routes = [
     name: "loaders",
     component: () => import(/*"loaders"*/ "@/views/WebGleams/LoadersView.vue"),
   },
+  {
+    path: "/searchbars",
+    name: "searchbars",
+    component: () =>
+      import(/*"searchbars"*/ "@/views/WebGleams/SearchbarsView.vue"),
+  },
+  {
+    path: "/sidebars",
+    name: "sidebars",
+    component: () =>
+      import(/*"searchbars"*/ "@/views/WebGleams/SidebarsView.vue"),
+  },
 ];
 
 const router = createRouter({

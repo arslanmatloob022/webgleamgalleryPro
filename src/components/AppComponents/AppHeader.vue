@@ -187,7 +187,7 @@
                   </div>
 
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/">
+                    <router-link class="dropdown-link" to="/searchbars">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
@@ -197,7 +197,7 @@
                   </div>
 
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/entertainmentweb">
+                    <router-link class="dropdown-link" to="/sidebars">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
