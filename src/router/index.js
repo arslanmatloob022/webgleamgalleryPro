@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import AboutUsPageVue from "@/views/AboutUsPage/AboutUsPage.vue";
 import CategoriesPageVue from "@/views/CategoriesPage/CategoriesPage.vue";
 import LandingPageVue from "@/views/LandingPage/LandingPage.vue";
-import FeaturesPageVue from "@/views/FeaturesPage/FeaturesPage.vue";
+import learningsPageVue from "@/views/LearningPage/LearningPage.vue";
 import SubscritionPage from "@/views/SubscriptionPage/SubscriptionPage.vue";
 import ElementsPageVue from "@/views/ElementsPage/ElementsPage.vue";
 import AnalyticsWebPageVue from "@/views/WebComponents/AnalyticalPage/AnalyticsWebPage.vue";
@@ -36,9 +36,9 @@ const routes = [
     component: ElementsPageVue,
   },
   {
-    path: "/features",
-    name: "features",
-    component: FeaturesPageVue,
+    path: "/learnings",
+    name: "learnings",
+    component: learningsPageVue,
   },
   {
     path: "/subscribe",

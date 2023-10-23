@@ -275,7 +275,7 @@ export default {
   margin: 20px;
 }
 .text-content {
-  padding: 40pt;
+  padding: 20pt;
   width: 60%;
 }
 .text-content h3 {
@@ -334,7 +334,7 @@ export default {
 
   .searchBar {
     width: 100%;
-    height: 160pt;
+    height: fit-content;
   }
   .searchBar .searchbar-view {
     width: 100%;

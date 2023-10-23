@@ -90,7 +90,7 @@
           <p class="col-lg-12">Utilities Links</p>
         </div>
         <div class="row">
-          <p class="col-lg-12"></p>
+          <p class="col-lg-12">Learning Resources</p>
         </div>
         <div class="row">
           <p class="col-lg-12"></p>

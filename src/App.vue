@@ -10,7 +10,6 @@
 import AppHeader from "./components/AppComponents/AppHeader.vue";
 import AppFooterNav from "./components/AppComponents/AppFooterNav.vue";
 import HeaderSpace from "./components/AppComponents/HeaderSpace.vue";
-import CategoriesHeader from "./views/CategoriesPage/CategoriesHeader.vue";
 import RibbonViewVue from "./components/AppComponents/RibbonView.vue";
 
 export default {
@@ -23,7 +22,6 @@ export default {
     AppHeader,
     AppFooterNav,
     HeaderSpace,
-    CategoriesHeader,
     RibbonViewVue,
   },
   methods: {},

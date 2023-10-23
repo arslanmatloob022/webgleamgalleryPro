@@ -268,7 +268,7 @@
             </div>
           </div>
         </transition>
-        <router-link class="linker" to="/features"
+        <router-link class="linker" to="/learnings"
           ><a class="link">Learnings</a></router-link
         >
         <router-link class="linker" to="/about"
