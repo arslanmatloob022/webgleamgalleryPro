@@ -132,7 +132,7 @@ export default {
 .footerTop {
   height: 280px;
   width: 100%;
-  background-color: #27a596;
+  background-color: #2a9d8f;
   border-radius: 0% 0% 50% 50%;
   display: flex;
   flex-direction: column;
