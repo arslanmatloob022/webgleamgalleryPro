@@ -12,7 +12,7 @@
       </li>
       <li @click="scrollToSection('section3')">
         3.
-        <p>Descriptiomn</p>
+        <p>Template Syntax</p>
       </li>
     </ul>
   </div>
@@ -247,16 +247,42 @@ var vm = new Vue({
     </section>
 
     <section class="sec-text" id="section3">
-      <p>
-        2. Check File System Watcher: The issue might be with the file system
-        watcher. Sometimes, file system watchers can misbehave, especially in
-        certain environments. Restart Your Development Server: Sometimes, simply
-        restarting your development server can resolve file watcher issues.
-        Increase File Watcher Limit: If you are working on a large project, you
-        might be hitting your system's file watcher limit. You can increase the
-        limit by adjusting system settings or configuring Webpack's watchOptions
-        in your Webpack configuration.
-      </p>
+      <h3>Template Syntax</h3>
+      <h5>1.Interpolation:</h5>
+      <div class="example-code">
+        <p>
+          Interpolation in Vue.js is a way to bind data to HTML elements. It is
+          achieved using double curly braces {{}}. When you place data or
+          expressions inside these curly braces, Vue replaces them with the
+          actual values from your data properties. It allows you to display
+          dynamic content on your web page.<br />
+          For example<br />
+          In this example, {{ message }} will be replaced with the value of the
+          message data property, and any changes to message will automatically
+          update the displayed content.
+        </p>
+        <pre>
+        
+<code><p>{{ message }}</p>
+</code>
+</pre>
+      </div>
+      <h5>2. Vue Instance Properties:</h5>
+      <div class="example-code">
+        <p>
+          <b>Data:</b> Vue instances have a data option where you can define the
+          data properties. These properties are reactive, meaning changes to
+          them trigger re-rendering of the DOM. .<br />
+          For example
+        </p>
+        <pre>
+      <code>
+var vm = new Vue({
+  data: {
+    message: 'Hello, Vue!'
+  }
+});</code></pre>
+      </div>
     </section>
     <section class="sec-text" id="introduction"><p>Intro</p></section>
   </section>

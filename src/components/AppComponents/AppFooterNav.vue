@@ -164,6 +164,8 @@ export default {
   margin-top: 40px;
 }
 .footerLogo img {
+  float: right;
+  margin-right: 60px;
   height: 60px;
   width: 60px;
 }
