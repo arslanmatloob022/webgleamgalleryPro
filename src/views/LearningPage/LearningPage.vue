@@ -252,19 +252,18 @@ var vm = new Vue({
       <div class="example-code">
         <p>
           Interpolation in Vue.js is a way to bind data to HTML elements. It is
-          achieved using double curly braces {{}}. When you place data or
-          expressions inside these curly braces, Vue replaces them with the
+          achieved using double curly braces {{ message }}. When you place data
+          or expressions inside these curly braces, Vue replaces them with the
           actual values from your data properties. It allows you to display
           dynamic content on your web page.<br />
           For example<br />
-          In this example, {{ message }} will be replaced with the value of the
-          message data property, and any changes to message will automatically
-          update the displayed content.
+          In this example, will be replaced with the value of the message data
+          property, and any changes to message will automatically update the
+          displayed content.
         </p>
-        <pre>
-        
-<code><p>{{ message }}</p>
-</code>
+
+        <pre>  <code >
+        <p>{{message}}</p></code>
 </pre>
       </div>
       <h5>2. Vue Instance Properties:</h5>
@@ -295,8 +294,10 @@ export default {
   data() {
     return {
       showNavbar: true,
+      message: "{{message}}",
     };
   },
+
   methods: {
     toggleNavbar() {
       this.showNavbar = !this.showNavbar;
@@ -310,6 +311,7 @@ export default {
     },
   },
   components: {},
+  mounted() {},
 };
 </script>
 
