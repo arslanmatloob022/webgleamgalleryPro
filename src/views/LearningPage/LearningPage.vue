@@ -14,6 +14,14 @@
         3.
         <p>Template Syntax</p>
       </li>
+      <li @click="scrollToSection('section4')">
+        4.
+        <p>Conditional Rendering</p>
+      </li>
+      <li @click="scrollToSection('section5')">
+        5.
+        <p>List Rendering:</p>
+      </li>
     </ul>
   </div>
 
@@ -252,7 +260,7 @@ var vm = new Vue({
       <div class="example-code">
         <p>
           Interpolation in Vue.js is a way to bind data to HTML elements. It is
-          achieved using double curly braces {{ message }}. When you place data
+          achieved using double curly braces {{ message1 }}. When you place data
           or expressions inside these curly braces, Vue replaces them with the
           actual values from your data properties. It allows you to display
           dynamic content on your web page.<br />
@@ -262,39 +270,238 @@ var vm = new Vue({
           displayed content.
         </p>
 
-        <pre>  <code >
-        <p>{{message}}</p></code>
-</pre>
+        <pre><code>
+        <h6>{{messages}}</h6>
+      
+      </code></pre>
       </div>
-      <h5>2. Vue Instance Properties:</h5>
+      <h5>2. Directives:</h5>
+      <p>
+        <b>Description:</b> Vue directives are special tokens in the markup that
+        tell the library to do something to a DOM element. They are prefixed
+        with v- and are used to apply reactive behavior to the rendered DOM.
+        Directives are Vue.js’s way of extending HTML functionality.<br />
+      </p>
+      <h6>Common Directives:</h6>
       <div class="example-code">
         <p>
-          <b>Data:</b> Vue instances have a data option where you can define the
-          data properties. These properties are reactive, meaning changes to
-          them trigger re-rendering of the DOM. .<br />
-          For example
+          <b> v-bind:</b> Binds an attribute to an expression. For example,
+          v-bind:href="url" binds the href attribute of a link to the url data
+          property.
+        </p>
+        <pre> 
+      <code> {{ vbind }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          <b> v-model:</b> Creates a two-way binding on form inputs. It binds
+          the input value to a data property, allowing changes in the input to
+          update the property and vice versa.
         </p>
         <pre>
-      <code>
-var vm = new Vue({
-  data: {
-    message: 'Hello, Vue!'
-  }
-});</code></pre>
+      <code>{{ vmodel }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          <b>v-for:</b> Renders a list of items by iterating over an array or
+          object. For example, v-for="item in items" renders elements for each
+          item in the items array.
+        </p>
+        <pre>
+      <code>{{ vfor }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          <b>v-if and v-else:</b>
+          Conditionally renders elements based on the truthiness of an
+          expression.
+        </p>
+        <pre>
+      <code>{{ vifelse }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b>v-on:</b>
+          Listens to DOM events and triggers methods or expressions when the
+          event occurs.
+        </p>
+        <pre>
+      <code>{{ vOn }}
+</code></pre>
       </div>
     </section>
-    <section class="sec-text" id="introduction"><p>Intro</p></section>
+
+    <section class="sec-text" id="section4">
+      <h3>Coditional Rendering</h3>
+      <p>
+        Conditional rendering in Vue.js allows you to display or hide elements
+        based on certain conditions. There are several directives for
+        conditional rendering:
+      </p>
+      <div class="example-code">
+        <p>
+          <b>v-if:</b> This directive renders the element if the expression
+          inside it evaluates to true. If the expression is false, the element
+          is not included in the DOM.
+        </p>
+
+        <pre><code>
+        {{ vIfcode }}
+      </code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b>v-else-if:</b> Used in conjunction with v-if, this directive allows
+          you to chain multiple conditions. If the preceding v-if or v-else-if
+          directive evaluates to false, v-else-if checks its condition. If true,
+          the element is rendered.
+        </p>
+        <pre> 
+      <code> {{ velseif }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          <b>v-else:</b> This directive follows v-if or v-else-if and renders
+          the element if none of the preceding conditions are met.
+        </p>
+        <pre>
+      <code>{{ vElse }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          <b>v-show:</b> This directive toggles the display CSS property of the
+          element based on the truthiness of the expression. If the expression
+          is true, the element is displayed; if false, it's hidden.
+        </p>
+        <pre>
+      <code>{{ vShow }}
+</code></pre>
+      </div>
+    </section>
+
+    <section class="sec-text" id="section5">
+      <h3>List Rendering:</h3>
+      <p>
+        List rendering in Vue.js is accomplished using the v-for directive. It
+        allows you to render a list of items by iterating over an array. Here's
+        a detailed explanation with examples.<br />
+        <b>v-for:</b> The v-for directive is used to loop through an array and
+        render each item inside a template block. It takes the syntax
+        v-for="item in items", where item is the variable representing the
+        current element in the iteration, and items is the array you want to
+        loop through.
+      </p>
+      <div class="example-code">
+        <p>Suppose you have an array of items in your Vue data:</p>
+
+        <pre><code>
+        {{ first }}
+      </code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>You can use v-for to render a list of items like this:</p>
+        <pre> 
+      <code> {{ sec }}
+</code></pre>
+      </div>
+      <div class="example-code">
+        <p>
+          In this example, Vue.js will create a list item ({{ li }}) for each
+          item in the items array, resulting in an unordered list with four list
+          items.<br />
+
+          <b>v-for</b> with Index:<br />
+          You can also access the index of the current item by using (item,
+          index) in items syntax
+        </p>
+        <pre>
+      <code>{{ vForList }}<br>
+        In this case, index represents the index of the current item in the iteration, starting from 0.
+
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b> v-for with Objects:</b><br />
+          <b>v-for </b>can also iterate through the properties of an object:
+        </p>
+        <pre>
+      <code>{{ passlist }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          Here, key represents the property name, and value represents the
+          corresponding value in the user object
+        </p>
+        <pre>
+      <code>{{ keyval }}
+</code></pre>
+      </div>
+      <p>
+        List rendering with v-for is a powerful feature in Vue.js, allowing you
+        to dynamically generate UI elements based on the data in your
+        application. It's essential for displaying dynamic content, such as
+        product lists, user-generated data, or any other scenario where you need
+        to display a collection of items.
+      </p>
+    </section>
   </section>
 </template>
 <script>
-import "prismjs";
-import "prismjs/themes/prism.css";
 export default {
   name: "FeaturesPage",
   data() {
     return {
       showNavbar: true,
-      message: "{{message}}",
+      messages: "<p>{{ message }}</p>",
+      message1: "{{ }}",
+      vbind: `<a v-bind:href="link">Link</a>`,
+      vmodel: `<input v-model="message">`,
+      vfor: `<ul>
+  <li v-for="item in items">{{ item }}</li>
+</ul>`,
+      vifelse: `<div v-if="isVisible">Visible Content</div>
+                <div v-else>Hidden Content</div>`,
+      vOn: `<button v-on:click="doSomething">Click me</button>`,
+      vIfcode: `<div v-if="isActive">This is visible if isActive is true.</div>`,
+      velseif: `<div v-if="type === 'A'">Type A</div>
+    <div v-else-if="type === 'B'">Type B</div>
+  <div v-else>Type C</div>`,
+      vElse: `<div v-if="isSpecial">Special</div>
+<div v-else>Normal</div>`,
+      vShow: `<div v-show="isVisible">This can be toggled on and off.</div>`,
+      first: `data: {
+          items: ['Apple', 'Banana', 'Cherry', 'Date']
+        }`,
+      sec: `<ul>
+    <li v-for="item in items">{{ item }}</li>
+  </ul>`,
+      li: `<li>`,
+      vForList: `<ul>
+  <li v-for="(item, index) in items">{{ index + 1 }}. {{ item }}</li>
+</ul>`,
+      passlist: `data: {
+        user: {
+          name: 'John',
+          age: 30,
+          occupation: 'Developer'
+        }
+      }`,
+      keyval: `<ul>
+  <li v-for="(value, key) in user">{{ key }}: {{ value }}</li>
+</ul>`,
     };
   },
 
@@ -371,19 +578,21 @@ li:hover {
 .example-code {
   display: flex;
   width: 100%;
-  background-color: #f9f9f9;
 }
 .example-code p {
-  width: 60%;
+  width: 50%;
 }
 .example-code pre {
-  width: 40%;
+  width: 50%;
+  display: flex;
   border-radius: 6px;
   padding: 10px 10px;
   background-color: #333;
   color: #f2f2f2;
 }
-
+.example-code pre::-webkit-scrollbar {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .main {
     padding-left: 9dvw;
@@ -406,6 +615,22 @@ li:hover {
   }
   .sec-text p {
     font-size: 0.8rem;
+  }
+  .example-code {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .example-code p {
+    width: 100%;
+  }
+  .example-code pre {
+    width: 100%;
+    display: flex;
+  }
+  .example-code pre code {
+    font-size: 0.6rem;
+    overflow-wrap: break-word;
   }
 }
 </style>
