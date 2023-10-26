@@ -20,7 +20,15 @@
       </li>
       <li @click="scrollToSection('section5')">
         5.
-        <p>List Rendering:</p>
+        <p>List Rendering</p>
+      </li>
+      <li @click="scrollToSection('section6')">
+        6.
+        <p>Event Handeling</p>
+      </li>
+      <li @click="scrollToSection('section7')">
+        7.
+        <p>Computed Properties and Watchers</p>
       </li>
     </ul>
   </div>
@@ -457,6 +465,126 @@ var vm = new Vue({
         to display a collection of items.
       </p>
     </section>
+
+    <section class="sec-text" id="section6">
+      <h3>Event Handling</h3>
+      <p>
+        In Vue.js, you can handle DOM events using the v-on directive. This
+        directive allows you to attach event listeners to specific DOM events
+        and execute methods or expressions when those events occur. Here's a
+        detailed explanation of event handling in Vue.js:<br />
+        v-on: The v-on directive is used for event binding. It listens to DOM
+        events and triggers the specified methods or expressions when the events
+        occur. It can be used in several ways:
+      </p>
+      <div class="example-code">
+        <p>
+          <b>Method Call:</b><br />
+
+          In this example, the handleClick method will be called when the button
+          is clicked.
+        </p>
+
+        <pre>
+      <code>{{ cliky }}<br>
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b>Method Call with Parameters:</b><br />
+
+          Here, the <b>handleClick</b> method is called with the argument
+          <b>'Hello'</b> when the button is clicked
+        </p>
+        <pre>
+      <code>{{ click }}<br>
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b> Inline Expression:</b><br />
+          In this case, the <b>counter</b> variable is incremented when the
+          button is clicked. You can use any valid JavaScript expression here
+        </p>
+        <pre>
+      <code>{{ counter }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b><b>Event Object:</b></b
+          ><br />
+          You can access the event object in the method by passing $event
+        </p>
+        <pre>
+      <code>{{ clickme }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b><b>Shorthand:</b></b
+          ><br />
+          Vue provides a shorthand for <b>v-on</b>. Instead of
+          <b>v-on:click,</b> you can use <b>@click:</b>
+        </p>
+        <pre>
+      <code>{{ shorthand }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b><b>Preventing Default Behavior:</b></b
+          ><br />
+          You can prevent the default behavior of an event using the
+          <b>event.preventDefault()</b> method in the event handler:
+        </p>
+        <pre>
+      <code>{{ clickprevent }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b><b>Event Modifiers:</b></b
+          ><br />
+          Vue provides event modifiers to simplify common tasks. For example,
+          <b>.stop</b> to call <b>event.stopPropagation()</b>,<b>.prevent</b>to
+          call
+          <b>event.preventDefault()</b>
+          and <b>.once</b> to ensure the event listener is triggered only once
+        </p>
+        <pre>
+      <code>{{ handlesubmit }}
+</code></pre>
+      </div>
+
+      <div class="example-code">
+        <p>
+          <b><b>Key Modifiers:</b></b
+          ><br />
+          You can listen for specific key events using key modifiers like<b>
+            .enter, .tab, .delete,</b
+          >
+          etc
+        </p>
+        <pre>
+      <code>{{  entersub}}
+</code></pre>
+      </div>
+
+      <p>
+        List rendering with v-for is a powerful feature in Vue.js, allowing you
+        to dynamically generate UI elements based on the data in your
+        application. It's essential for displaying dynamic content, such as
+        product lists, user-generated data, or any other scenario where you need
+        to display a collection of items.
+      </p>
+    </section>
   </section>
 </template>
 <script>
@@ -502,6 +630,14 @@ export default {
       keyval: `<ul>
   <li v-for="(value, key) in user">{{ key }}: {{ value }}</li>
 </ul>`,
+      click: `<button v-on:click="handleClick('Hello')">Click me</button>`,
+      counter: `<button v-on:click="counter++">Increment</button>`,
+      clickme: `<button v-on:click="handleClick($event)">Click me</button>`,
+      shorthand: `<button @click="handleClick">Click me</button>`,
+      clickprevent: `<a @click.prevent="handleClick" href="#">Click me</a>`,
+      handlesubmit: `<form @submit.prevent.once="handleSubmit">Submit</form>`,
+      entersub: `<input @keyup.enter="submitForm">`,
+      cliky: `<button v-on:click="handleClick">Click me</button>`,
     };
   },
 
@@ -590,6 +726,16 @@ li:hover {
   background-color: #333;
   color: #f2f2f2;
 }
+
+.example-code .code-pre {
+  width: 50%;
+  display: flex;
+  border-radius: 6px;
+  padding: 10px 10px;
+  background-color: #333;
+  color: #f2f2f2;
+}
+
 .example-code pre::-webkit-scrollbar {
   display: none;
 }
