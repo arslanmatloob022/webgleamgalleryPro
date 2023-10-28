@@ -63,21 +63,7 @@
                       All Elements of C-R-M Websites
                     </p>
                   </div>
-                  <div class="row link-tab">
-                    <router-link class="dropdown-link" to="/entertainmentweb">
-                      <a
-                        class="dropdown-link col-lg-12 col-md-12 col-sm-12"
-                        href=""
-                        >Entertainment</a
-                      >
-                    </router-link>
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      Elements of Entertainment Websites
-                    </p>
-                  </div>
                   <div class="row link-tab">
                     <router-link class="dropdown-link" to="/analyticsweb">
                       <a
@@ -268,9 +254,38 @@
             </div>
           </div>
         </transition>
-        <router-link class="linker" to="/learnings"
-          ><a class="link">Learnings</a></router-link
-        >
+        <div class="linker">
+          <router-link class="linker" to="/learningspage"
+            ><a class="link">Learnings</a></router-link
+          ><span class="arrow" @click="toggleDropdown('dropdown3')">
+            {{ ShowDropdown === "dropdown3" ? "&#11165;" : "&#11167;" }}
+          </span>
+        </div>
+        <transition name="dropdown-slide">
+          <div
+            v-if="ShowDropdown === 'dropdown3'"
+            class="dropdown-menu elements-dd"
+          >
+            <div class="dropdown-content">
+              <div class="row dropdown">
+                <!-- First column of UI elemets-->
+                <div class="dropdown-list col-lg-12 col-md-12 col-sm-12 col-12">
+                  <h4 class="drop-heading single-tab"></h4>
+                  <div class="row single-tab link-tab">
+                    <router-link class="dropdown-link" to="/learnings">
+                      <a
+                        class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
+                        href=""
+                        >Learn Vue.js</a
+                      >
+                    </router-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </transition>
+
         <router-link class="linker" to="/about"
           ><a class="link">About</a></router-link
         >

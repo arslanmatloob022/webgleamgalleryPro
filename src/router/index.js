@@ -41,6 +41,12 @@ const routes = [
     component: learningsPageVue,
   },
   {
+    path: "/learningspage",
+    name: "learningspage",
+    component: () =>
+      import(/*"learningspage"*/ "@/views/LearningPage/learningMainPage.vue"),
+  },
+  {
     path: "/subscribe",
     name: "subscribe",
     component: SubscritionPage,

@@ -1101,9 +1101,10 @@ var vm = new Vue({
             setting up a new Vue.js application by providing a configurable and
             feature-rich scaffolding system. Vue CLI includes a variety of
             plugins and presets to simplify tasks like routing, state
-            management, and CSS preprocessing.<br />
-            <b>Usage Example:</b><br />
-            In this example:<br />
+            management, and CSS preprocessing.<br /><br />
+            <b>Note:</b> Vue CLI provides a convenient and efficient way to
+            bootstrap Vue.js projects, enabling developers to focus on building
+            features instead of worrying about project configuration
           </p>
 
           <pre>
@@ -1111,11 +1112,7 @@ var vm = new Vue({
           </code>
         </pre>
         </div>
-        <p>
-          Vue CLI provides a convenient and efficient way to bootstrap Vue.js
-          projects, enabling developers to focus on building features instead of
-          worrying about project configuration
-        </p>
+        <p></p>
       </div>
 
       <div class="content">
@@ -1629,7 +1626,7 @@ export default {
   padding-left: 6px;
   z-index: 1;
   width: 3.9dvw;
-  height: 100vh;
+  height: 92vh;
   background-color: #2a9d8f;
   display: flex;
   position: fixed;
@@ -1641,6 +1638,9 @@ export default {
 }
 .side-bar:hover {
   width: 15dvw;
+}
+.side-bar:hover ~ ::-webkit-scrollbar-track {
+  background-color: #fff;
 }
 .side-bar ul {
   padding: 0;
