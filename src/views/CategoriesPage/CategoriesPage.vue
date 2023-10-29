@@ -1,8 +1,8 @@
 <template>
   <section class="page">
-    <h3>
+    <h2>
       Welcome to Our Digital Universe: Tailored UI Elements for Every Web Realm!
-    </h3>
+    </h2>
     <!-- ecoomerce content -->
     <div class="cont-container">
       <div class="textContent">
@@ -15,8 +15,8 @@
           out. Elevate customer engagement, enhance shopping journeys, and boost
           conversions. Explore Now!
         </p>
-        <router-link to="/ecom">
-          <a href=""
+        <router-link class="a" to="/ecomweb">
+          <a
             >Explore E-Commerce Website gleams.
             <span
               ><i
@@ -45,8 +45,8 @@
           never been easier. Empower your team, enhance productivity, and
           nurture lasting customer connections.
         </p>
-        <router-link to="/crmweb">
-          <a href=""
+        <router-link class="a" to="/crmweb">
+          <a
             >Watch and explore the cards here.
             <span
               ><i
@@ -60,7 +60,7 @@
     <!-- gaming content -->
     <div class="cont-container">
       <div class="textContent">
-        <h2>🎮 Gaming Wonderland.</h2>
+        <h2>Gaming Wonderland.</h2>
         <h4>Level Up Your Gaming Interface!</h4>
         <p>
           Level Up Your Gaming Interface! Our gaming-oriented UI elements offer
@@ -70,12 +70,16 @@
           Level Up with Us!
         </p>
 
-        <router-link to="/gamingweb"></router-link>
-        <a href=""
-          >Gaming site UI Elements
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+        <router-link class="a" to="/gamingweb">
+          <a
+            >Gaming site UI Elements
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span
+          ></a>
+        </router-link>
       </div>
       <div class="mediaContent">
         <img class="ui-img" src="" alt="" />
@@ -91,16 +95,15 @@
         <h2>Analytics Website</h2>
         <h4>Elevate Insights with Our UI Elements!</h4>
         <p>
-          In the world of data and analytics, clarity is essential. At [Your
-          Website Name], our UI elements are meticulously designed to enhance
+          In the world of data and analytics, clarity is essential. At
+          Web-Gleams-Code, our UI elements are meticulously designed to enhance
           analytics websites. From clean dashboard elements to data
           visualization cards and filterable search bars, our components make
           insights accessible and engaging.
         </p>
-        <router-link to="/sidebars">
-          <a href=""
+        <router-link class="a" to="/analyticsweb">
+          <a
             >View Learninig gateway and Resources.
-
             <span
               ><i
                 class="fa fa-arrow-circle-o-right"
@@ -108,41 +111,6 @@
               ></i></span
           ></a>
         </router-link>
-      </div>
-    </div>
-
-    <!-- buttons content -->
-    <div class="cont-container">
-      <div class="textContent bg-color">
-        <h2>
-          Button Brilliance: Explore Our Diverse Collection for Every Web
-          Experience!
-        </h2>
-        <h4>Ready to transform user interactions?</h4>
-        <p>
-          Welcome to our Button Emporium, where functionality meets flair! No
-          matter the vibe of your website – corporate, creative, or commercial –
-          our versatile button collection is tailored to elevate your user
-          interactions. Crafted to perfection, each button style ensures
-          intuitive navigation, encouraging clicks and conversions.<br />
-          🌟 Creative Buttons, 🚀 Gaming buttons, 🎨 Customizable buttons,
-          Transparent buttons that can be use in any types of website are
-          available.!
-        </p>
-        <router-link to="/sidebars">
-          <a href=""
-            >View Learninig gateway and Resources.
-
-            <span
-              ><i
-                class="fa fa-arrow-circle-o-right"
-                aria-hidden="true"
-              ></i></span
-          ></a>
-        </router-link>
-      </div>
-      <div class="mediaContent bg-color">
-        <img src="" alt="" />
       </div>
     </div>
   </section>
@@ -158,6 +126,11 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  padding: 10px 30px;
+  background-color: #f1f1f1;
+  color: #28b173;
+}
 .page {
   width: 100%;
   background-color: #ffffff;
@@ -182,7 +155,7 @@ h4 {
   color: #28b173;
 }
 .textContent h4 {
-  color: #202020;
+  color: #28b173;
   padding: 6pt 0pt;
 }
 .textContent p {
@@ -191,12 +164,15 @@ h4 {
   padding: 0pt 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.textContent a {
+.textContent .a {
   font-weight: 600;
   margin-left: 20%;
   text-align: center;
   text-decoration: none;
   color: #28b173;
+}
+.textContent .a a {
+  text-decoration: none;
 }
 
 .mediaContent {
@@ -220,7 +196,7 @@ h4 {
   display: flex;
 }
 .content h4 {
-  color: #f1f1f1;
+  color: #28b173;
   text-align: left;
 }
 .caption {
@@ -228,67 +204,15 @@ h4 {
   align-items: center;
   margin-left: 20%;
 }
-.caption h2 {
-  position: sticky;
-}
 .caption h1 {
-  color: #2beb95;
-}
-.media-content {
-  width: 100%;
-  height: 70vh;
-  background-color: #000;
-  position: relative;
-}
-.media-content video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
-}
-.media-content .content {
-  z-index: 1;
-  position: relative;
-  width: 100%;
-  text-align: center;
-  justify-content: center;
-  color: #fff4ef;
-  padding: 20px;
-  border-right: 2px solid #222222; /* Cursor style */
-  white-space: nowrap;
-  animation: typing 0.3s steps(30);
-  display: inline-block;
-}
-.text-content {
-  padding: 30px;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  position: relative;
-  color: rgb(255, 255, 230);
-}
-.multi-lines {
-  width: 60%;
-}
-.multi-lines h4 {
-  color: #2beb95;
-}
-.text-content h3 {
-  font-size: 32pt;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-    opacity: 0;
-  }
+  color: #28b173;
 }
 
 @media screen and (max-width: 678px) {
+  h2 {
+    text-align: center;
+    font-size: 1.1rem;
+  }
   .content h4 {
     text-align: left;
     font-size: 1rem;
@@ -342,7 +266,7 @@ h4 {
   .textContent p {
     font-size: 0.7rem;
   }
-  .textContent a {
+  .textContent .a {
     font-size: 0.8rem;
   }
 
@@ -351,7 +275,7 @@ h4 {
     padding: 10px 16px;
   }
   .ui-img {
-    width: 80%;
+    width: 90%;
     height: 200px;
   }
 }

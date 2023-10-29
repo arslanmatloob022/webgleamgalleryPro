@@ -19,8 +19,8 @@
           SEO-Friendly Brilliance, Customization Freedom and many more
           facilities!
         </p>
-        <router-link to="/headers">
-          <a href=""
+        <router-link class="a" to="/headers">
+          <a
             >Watch choose and use the Headers.
             <span
               ><i
@@ -53,8 +53,8 @@
           We offers: 🛍️ Product Cards, 🎨 Portfolio Cards, 🌟 Testimonial Cards
           and many more!
         </p>
-        <router-link to="/productcards">
-          <a href=""
+        <router-link class="a" to="/productcards">
+          <a
             >Watch and explore the cards here.
             <span
               ><i
@@ -83,12 +83,16 @@
           and many more of types are ready to redefine your website's search
           functionality
         </p>
-        <router-link to="/searchbars"></router-link>
-        <a href=""
-          >Visit and check UI Elements
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+        <router-link class="a" to="/searchbars">
+          <a
+            >Visit and check UI Elements
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span
+          ></a>
+        </router-link>
       </div>
       <div class="mediaContent">
         <img class="ui-img" src="" alt="" />
@@ -115,8 +119,8 @@
           🌐 Multilevel Sidebar, 🔍 Filterable Sidebar and many more are
           available.!
         </p>
-        <router-link to="/sidebars">
-          <a href=""
+        <router-link class="a" to="/sidebars">
+          <a
             >View Learninig gateway and Resources.
 
             <span
@@ -147,8 +151,8 @@
           Transparent buttons that can be use in any types of website are
           available.!
         </p>
-        <router-link to="/sidebars">
-          <a href=""
+        <router-link class="a" to="/sidebars">
+          <a
             >View Learninig gateway and Resources.
 
             <span
@@ -208,12 +212,15 @@ h4 {
   padding: 0pt 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.textContent a {
+.textContent .a {
   font-weight: 600;
   margin-left: 20%;
   text-align: center;
   text-decoration: none;
   color: #28b173;
+}
+.textContent .a a {
+  text-decoration: none;
 }
 
 .mediaContent {
@@ -226,7 +233,7 @@ h4 {
   height: 400px;
 }
 .mediaContent img {
-  width: 80%;
+  width: 94%;
 }
 /*Second section custom styling*/
 /*Hero Banner styling*/
@@ -251,50 +258,7 @@ h4 {
 .caption h1 {
   color: #2beb95;
 }
-.media-content {
-  width: 100%;
-  height: 70vh;
-  background-color: #000;
-  position: relative;
-}
-.media-content video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
-}
-.media-content .content {
-  z-index: 1;
-  position: relative;
-  width: 100%;
-  text-align: center;
-  justify-content: center;
-  color: #fff4ef;
-  padding: 20px;
-  border-right: 2px solid #222222; /* Cursor style */
-  white-space: nowrap;
-  animation: typing 0.3s steps(30);
-  display: inline-block;
-}
-.text-content {
-  padding: 30px;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  position: relative;
-  color: rgb(255, 255, 230);
-}
-.multi-lines {
-  width: 60%;
-}
-.multi-lines h4 {
-  color: #2beb95;
-}
-.text-content h3 {
-  font-size: 32pt;
-}
+
 @keyframes typing {
   from {
     width: 0;
@@ -305,7 +269,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 768px) {
   .content h4 {
     text-align: left;
     font-size: 1rem;
@@ -328,15 +292,6 @@ h4 {
   }
   .text-content {
     padding: 20px;
-  }
-  .text-content .empower h3 {
-    font-size: 1.4rem;
-  }
-  .multi-lines {
-    width: 95%;
-  }
-  .multi-lines h4 {
-    font-size: 1rem;
   }
 
   .cont-container {
@@ -368,7 +323,7 @@ h4 {
     padding: 10px 16px;
   }
   .ui-img {
-    width: 80%;
+    width: 90%;
     height: 200px;
   }
 }

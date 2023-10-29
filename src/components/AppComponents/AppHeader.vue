@@ -19,7 +19,11 @@
           <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
           >
-          <span class="arrow" @click="toggleDropdown('dropdown1')">
+          <span
+            class="arrow"
+            @mouseover="toggleDropdown('dropdown1')"
+            @click="toggleDropdown('dropdown1')"
+          >
             {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</span
           >
         </div>
@@ -148,9 +152,12 @@
         <div class="linker">
           <router-link class="linker" to="/elements"
             ><a class="link">UI Elements</a> </router-link
-          ><span class="arrow" @click="toggleDropdown('dropdown2')">{{
-            ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;"
-          }}</span>
+          ><span
+            class="arrow"
+            @mouseover="toggleDropdown('dropdown2')"
+            @click="toggleDropdown('dropdown2')"
+            >{{ ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;" }}</span
+          >
         </div>
         <transition name="dropdown-slide">
           <div
@@ -257,7 +264,11 @@
         <div class="linker">
           <router-link class="linker" to="/learningspage"
             ><a class="link">Learnings</a></router-link
-          ><span class="arrow" @click="toggleDropdown('dropdown3')">
+          ><span
+            class="arrow"
+            @mouseover="toggleDropdown('dropdown3')"
+            @click="toggleDropdown('dropdown3')"
+          >
             {{ ShowDropdown === "dropdown3" ? "&#11165;" : "&#11167;" }}
           </span>
         </div>
@@ -327,6 +338,9 @@ export default {
   methods: {
     toggleLinks() {
       this.linksActive = !this.linksActive;
+    },
+    closedropdown() {
+      this.ShowDropdown = null;
     },
 
     toggleDropdown(DropdownId) {
