@@ -1605,8 +1605,6 @@ export default {
       }
     },
   },
-  components: {},
-  mounted() {},
 };
 </script>
 
@@ -1699,7 +1697,7 @@ export default {
 .example-code pre {
   width: 50%;
   display: flex;
-  border-radius: 6px;
+  border-radius: 6px 6px 3px 3px;
   padding: 10px 10px;
   background-color: #333;
   color: #f2f2f2;
