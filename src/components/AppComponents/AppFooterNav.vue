@@ -24,7 +24,9 @@
           <p class="col-lg-12">Reactive Website</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">UI Elements</p>
+          <router-link class="linker" to="/elements">
+            <p class="col-lg-12">UI Elements</p>
+          </router-link>
         </div>
         <div class="row">
           <p class="col-lg-12">Frontend Web</p>
@@ -37,13 +39,19 @@
           <h6 class="col-lg-12 footHeading">UI Elements</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Login/Signup</p>
+          <router-link class="linker" to="/loginpages">
+            <p class="col-lg-12">Login/Signup</p>
+          </router-link>
         </div>
         <div class="row">
-          <p class="col-lg-12">Cards</p>
+          <router-link class="linker" to="/productcards">
+            <p class="col-lg-12">Cards</p>
+          </router-link>
         </div>
         <div class="row">
-          <p class="col-lg-12">Headers</p>
+          <router-link class="linker" to="/headers">
+            <p class="col-lg-12">Headers</p>
+          </router-link>
         </div>
         <div class="row">
           <p class="col-lg-12">Footers</p>
@@ -59,10 +67,14 @@
           <h6 class="col-lg-12 footHeading">Web Gleams</h6>
         </div>
         <div class="row">
-          <p class="col-lg-12">Background Anims</p>
+          <router-link class="linker" to="/aimations">
+            <p class="col-lg-12">Background Anims</p>
+          </router-link>
         </div>
         <div class="row">
-          <p href="/animations" class="col-lg-12">Loaders</p>
+          <router-link class="linker" to="/loaders">
+            <p class="col-lg-12">Loaders</p>
+          </router-link>
         </div>
         <div class="row">
           <p class="col-lg-12">Elements Anims</p>
@@ -90,7 +102,9 @@
           <p class="col-lg-12">Utilities Links</p>
         </div>
         <div class="row">
-          <p class="col-lg-12">Learning Resources</p>
+          <router-link class="linker" to="/learningspage">
+            <p class="col-lg-12">Learning Resources</p>
+          </router-link>
         </div>
         <div class="row">
           <p class="col-lg-12"></p>
@@ -178,6 +192,9 @@ export default {
 }
 .menuText h6 {
   color: #27a596;
+}
+.linker {
+  color: #222;
 }
 @media (max-width: 768px) {
   .footerTop {
