@@ -115,7 +115,7 @@
         </p>
         <router-link class="a" to="/analyticsweb">
           <a
-            >View Learninig gateway and Resources.
+            >View and match your need.
             <span
               ><i
                 class="fa fa-arrow-circle-o-right"

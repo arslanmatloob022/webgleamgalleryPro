@@ -149,10 +149,12 @@ const routes = [
       import(/*"searchbars"*/ "@/views/WebGleams/SidebarsView.vue"),
   },
 ];
-
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
+  scrollBehavior(to, from, savedPoistion) {
+    return { top: 0 };
+  },
 });
 
 export default router;

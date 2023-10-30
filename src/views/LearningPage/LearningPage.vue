@@ -1599,10 +1599,14 @@ export default {
     },
     scrollToSection(sectionId) {
       const section = document.getElementById(sectionId);
+      const margin = 70; // 60px margin from the top
+      const offsetTop = section.getBoundingClientRect().top + window.scrollY;
+      const scrollToPosition = offsetTop - margin;
 
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-      }
+      window.scrollTo({
+        top: scrollToPosition,
+        behavior: "smooth",
+      });
     },
   },
 };

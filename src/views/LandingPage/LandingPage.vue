@@ -48,12 +48,16 @@
           development. You must attend to the logics and learn the more and
           small ways out to the probelms and save your precious Time!
         </p>
-
-        <a href="#/elements"
-          >Visit and check UI Elements
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+        <router-link class="a" to="/elements">
+          <a
+            >Visit and check UI Elements
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span
+          ></a>
+        </router-link>
       </div>
       <div class="mediaContent">
         <img
@@ -76,12 +80,15 @@
           Code. Explore Our Treasury of Seamless UI Elements and Expert Web
           Development Tools. Your Journey to Exceptional Websites Starts Here!"
         </p>
-
-        <a href="/aimations"
-          >Visit and check UI Elements
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+        <router-link class="a" to="/aimations">
+          <a
+            >Visit and check UI Elements
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span></a
+        ></router-link>
       </div>
     </div>
 
@@ -101,12 +108,15 @@
           development. You must attend to the logics and learn the more and
           small ways out to the probelms and save your precious Time!
         </p>
-
-        <a href="#/elements"
-          >Visit and check UI Elements
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+        <router-link class="a" to="/elements">
+          <a
+            >Visit and check UI Elements
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span></a
+        ></router-link>
       </div>
       <div class="mediaContent">
         <img class="ui-img" src="@/assets/AppMedia/allteach.png" alt="" />
@@ -132,12 +142,16 @@
           journey.
         </p>
 
-        <a href="#/learningspage"
-          >View Learninig gateway and Resources.
+        <router-link class="a" to="/learningspage">
+          <a href="#"
+            >View Learninig gateway and Resources.
 
-          <span
-            ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
-        ></a>
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span></a
+        ></router-link>
       </div>
     </div>
   </section>
@@ -241,12 +255,16 @@ h4 {
   padding: 0pt 10pt;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.textContent a {
+.textContent .a {
   font-weight: 600;
   margin-left: 20%;
   text-align: center;
   text-decoration: none;
   color: #28b173;
+}
+.textContent .a a {
+  color: #28b173;
+  text-decoration: none;
 }
 
 .mediaContent {
