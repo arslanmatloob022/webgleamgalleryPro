@@ -3,7 +3,13 @@
     <div class="cont-container">
       <div class="main">
         <div class="media-content">
-          <video playsinline autoplay muted loop poster="@/assets/AppMedia/poster.png">
+          <video
+            playsinline
+            autoplay
+            muted
+            loop
+            poster="@/assets/AppMedia/poster.png"
+          >
             <source src="@/assets/AppMedia/networkbg.mp4" type="video/webm" />
             Your browser does not support the video tag.
           </video>
@@ -43,7 +49,7 @@
           small ways out to the probelms and save your precious Time!
         </p>
 
-        <a href=""
+        <a href="#/elements"
           >Visit and check UI Elements
           <span
             ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
@@ -71,7 +77,7 @@
           Development Tools. Your Journey to Exceptional Websites Starts Here!"
         </p>
 
-        <a href=""
+        <a href="/aimations"
           >Visit and check UI Elements
           <span
             ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
@@ -96,7 +102,7 @@
           small ways out to the probelms and save your precious Time!
         </p>
 
-        <a href=""
+        <a href="#/elements"
           >Visit and check UI Elements
           <span
             ><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span
@@ -126,7 +132,7 @@
           journey.
         </p>
 
-        <a href=""
+        <a href="#/learningspage"
           >View Learninig gateway and Resources.
 
           <span

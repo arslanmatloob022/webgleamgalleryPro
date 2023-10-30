@@ -26,14 +26,18 @@
         ></router-link>
       </div>
       <div class="mediaContent">
-        <img class="ui-img" src="" alt="UI Element Image" />
+        <img
+          class="ui-img"
+          src="@/assets/categoriesMedia/ecom.png"
+          alt="UI Element Image"
+        />
       </div>
     </div>
 
     <!-- CRM content -->
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <img src="" alt="" />
+        <img src="@/assets/categoriesMedia/worktech.png" alt="" />
       </div>
       <div class="textContent bg-color">
         <h2>CRM Revolution</h2>
@@ -63,6 +67,12 @@
         <h2>Gaming Wonderland.</h2>
         <h4>Level Up Your Gaming Interface!</h4>
         <p>
+          In the world of gaming, user engagement is key. At Web-Gleams-Code,
+          our UI elements are designed to create immersive experiences on gaming
+          websites. From dynamic portfolio cards to engaging interactive
+          elements and notification cards, our components level up your
+          website's design.<br />
+
           Level Up Your Gaming Interface! Our gaming-oriented UI elements offer
           immersive experiences. Dynamic game cards, interactive leaderboards,
           and engaging user profiles enhance gameplay. Delight players,
@@ -82,14 +92,16 @@
         </router-link>
       </div>
       <div class="mediaContent">
-        <img class="ui-img" src="" alt="" />
+        <img class="ui-img" src="@/assets/categoriesMedia/gaming.png" alt="" />
       </div>
     </div>
 
     <!-- analytics content -->
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <img src="" alt="" />
+        <div class="image">
+          <img src="@/assets/categoriesMedia/seokeywrds.png" alt="" />
+        </div>
       </div>
       <div class="textContent bg-color">
         <h2>Analytics Website</h2>
@@ -145,7 +157,7 @@ h2 {
 }
 .textContent {
   overflow: visible;
-  width: 50%;
+  width: 60%;
   padding: 20px 30px;
   background-color: #f1f1f1;
 }
@@ -176,16 +188,17 @@ h4 {
 }
 
 .mediaContent {
-  width: 50%;
+  width: 40%;
   padding: 10px 10px;
   background-color: #f1f1f1;
 }
-.ui-img {
+.mediaContent .image {
   width: 80%;
-  height: 400px;
+  height: 100%;
 }
 .mediaContent img {
-  width: 80%;
+  width: 100%;
+  height: 90%;
 }
 /*Second section custom styling*/
 /*Hero Banner styling*/

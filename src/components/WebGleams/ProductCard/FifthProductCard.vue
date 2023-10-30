@@ -249,51 +249,43 @@ export default {
 .image-nav {
   position: absolute;
   bottom: 40%;
-  gap: 240px;
-  transform: translateX(0%);
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .image-nav button {
+  padding: 10px 14px;
+  width: 24px;
   padding: 1px;
   border: none;
-  color: #fff;
   cursor: pointer;
 }
 
 .prev-btn {
+  padding: 10px 14px;
   border-radius: 0 100% 100% 0;
 }
 .next-btn {
+  padding: 10px 14px;
   border-radius: 100% 0 0 100%;
-}
-.slide-btn {
-  padding: 5px;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .close-slider {
   position: absolute;
-  width: 80px;
+  width: 28px;
+  height: 28px;
   top: 10px;
-  right: 10px;
-  font-size: 20px;
-  background: none;
-  border: none;
+  right: 42%;
+  border-radius: 6px;
   color: #fff;
+  background-color: #fff;
   cursor: pointer;
-  outline: none;
 }
 .product-card button {
   border: 1px solid #e44d26;
   font-size: 1.2rem;
   cursor: pointer;
-  padding: 10px;
   background-color: #fff5f2;
   color: #e44d26;
   transition: background-color 0.3s ease;
@@ -302,11 +294,14 @@ export default {
   border: 1px solid #c5371e;
 }
 .action-btn {
+  font-size: 1rem;
   display: flex;
   gap: 3px;
 }
 .action-btn .like-btn {
   gap: 5px;
+  width: 35%;
+  border-radius: 0 20px 20px 0;
   display: flex;
   align-items: center;
 }
@@ -314,12 +309,9 @@ export default {
   padding: 4px;
 }
 .cart-btn {
+  font-size: 1rem;
   width: 35%;
   border-radius: 20px 0 0 20px;
-}
-.like-btn {
-  width: 35%;
-  border-radius: 0 20px 20px 0;
 }
 
 .like-btn:focus {
@@ -346,11 +338,6 @@ export default {
   transition: color 0.3s ease;
 }
 
-.total-likes {
-  font-size: 1rem;
-  color: #888;
-}
-
 .product-card-content {
   padding: 15px;
 }
@@ -368,11 +355,6 @@ export default {
 
 .product-card p.price {
   font-size: 1.3rem;
-  margin: 10px 0;
-  color: #e44d26;
-}
-.product-card p.total-likes {
-  font-size: 1.1rem;
   margin: 10px 0;
   color: #e44d26;
 }
@@ -403,24 +385,19 @@ export default {
   max-width: 100%;
   border-radius: 10px;
 }
-.close-slider {
-  width: 10%;
-  left: 45%;
-  padding: 1px 1px;
-  border-radius: 10px;
-}
+
 .slide-btn {
   position: absolute;
-  padding: 8px;
+  padding: 4px 6px;
   width: 20px;
 }
 .prev-slide-btn {
   left: 0;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 .next-slide-btn {
   right: 0;
-  border-radius: 6px 0px 0px 6px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 /* Product Detail Pop up*/

@@ -30,14 +30,26 @@
         ></router-link>
       </div>
       <div class="mediaContent">
-        <img class="ui-img" src="" alt="UI Element Image" />
+        <div class="image">
+          <img
+            class="ui-img"
+            src="@/assets/elementsMedia/navbars.png"
+            alt="UI Element Image"
+          />
+        </div>
       </div>
     </div>
 
     <!-- Cards content -->
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <img src="" alt="" />
+        <div class="image">
+          <img
+            style="height: 400px"
+            src="@/assets/elementsMedia/cardsd.png"
+            alt=""
+          />
+        </div>
       </div>
       <div class="textContent bg-color">
         <h2>Elevate Your Digital Presence</h2>
@@ -95,14 +107,22 @@
         </router-link>
       </div>
       <div class="mediaContent">
-        <img class="ui-img" src="" alt="" />
+        <div class="image">
+          <img
+            class="ui-img"
+            src="@/assets/elementsMedia/seokeywrds.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
 
     <!-- sidebars content -->
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <img src="" alt="" />
+        <div class="image">
+          <img src="@/assets/elementsMedia/sidebars.png" alt="" />
+        </div>
       </div>
       <div class="textContent bg-color">
         <h2>
@@ -164,7 +184,9 @@
         </router-link>
       </div>
       <div class="mediaContent bg-color">
-        <img src="" alt="" />
+        <div class="image">
+          <img src="@/assets/elementsMedia/buttons.png" alt="" />
+        </div>
       </div>
     </div>
   </section>
@@ -228,12 +250,13 @@ h4 {
   padding: 10px 10px;
   background-color: #f1f1f1;
 }
-.ui-img {
+.mediaContent .image {
   width: 80%;
-  height: 400px;
+  height: 100%;
 }
 .mediaContent img {
-  width: 94%;
+  width: 100%;
+  height: 90%;
 }
 /*Second section custom styling*/
 /*Hero Banner styling*/
@@ -259,16 +282,6 @@ h4 {
   color: #2beb95;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-    opacity: 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .content h4 {
     text-align: left;
@@ -286,12 +299,6 @@ h4 {
   .caption h1 {
     font-size: 1.3rem;
     font-weight: bold;
-  }
-  .media-content {
-    height: 45vh;
-  }
-  .text-content {
-    padding: 20px;
   }
 
   .cont-container {
