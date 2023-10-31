@@ -295,11 +295,11 @@
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-12 col-12">
                   <h4 class="drop-heading single-tab">Roadmaps</h4>
                   <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/learnings">
+                    <router-link class="dropdown-link" to="/fullstack">
                       <a
                         class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
                         href=""
-                        >Learn Vue.js</a
+                        >Full Stack Roadmaps</a
                       >
                     </router-link>
                   </div>
