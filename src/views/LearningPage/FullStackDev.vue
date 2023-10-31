@@ -62,12 +62,11 @@
         <!-- html leatning -->
         <div class="tech">
           <div class="number">1</div>
-
           <b>HTML and CSS:</b> Study HTML clearing all concepts, learning all
           tags and working of forms and structure. also learn about the parent
           child relationship of tags and their sequence.<br />Learn
           Cascading-Style-Sheet, all attributes and their properties. Also learn
-          about advance CSS link SASS SCSS and Other liberraires.
+          about advance CSS link SASS SCSS and Other liberaries.
         </div>
 
         <!-- Js learnings -->
@@ -278,9 +277,148 @@
       </div>
     </section>
 
+    <!-- Mevn stack -->
+    <section class="content">
+      <h3>3. MEVN Stack:</h3>
+      <h5>
+        MEVN stands for <b>MongoDB</b>, <b>Express.js</b>, <b>Vue.Js</b>, and
+        <b>Node.js</b>.
+      </h5>
+      <div class="stacks">
+        <div class="tech">
+          <div class="icons">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          </div>
+          <img
+            src="@/assets/LearningsMedia/mongodb.png"
+            alt="mongoDb"
+            srcset=""
+          />
+          <b>MongoDB:</b>
+          A NoSQL database that stores data in JSON-like documents.
+        </div>
+        <div class="tech">
+          <div class="icons">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          </div>
+          <img
+            src="@/assets/LearningsMedia/express.png"
+            alt="mongoDb"
+            srcset=""
+          />
+          <b>Express.js:</b> A minimalist web application framework for Node.js.
+        </div>
+        <div class="tech">
+          <div class="icons">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          </div>
+          <img src="@/assets/LearningsMedia/vue.png" alt="mongoDb" srcset="" />
+          <b>Vue:</b> Learn Vue.js core concepts, including directives,
+          components, the Vue instance, and data binding. Focusing on Vuex,
+          Router, RESTful API, Lifecycles and Forms will Lead you to Your MEVN
+          Stack journey!<br />
+        </div>
+
+        <div class="tech">
+          <div class="icons">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          </div>
+          <img
+            src="@/assets/LearningsMedia/nodeJs.png"
+            alt="mongoDb"
+            srcset=""
+          />
+          <b>Node.js:</b> A JavaScript runtime built on Chrome's V8 JavaScript
+          engine for server-side programming.
+        </div>
+      </div>
+
+      <div class="learning">
+        <h3>Learning Steps and Procedures:</h3>
+        <!-- html leatning -->
+        <div class="tech">
+          <div class="number">1</div>
+
+          <b>HTML and CSS:</b> Study HTML clearing all concepts, learning all
+          tags and working of forms and structure. also learn about the parent
+          child relationship of tags and their sequence.<br />Learn
+          Cascading-Style-Sheet, all attributes and their properties. Also learn
+          about advance CSS link SASS SCSS and Other liberraires.
+        </div>
+
+        <!-- Js learnings -->
+        <div class="tech">
+          <div class="number">2</div>
+          <b>JavaScript:</b> Start learning about JavaScript beacuase it is a
+          core language of website development process. Learn all basics
+          concepts including Structural work of website and methametical
+          function of strings and arrays.
+        </div>
+
+        <!-- Nodejs learnig -->
+        <div class="tech">
+          <div class="number">3</div>
+
+          <b>Node.js:</b> Understand the fundamentals of Node.js, including
+          modules, events, and file system operations.
+        </div>
+
+        <!-- learn expresss js -->
+        <div class="tech">
+          <div class="number">4</div>
+
+          <b>Express.js:</b>Learn to create RESTful APIs and handle HTTP
+          requests and responses using Express.js.
+        </div>
+
+        <!-- leaarn mongodb -->
+        <div class="tech">
+          <div class="number">5</div>
+
+          <b>MongoDB:</b> Study NoSQL databases, JSON-like data storage, and
+          basic MongoDB operations.
+        </div>
+
+        <!-- learn react -->
+        <div class="tech">
+          <div class="number">6</div>
+
+          <b>Angular:</b>Master TypeScript, Angular components, directives,
+          services, and routing.<b>Advance Anugular concepts</b>
+          Explore advanced topics like reactive forms, observables, and
+          dependency injection.
+        </div>
+
+        <!-- learn integration -->
+        <div class="tech">
+          <div class="number">7</div>
+
+          <b>Integration:</b>Learn how to integrate React with Express.js,
+          connecting frontend and backend components.
+        </div>
+
+        <!-- learn authentication -->
+        <div class="tech">
+          <div class="number">8</div>
+
+          <b>Authentication and Authorization:</b>Implement user authentication
+          and authorization using technologies like JSON Web Tokens (JWT) or
+          OAuth.
+        </div>
+
+        <!-- learn authentication -->
+        <div class="tech">
+          <div class="number">9</div>
+
+          <b>Deployment:</b>Understand deployment strategies and tools, like
+          Docker and platforms like Heroku or AWS.
+        </div>
+      </div>
+    </section>
+
     <!-- LAMP stack -->
     <section class="content">
-      <h3>3. LAMP Stack:</h3>
+      <h3>4. LAMP Stack:</h3>
       <h5>
         LAMP stands for <b>Linux</b>, <b>Apache</b>, <b>MySQL</b>, and
         <b>PHP/Python/Perl</b>.
@@ -393,7 +531,7 @@
 
     <!-- Django stack -->
     <section class="content">
-      <h3>4. Django Stack:</h3>
+      <h3>5. Django Stack:</h3>
 
       <div class="stacks">
         <div class="tech">
@@ -460,7 +598,7 @@
 
     <!-- Ruby on rails -->
     <section class="content">
-      <h3>5. Ruby on Rails Stack:</h3>
+      <h3>6. Ruby on Rails Stack:</h3>
 
       <div class="stacks">
         <div class="tech">
