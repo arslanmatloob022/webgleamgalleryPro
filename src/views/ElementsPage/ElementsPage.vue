@@ -1,7 +1,15 @@
 <template>
   <section class="page">
     <!-- headers content -->
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="textContent">
         <h2>
           Explore Header Excellence Elevate Your Website’s First Impression
@@ -41,7 +49,15 @@
     </div>
 
     <!-- Cards content -->
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="mediaContent bg-color">
         <div class="image">
           <img
@@ -78,7 +94,15 @@
     </div>
 
     <!-- Searchbars content -->
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="textContent">
         <h2>Discover Seamless Search: Where Functionality Meets Style!</h2>
         <h4>🔍 Embrace the future of search with our visual search bars!</h4>
@@ -110,7 +134,7 @@
         <div class="image">
           <img
             class="ui-img"
-            src="@/assets/elementsMedia/seokeywrds.png"
+            src="@/assets/elementsMedia/searchbars.png"
             alt=""
           />
         </div>
@@ -118,7 +142,15 @@
     </div>
 
     <!-- sidebars content -->
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="mediaContent bg-color">
         <div class="image">
           <img src="@/assets/elementsMedia/sidebars.png" alt="" />
@@ -154,7 +186,15 @@
     </div>
 
     <!-- buttons content -->
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="textContent bg-color">
         <h2>
           Button Brilliance: Explore Our Diverse Collection for Every Web
@@ -171,7 +211,7 @@
           Transparent buttons that can be use in any types of website are
           available.!
         </p>
-        <router-link class="a" to="/sidebars">
+        <router-link class="a" to="/buttons">
           <a
             >View Learninig gateway and Resources.
 

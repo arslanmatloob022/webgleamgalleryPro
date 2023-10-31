@@ -20,7 +20,7 @@
 
 <script>
 import FilterAndSorting from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/FilterAndSorting.vue";
-import ProductCard from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/ProductListing.vue";
+import ProductCard from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/ProductCard.vue";
 export default {
   components: {
     FilterAndSorting,

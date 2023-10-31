@@ -148,6 +148,12 @@ const routes = [
     component: () =>
       import(/*"searchbars"*/ "@/views/WebGleams/SidebarsView.vue"),
   },
+  {
+    path: "/fullstack",
+    name: "fullstack",
+    component: () =>
+      import(/*"fullstack"*/ "@/views/LearningPage/FullStackDev.vue"),
+  },
 ];
 const router = createRouter({
   history: createWebHashHistory(),

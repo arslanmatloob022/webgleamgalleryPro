@@ -1,6 +1,6 @@
 <template>
   <section class="page">
-    <div class="cont-container">
+    <div>
       <div class="main">
         <div class="media-content">
           <video
@@ -38,7 +38,15 @@
       </div>
     </div>
 
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="textContent">
         <h2>Empowering Developers, Inspiring Designs</h2>
         <h4>You Apply and build logics leave UI on us.</h4>
@@ -68,7 +76,15 @@
       </div>
     </div>
 
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/animrem.png" alt="" />
       </div>
@@ -92,7 +108,15 @@
       </div>
     </div>
 
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="textContent">
         <h2>
           Your Ultimate Source for Seamless UI Elements and Web Development
@@ -123,7 +147,15 @@
       </div>
     </div>
 
-    <div class="cont-container">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      class="cont-container"
+    >
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/teambuild.png" alt="" />
       </div>
