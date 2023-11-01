@@ -60,10 +60,10 @@
         <h4>Learn and know the basics of Full-Stack Development</h4>
         <p>
           Becoming a full stack developer is a transformative journey, and at
-          [Your Website Name], we're here to guide you every step of the way.
-          Our comprehensive Full Stack Developer Roadmaps are meticulously
-          crafted blueprints designed to help you navigate the complex world of
-          web development. Whether you're aspiring to master MERN, MEAN, or any
+          Web-Gleams-Gallery, we're here to guide you every step of the way. Our
+          comprehensive Full Stack Developer Roadmaps are meticulously crafted
+          blueprints designed to help you navigate the complex world of web
+          development. Whether you're aspiring to master MERN, MEAN, or any
           other stack, our roadmaps provide clear milestones, recommended
           resources, and hands-on projects to accelerate your learning.
         </p>

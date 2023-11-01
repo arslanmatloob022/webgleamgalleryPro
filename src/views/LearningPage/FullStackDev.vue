@@ -1,5 +1,13 @@
 <template>
   <section class="main">
+    <section class="content">
+      <p>
+        Becoming a full-stack web developer involves understanding both frontend
+        and backend technologies. There are several popular technology stacks
+        that developers often use. I'll outline a few of them below, along with
+        their details, learning steps, and procedures.
+      </p>
+    </section>
     <!-- Mern stack -->
     <section class="content">
       <h3>1. MERN Stack:</h3>

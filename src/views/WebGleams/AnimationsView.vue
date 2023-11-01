@@ -104,7 +104,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3><b>4.</b> Animated Fllying Balloons</h3>
+          <h3><b>4.</b> Animated Flying Balloons</h3>
         </div>
 
         <div class="form-imgs">
@@ -403,7 +403,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3><b>12.</b>Water Bubbles Animation</h3>
+          <h3><b>13.</b>Water Bubbles Animation</h3>
         </div>
 
         <div class="form-imgs">
@@ -437,7 +437,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3><b>13.</b>Div Border Waves Animation</h3>
+          <h3><b>14.</b>Div Border Waves Animation</h3>
         </div>
 
         <div class="form-imgs">
