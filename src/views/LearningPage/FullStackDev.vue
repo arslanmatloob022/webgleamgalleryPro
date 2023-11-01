@@ -391,10 +391,10 @@
         <div class="tech">
           <div class="number">6</div>
 
-          <b>Angular:</b>Master TypeScript, Angular components, directives,
-          services, and routing.<b>Advance Anugular concepts</b>
-          Explore advanced topics like reactive forms, observables, and
-          dependency injection.
+          <b>Vue:</b>Learn Vue.js core concepts, including directives,
+          components, the Vue instance, and data binding. Understand client-side
+          routing in Vue.js applications. Learn how to set up routes, navigate
+          between views, and pass data between components.
         </div>
 
         <!-- learn integration -->

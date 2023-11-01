@@ -84,7 +84,7 @@ export default {
     return {
       searchTerm: "",
       selectedCategory: "all",
-      isEditing: flase,
+      isEditing: false,
       editedContact: { id: null, name: "", email: "", category: "" },
       contacts: [
         {

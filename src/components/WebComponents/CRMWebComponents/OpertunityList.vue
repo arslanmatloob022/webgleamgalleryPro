@@ -1,83 +1,78 @@
 <template>
-  <section class="main">
-    <div class="container">
-      <div class="opportunity-list">
-        <h2>Opportunity List</h2>
+  <section>
+    <div class="opportunity-list">
+      <h2>Opportunity List</h2>
 
-        <!-- Filters -->
-        <div class="filters">
-          <label for="search">Search:</label>
-          <input
-            type="text"
-            id="search"
-            v-model="searchQuery"
-            @input="applyFilters"
-          />
+      <!-- Filters -->
+      <div class="filters">
+        <label for="search">Search:</label>
+        <input
+          type="text"
+          id="search"
+          v-model="searchQuery"
+          @input="applyFilters"
+        />
 
-          <label for="stage">Stage:</label>
-          <select id="stage" v-model="selectedStage" @change="applyFilters">
-            <option value="">All</option>
-            <option v-for="stage in uniqueStages" :key="stage" :value="stage">
-              {{ stage }}
-            </option>
-          </select>
-        </div>
+        <label for="stage">Stage:</label>
+        <select id="stage" v-model="selectedStage" @change="applyFilters">
+          <option value="">All</option>
+          <option v-for="stage in uniqueStages" :key="stage" :value="stage">
+            {{ stage }}
+          </option>
+        </select>
+      </div>
 
-        <!-- Opportunity Table -->
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Stage</th>
-              <th>Value</th>
-              <th>Expected Close Date</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="opportunity in paginatedOpportunities"
-              :key="opportunity.id"
-            >
-              <td>{{ opportunity.name }}</td>
-              <td>{{ opportunity.stage }}</td>
-              <td>{{ opportunity.value }}</td>
-              <td>{{ opportunity.expectedCloseDate }}</td>
-              <td>
-                <button
-                  class="action-btn"
-                  @click="editOpportunity(opportunity)"
-                >
-                  Edit
-                </button>
-                <button
-                  class="action-btn"
-                  @click="deleteOpportunity(opportunity.id)"
-                >
-                  Delete
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <!-- Pagination -->
-        <div class="pagination">
-          <button
-            class="action-btn"
-            @click="prevPage"
-            :disabled="currentPage === 1"
+      <!-- Opportunity Table -->
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Stage</th>
+            <th>Value</th>
+            <th>Expected Close Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            v-for="opportunity in paginatedOpportunities"
+            :key="opportunity.id"
           >
-            Previous
-          </button>
-          <button
-            class="action-btn"
-            @click="nextPage"
-            :disabled="currentPage === totalPages"
-          >
-            Next
-          </button>
-        </div>
+            <td>{{ opportunity.name }}</td>
+            <td>{{ opportunity.stage }}</td>
+            <td>{{ opportunity.value }}</td>
+            <td>{{ opportunity.expectedCloseDate }}</td>
+            <td>
+              <button class="action-btn" @click="editOpportunity(opportunity)">
+                Edit
+              </button>
+              <button
+                class="action-btn"
+                @click="deleteOpportunity(opportunity.id)"
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button
+          class="action-btn"
+          @click="prevPage"
+          :disabled="currentPage === 1"
+        >
+          Previous
+        </button>
+        <button
+          class="action-btn"
+          @click="nextPage"
+          :disabled="currentPage === totalPages"
+        >
+          Next
+        </button>
       </div>
     </div>
   </section>
@@ -178,11 +173,11 @@ export default {
   methods: {
     editOpportunity(opportunity) {
       // Implement edit functionality
-      console.log("Editing opportunity:", opportunity);
+      window.alert("Editing opportunity:", opportunity);
     },
     deleteOpportunity(opportunityId) {
       // Implement delete functionality
-      console.log("Deleting opportunity with ID:", opportunityId);
+      window.alert("Deleting opportunity with ID:", opportunityId);
     },
     applyFilters() {
       this.currentPage = 1;

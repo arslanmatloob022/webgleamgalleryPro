@@ -1,31 +1,27 @@
 <template>
-  <section class="main">
-    <div class="container">
-      <div class="customer-support">
-        <h2>Customer Support Interface</h2>
+  <section>
+    <div class="customer-support">
+      <h2>Customer Support Interface</h2>
 
-        <!-- List of Support Tickets -->
-        <div class="support-tickets">
-          <div v-for="ticket in supportTickets" :key="ticket.id" class="ticket">
-            <h2>{{ ticket.subject }}</h2>
-            <p>{{ ticket.description }}</p>
-            <button class="action-btns" @click="respondToTicket(ticket)">
-              Respond
-            </button>
-          </div>
-        </div>
-
-        <!-- Ticket Response Form -->
-        <div v-if="selectedTicket" class="response-form">
-          <h3>Respond to Ticket</h3>
-          <textarea
-            v-model="responseText"
-            placeholder="Enter your response"
-          ></textarea>
-          <button class="action-btns" @click="sendResponse">
-            Send Response
+      <!-- List of Support Tickets -->
+      <div class="support-tickets">
+        <div v-for="ticket in supportTickets" :key="ticket.id" class="ticket">
+          <h2>{{ ticket.subject }}</h2>
+          <p>{{ ticket.description }}</p>
+          <button class="action-btns" @click="respondToTicket(ticket)">
+            Respond
           </button>
         </div>
+      </div>
+
+      <!-- Ticket Response Form -->
+      <div v-if="selectedTicket" class="response-form">
+        <h3>Respond to Ticket</h3>
+        <textarea
+          v-model="responseText"
+          placeholder="Enter your response"
+        ></textarea>
+        <button class="action-btns" @click="sendResponse">Send Response</button>
       </div>
     </div>
   </section>

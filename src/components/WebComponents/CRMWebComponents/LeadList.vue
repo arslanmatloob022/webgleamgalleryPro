@@ -1,57 +1,64 @@
 <template>
-  <section class="main">
-    <div class="container">
-      <div class="lead-list">
-        <h2>Lead List</h2>
+  <section>
+    <div class="lead-list">
+      <h2>Lead List</h2>
 
-        <!-- Search and Filter Options -->
-        <div class="search-filter">
-          <input v-model="searchQuery" placeholder="Search by name..." />
-          <select v-model="filterStatus">
-            <option value="">All</option>
+      <!-- Search and Filter Options -->
+      <div class="search-filter">
+        <input v-model="searchQuery" placeholder="Search by name..." />
+        <select v-model="filterStatus">
+          <option value="">All</option>
+          <option value="new">New</option>
+          <option value="contacted">Contacted</option>
+          <option value="converted">Converted</option>
+        </select>
+      </div>
+
+      <!-- Lead List -->
+      <div class="lead-item" v-for="lead in filteredLeads" :key="lead.id">
+        <div class="lead-info">
+          <p class="lead-name">{{ lead.name }}</p>
+          <p class="lead-email">{{ lead.email }}</p>
+          <p class="lead-status">{{ lead.status }}</p>
+        </div>
+        <div class="lead-actions">
+          <button
+            class="action-btn"
+            @click="convertToOpportunity(lead)"
+            v-if="lead.status === 'new'"
+          >
+            Convert
+          </button>
+          <button class="action-btn" @click="editLead(lead)">Edit</button>
+          <button class="action-btn" @click="deleteLead(lead)">Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="show" v-if="editingLead">
+      <div class="show-content">
+        <h3>Edit Lead</h3>
+        <div class="form-group">
+          <label>Name:</label>
+          <input v-model="editingLead.name" />
+        </div>
+
+        <div class="form-group">
+          <label>Email:</label>
+          <input v-model="editingLead.email" />
+        </div>
+
+        <div class="form-group">
+          <label>Status:</label>
+          <select v-model="editingLead.status">
             <option value="new">New</option>
             <option value="contacted">Contacted</option>
             <option value="converted">Converted</option>
           </select>
         </div>
 
-        <!-- Lead List -->
-        <div class="lead-item" v-for="lead in filteredLeads" :key="lead.id">
-          <div class="lead-info">
-            <p class="lead-name">{{ lead.name }}</p>
-            <p class="lead-email">{{ lead.email }}</p>
-            <p class="lead-status">{{ lead.status }}</p>
-          </div>
-          <div class="lead-actions">
-            <button
-              class="action-btn"
-              @click="convertToOpportunity(lead)"
-              v-if="lead.status === 'new'"
-            >
-              Convert
-            </button>
-            <button class="action-btn" @click="editLead(lead)">Edit</button>
-            <button class="action-btn" @click="deleteLead(lead)">Delete</button>
-          </div>
-        </div>
-
-        <!-- Edit Lead Modal -->
-        <div class="modal" v-if="editingLead">
-          <div class="modal-content">
-            <h3>Edit Lead</h3>
-            <label>Name:</label>
-            <input v-model="editingLead.name" />
-            <label>Email:</label>
-            <input v-model="editingLead.email" />
-            <label>Status:</label>
-            <select v-model="editingLead.status">
-              <option value="new">New</option>
-              <option value="contacted">Contacted</option>
-              <option value="converted">Converted</option>
-            </select>
-            <button class="action-btn" @click="saveEdit">Save</button>
-            <button class="action-btn" @click="cancelEdit">Cancel</button>
-          </div>
+        <div class="buttons">
+          <button class="action-btn" @click="saveEdit">Save</button>
+          <button class="action-btn" @click="cancelEdit">Cancel</button>
         </div>
       </div>
     </div>
@@ -61,7 +68,7 @@
 export default {
   data() {
     return {
-      editingLead: null,
+      editingLead: false,
       searchQuery: "",
       filterStatus: "",
       leads: [
@@ -127,6 +134,9 @@ export default {
         this.leads.splice(index, 1);
       }
     },
+    cancelEdit() {
+      this.editingLead = false;
+    },
   },
 };
 </script>
@@ -178,14 +188,7 @@ select {
   margin-left: 10px;
   cursor: pointer;
 }
-.main {
-  margin: 0;
-  display: flex;
-  padding: 20px 10px;
-  width: 100%;
-  gap: 10px;
-  box-shadow: 0px 0px 10px #333;
-}
+
 .container {
   width: 100%;
   z-index: 0;
@@ -204,133 +207,47 @@ select {
   color: #fff;
   cursor: pointer;
 }
-.code-container {
-  display: flex;
-  border-radius: 5px;
-  flex-direction: column;
-  padding: 10px;
-  width: 50%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  background-color: #ffffff;
-}
-h2 {
-  font-size: 24px;
-  margin: 10px;
-}
-textarea {
-  font-family: monospace;
-  padding: 10px;
-  border-radius: 6px;
-  width: 95%;
-}
-#copycode {
-  margin: 10px;
-  padding: 6px 4px;
-  width: 80px;
-  height: 40px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 0px 3px #afafaf;
-}
-#copycode:hover {
-  transform: scale(1.07);
-  box-shadow: 0px 0px 5px #afafaf;
-}
 
-.modal {
+.show {
   background-color: #443f3fd8;
   border-radius: 6px;
   position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
   z-index: 1000;
   padding: 20px;
-  width: 60%;
-  top: 10%;
-  left: 20%;
   color: white;
 }
-.modal input {
+.show-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-group {
+  width: 100%;
+}
+.show input {
   margin: 14px;
-  width: 60%;
+  width: 80%;
   padding: 5px;
   border-radius: 6px;
 }
 
-.modal select {
+.show select {
   border-radius: 6px;
-  width: 57%;
+  width: 80%;
   margin: 14px;
   padding: 5px;
 }
-.modal .btn {
+.show .btn {
   padding: 6px 8px;
   margin: 0px 10px;
 }
-* {
-  margin: 0;
-}
-@media screen and (max-width: 760px) {
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .container {
-    width: 100%;
-  }
-  .code-container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 670px) {
-  .lead-list {
-    width: 100%;
-    margin: 0;
-  }
-
-  input {
-    flex-grow: 1;
-    margin-right: 10px;
-    padding: 5px;
-  }
-
-  select {
-    width: 100px;
-    padding: 5px;
-  }
-
-  .main {
-    margin: 0;
-    padding: 10px 10px;
-    width: 100%;
-  }
-  .container {
-    width: 100%;
-    z-index: 0;
-    margin: 0;
-  }
-  .code-container {
-    width: 100%;
-    margin: 0;
-  }
-  h2 {
-    font-size: 16px;
-  }
-  textarea {
-    width: 100%;
-  }
-  #copycode {
-    padding: 6px 4px;
-  }
-
-  .modal {
-    width: 100%;
-  }
-
-  .modal .btn {
-    padding: 2px 4px;
-  }
+.buttons {
+  display: flex;
+  gap: 16px;
 }
 </style>

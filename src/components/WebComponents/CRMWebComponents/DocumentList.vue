@@ -1,31 +1,25 @@
 <template>
-  <section class="main">
-    <div class="container">
-      <div class="document-management">
-        <h2>Document Management</h2>
+  <section>
+    <div class="document-management">
+      <h2>Document Management</h2>
 
-        <!-- File Upload -->
-        <div class="file-upload">
-          <input
-            id="fileinput"
-            type="file"
-            ref="fileInput"
-            @change="uploadFile"
-          />
-          <button @click="clearFileInput">Clear</button>
-        </div>
+      <!-- File Upload -->
+      <div class="file-upload">
+        <input
+          id="fileinput"
+          type="file"
+          ref="fileInput"
+          @change="uploadFile"
+        />
+        <button @click="clearFileInput">Clear</button>
+      </div>
 
-        <!-- List of Uploaded Documents -->
-        <div class="document-list">
-          <div
-            v-for="document in documents"
-            :key="document.id"
-            class="document"
-          >
-            <a :href="document.url" target="_blank">{{ document.name }}</a>
-            <button @click="deleteDocument(document.id)">Delete</button>
-            <button>Share</button>
-          </div>
+      <!-- List of Uploaded Documents -->
+      <div class="document-list">
+        <div v-for="document in documents" :key="document.id" class="document">
+          <a :href="document.url" target="_blank">{{ document.name }}</a>
+          <button @click="deleteDocument(document.id)">Delete</button>
+          <button>Share</button>
         </div>
       </div>
     </div>
