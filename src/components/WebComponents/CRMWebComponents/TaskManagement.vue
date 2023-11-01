@@ -1,5 +1,5 @@
 <template>
-  <section class="main">
+  <section>
     <div class="container">
       <div class="task-management">
         <h2>Task and Activity Management</h2>
@@ -36,7 +36,12 @@ export default {
 
   data() {
     return {
-      tasks: [],
+      tasks: [
+        {
+          id: 1,
+          text: "Tasks will display here",
+        },
+      ],
       newTask: "",
       taskId: 1,
     };

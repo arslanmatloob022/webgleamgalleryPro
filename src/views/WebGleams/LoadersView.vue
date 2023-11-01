@@ -17,20 +17,43 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader1/vanillacode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader1/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader1/FirstLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -43,7 +66,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>1. Website Loader</h3>
+          <h3>2. Website Loader</h3>
         </div>
         <div class="loader-div">
           <video
@@ -56,20 +79,42 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader2/vanillacode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader2/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader2/SecondLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -82,7 +127,7 @@
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>1. Website Loader</h3>
+          <h3>3. Website Loader</h3>
         </div>
         <div class="loader-div">
           <video
@@ -95,20 +140,43 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader3/vanillacode/code.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader3/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader3/ThirdLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -117,11 +185,11 @@
       </div>
     </div>
 
-    <!-- first loader  -->
+    <!-- fourth loader  -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>1. Website Loader</h3>
+          <h3>4. Website Loader</h3>
         </div>
         <div class="loader-div">
           <video
@@ -134,20 +202,43 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader4/vanillacode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loader4/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader4/FourthLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -156,7 +247,7 @@
       </div>
     </div>
 
-    <!-- first loader  -->
+    <!-- fifth loader  -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
@@ -173,20 +264,44 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
+
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader5/vanillacode/vanillacode.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader5/reactcode/reactcode.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader5/FifthLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -195,11 +310,11 @@
       </div>
     </div>
 
-    <!-- first loader  -->
+    <!-- sixth loader  -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>1. Website Loader</h3>
+          <h3>6. Website Loader</h3>
         </div>
         <div class="loader-div">
           <video
@@ -212,20 +327,43 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader6/vanillacode/vanillacode.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader6/reactcode/reactcode.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loader6/SixthLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -234,11 +372,11 @@
       </div>
     </div>
 
-    <!-- first loader  -->
+    <!-- seventh loader  -->
     <div class="container-box">
       <div class="media">
         <div class="media-header">
-          <h3>1. Website Loader</h3>
+          <h3>7. Website Loader</h3>
         </div>
         <div class="loader-div">
           <video
@@ -251,20 +389,43 @@
         </div>
       </div>
       <div class="text-content">
-        <h3>Login and Signup Forms</h3>
+        <h3>
+          Seamless Transitions, Engaging User Experience: Discover Our Website
+          Loaders!
+        </h3>
         <p>
-          Authentication and Autherization in any Application are the process
-          are done by Login and Signup forms.<br />login/Signup froms are the
-          first major component of the Web Application are developed by Web
-          Frontend Developers and Secured by Backend Wed Developers.<br />
-          Here you can select any of the following frameworks you are working on
-          to get you desired code format or watch the tutorial to get full
-          understanding of the logics.
+          In the digital realm, first impressions matter. Slow-loading websites
+          can turn away visitors before they even explore your content. Our
+          Website Loaders are crafted to ensure swift and visually appealing
+          transitions, enhancing user experience and keeping visitors engaged.
+          With a variety of styles and customizable options, these loaders add a
+          touch of sophistication to your website while ensuring fast and
+          efficient loading times.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/Loaders/loaders7/vanillacode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loaders7/reactcode/reactcode.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Loaders/loaders7/SeventhLoader.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>

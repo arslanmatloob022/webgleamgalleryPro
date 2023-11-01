@@ -22,9 +22,28 @@
           <b>Quick Actions.</b>
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            target="_blank"
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/contactlist/vanilla"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/contactlist/contact-list-react.js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/contactlist/contactlist.vue"
+            target="_blank"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -55,9 +74,29 @@
           personalized support to your clients.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/customersupport/vanilla.js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/customersupport/react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/customersupport/customersupprt.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -88,9 +127,29 @@
           document-related tasks, ensuring your team stays productive.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/doc-manage/vanillacode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/doc-manage/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/doc-manage/docmanagment.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -121,9 +180,29 @@
           convert leads into loyal customers effortlessly.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/lead-list/vanilla"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/lead-list/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/lead-list/app.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button>
+          </a>
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -132,7 +211,7 @@
       </div>
     </div>
 
-    <!-- lead list managment -->
+    <!-- opertunity list managment -->
     <div class="container-box">
       <div class="media">
         <div class="form-imgs">
@@ -154,9 +233,80 @@
           customer relationships.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/opertunitylist/vanilla"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/opertunitylist/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/opertunitylist/index.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- opertunity list managment -->
+    <div class="container-box">
+      <div class="media">
+        <div class="form-imgs">
+          <task-management-vue class="component"></task-management-vue>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>6. Task Management component for CRM Websites:</h3>
+        <h5>
+          Effortless Task Coordination: Unveiling Our Task Management Component!
+        </h5>
+        <p>
+          In the fast-paced world of business, efficient task management is the
+          linchpin of productivity. Our Task Management Component for CRM
+          websites is your ultimate solution for organizing, assigning, and
+          tracking tasks seamlessly. With intuitive features like task
+          prioritization, deadline setting, and progress tracking, this
+          component ensures your team stays on top of assignments, deadlines,
+          and client interactions.
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/taskmanagement/vanilla"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/tree/main/CRM%20Components/taskmanagement/reactcode"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/CRM%20Components/taskmanagement/taskmanagement.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -174,6 +324,7 @@ import CustomerSupport from "@/components/WebComponents/CRMWebComponents/Custome
 import DocumentList from "@/components/WebComponents/CRMWebComponents/DocumentList.vue";
 import LeadListVue from "@/components/WebComponents/CRMWebComponents/LeadList.vue";
 import OpertunityList from "@/components/WebComponents/CRMWebComponents/OpertunityList.vue";
+import TaskManagementVue from "@/components/WebComponents/CRMWebComponents/TaskManagement.vue";
 
 export default {
   name: "CrmWebPage",
@@ -187,6 +338,7 @@ export default {
     DocumentList,
     LeadListVue,
     OpertunityList,
+    TaskManagementVue,
   },
 };
 </script>
