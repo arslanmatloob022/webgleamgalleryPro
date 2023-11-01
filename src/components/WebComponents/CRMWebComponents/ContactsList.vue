@@ -35,41 +35,44 @@
           </div>
         </li>
       </ul>
-    </div>
-
-    <div v-if="isEditing" class="show">
-      <div class="modal-content">
-        <h2>Edit Contact</h2>
-        <form @submit.prevent="updateContact">
-          <div class="form-group">
-            <label for="editName">Name</label>
-            <input
-              type="text"
-              id="editName"
-              v-model="editedContact.name"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="editEmail">Email</label>
-            <input
-              type="email"
-              id="editEmail"
-              v-model="editedContact.email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="editCategory">Category</label>
-            <select id="editCategory" v-model="editedContact.category" required>
-              <option value="family">Family</option>
-              <option value="friends">Friends</option>
-              <option value="colleagues">Colleagues</option>
-            </select>
-          </div>
-          <button class="btn" type="submit">Save Changes</button>
-          <button class="btn" @click="cancelEdit()">Cancel</button>
-        </form>
+      <div v-if="isEditing" class="show">
+        <div class="modal-content">
+          <h2>Edit Contact</h2>
+          <form @submit.prevent="updateContact">
+            <div class="form-group">
+              <label for="editName">Name</label>
+              <input
+                type="text"
+                id="editName"
+                v-model="editedContact.name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="editEmail">Email</label>
+              <input
+                type="email"
+                id="editEmail"
+                v-model="editedContact.email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="editCategory">Category</label>
+              <select
+                id="editCategory"
+                v-model="editedContact.category"
+                required
+              >
+                <option value="family">Family</option>
+                <option value="friends">Friends</option>
+                <option value="colleagues">Colleagues</option>
+              </select>
+            </div>
+            <button class="btn" type="submit">Save Changes</button>
+            <button class="btn" @click="cancelEdit()">Cancel</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -81,7 +84,7 @@ export default {
     return {
       searchTerm: "",
       selectedCategory: "all",
-      isEditing: true,
+      isEditing: flase,
       editedContact: { id: null, name: "", email: "", category: "" },
       contacts: [
         {
