@@ -19,11 +19,7 @@
           <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
           >
-          <span
-            class="arrow"
-            @mouseover="toggleDropdown('dropdown1')"
-            @click="toggleDropdown('dropdown1')"
-          >
+          <span class="arrow" @click="toggleDropdown('dropdown1')">
             {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</span
           >
         </div>
@@ -37,67 +33,68 @@
                 <!-- First column -->
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading">By Websites</h4>
-                  <div class="row link-tab">
-                    <router-link class="dropdown-link" to="/ecomweb">
+                  <router-link class="dropdown-link" to="/ecomweb">
+                    <div class="row link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >eCommerce</a
                       >
-                    </router-link>
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      All Elements of Commerce Websites
-                    </p>
-                  </div>
 
-                  <div class="row link-tab">
-                    <router-link class="dropdown-link" to="/crmweb">
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        All Elements of Commerce Websites
+                      </p>
+                    </div>
+                  </router-link>
+                  <router-link class="dropdown-link" to="/crmweb">
+                    <div class="row link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >C-R-M</a
                       >
-                    </router-link>
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      All Elements of C-R-M Websites
-                    </p>
-                  </div>
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        All Elements of C-R-M Websites
+                      </p>
+                    </div></router-link
+                  >
 
-                  <div class="row link-tab">
-                    <router-link class="dropdown-link" to="/analyticsweb">
+                  <router-link class="dropdown-link" to="/analyticsweb">
+                    <div class="row link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Analytics</a
                       >
-                    </router-link>
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      Elements About The Analytical Views
-                    </p>
-                  </div>
-                  <div class="row link-tab">
-                    <router-link class="dropdown-link" to="/gamingweb">
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        Elements About The Analytical Views
+                      </p>
+                    </div>
+                  </router-link>
+
+                  <router-link class="dropdown-link" to="/gamingweb">
+                    <div class="row link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Gaming</a
                       >
-                    </router-link>
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      All Elements Of Gaming Domain
-                    </p>
-                  </div>
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        All Elements Of Gaming Domain
+                      </p>
+                    </div>
+                  </router-link>
                 </div>
 
                 <!-- Second Column -->
@@ -115,34 +112,35 @@
                       All Types Of Animation That Use To Gleam Websites
                     </p>
                   </div> -->
-                  <div class="row link-tab">
-                    <router-link to="/loaders" class="linker">
+                  <router-link to="/loaders" class="linker">
+                    <div class="row link-tab">
                       <a class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         >Loaders</a
                       >
-                    </router-link>
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      Multiple Types Of Website Loaders With Multiple Styles
-                    </p>
-                  </div>
-                  <div class="row link-tab">
-                    <router-link to="/aimations" class="linker">
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        Multiple Types Of Website Loaders With Multiple Styles
+                      </p>
+                    </div></router-link
+                  >
+
+                  <router-link to="/aimations" class="linker">
+                    <div class="row link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Anim Screens</a
-                      ></router-link
-                    >
+                      >
 
-                    <p
-                      class="link-description-text col-lg-12 col-md-12 col-sm-12"
-                    >
-                      For Atracting The Users And Glow The Content
-                    </p>
-                  </div>
+                      <p
+                        class="link-description-text col-lg-12 col-md-12 col-sm-12"
+                      >
+                        For Atracting The Users And Glow The Content
+                      </p>
+                    </div></router-link
+                  >
                 </div>
               </div>
             </div>
@@ -152,12 +150,9 @@
         <div class="linker">
           <router-link class="linker" to="/elements"
             ><a class="link">UI Elements</a> </router-link
-          ><span
-            class="arrow"
-            @mouseover="toggleDropdown('dropdown2')"
-            @click="toggleDropdown('dropdown2')"
-            >{{ ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;" }}</span
-          >
+          ><span class="arrow" @click="toggleDropdown('dropdown2')">{{
+            ShowDropdown === "dropdown2" ? "&#11165;" : "&#11167;"
+          }}</span>
         </div>
         <transition name="dropdown-slide">
           <div
@@ -169,77 +164,72 @@
                 <!-- First column of UI elemets-->
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading single-tab">UI Elements</h4>
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/headers">
+                  <router-link class="dropdown-link" to="/headers">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Headers</a
                       >
-                    </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/searchbars">
+                    </div>
+                  </router-link>
+                  <router-link class="dropdown-link" to="/searchbars">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Searchbars</a
                       >
-                    </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/sidebars">
+                    </div></router-link
+                  >
+                  <router-link class="dropdown-link" to="/sidebars">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Sidebars</a
                       >
-                    </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/productcards">
+                    </div></router-link
+                  >
+                  <router-link class="dropdown-link" to="/productcards">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Cards</a
                       >
-                    </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/gamingweb">
+                    </div>
+                  </router-link>
+                  <router-link class="dropdown-link" to="/gamingweb">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Buttons</a
                       >
-                    </router-link>
-                  </div>
-
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/gamingweb">
+                    </div></router-link
+                  >
+                  <router-link class="dropdown-link" to="/gamingweb">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Charts</a
                       >
-                    </router-link>
-                  </div>
+                    </div>
+                  </router-link>
                 </div>
 
                 <!-- Second Column UI Elements-->
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-6 col-6">
                   <h4 class="drop-heading single-tab">Web Forms</h4>
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/loginpages">
+                  <router-link class="dropdown-link" to="/loginpages">
+                    <div class="row single-tab link-tab">
                       <a class="dropdown-link col-lg-12 col-md-12 col-sm-12"
                         >Login/SignUp</a
                       >
-                    </router-link>
-                  </div>
+                    </div>
+                  </router-link>
 
                   <div class="row single-tab link-tab">
                     <a
@@ -264,11 +254,7 @@
         <div class="linker">
           <router-link class="linker" to="/learningspage"
             ><a class="link">Learnings</a></router-link
-          ><span
-            class="arrow"
-            @mouseover="toggleDropdown('dropdown3')"
-            @click="toggleDropdown('dropdown3')"
-          >
+          ><span class="arrow" @click="toggleDropdown('dropdown3')">
             {{ ShowDropdown === "dropdown3" ? "&#11165;" : "&#11167;" }}
           </span>
         </div>
@@ -282,27 +268,27 @@
                 <!-- First column of UI elemets-->
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-12 col-12">
                   <h4 class="drop-heading single-tab">Frameworks</h4>
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/learnings">
+                  <router-link class="dropdown-link" to="/learnings">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Learn Vue.js</a
                       >
-                    </router-link>
-                  </div>
+                    </div></router-link
+                  >
                 </div>
                 <div class="dropdown-list col-lg-6 col-md-6 col-sm-12 col-12">
                   <h4 class="drop-heading single-tab">Roadmaps</h4>
-                  <div class="row single-tab link-tab">
-                    <router-link class="dropdown-link" to="/fullstack">
+                  <router-link class="dropdown-link" to="/fullstack">
+                    <div class="row single-tab link-tab">
                       <a
                         class="dropdown-link single-gap col-lg-12 col-md-12 col-sm-12"
                         href=""
                         >Full Stack Roadmaps</a
                       >
-                    </router-link>
-                  </div>
+                    </div>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -328,11 +314,11 @@
 <script>
 export default {
   name: "AppHeader",
-
   data() {
     return {
       linksActive: false,
       ShowDropdown: null,
+      setTimeId: null,
     };
   },
   methods: {
@@ -348,6 +334,12 @@ export default {
         this.ShowDropdown = null;
       } else {
         this.ShowDropdown = DropdownId;
+        if (this.setTimeId) {
+          clearTimeout(this.setTimeId);
+        }
+        this.setTimeId = setTimeout(() => {
+          this.ShowDropdown = false;
+        }, 4000);
       }
     },
     closeOnOutsideClick(event) {
@@ -356,7 +348,6 @@ export default {
       }
     },
   },
-
   mounted() {
     document.addEventListener("click", this.closeOnOutsideClick);
   },
@@ -450,7 +441,7 @@ export default {
   background-color: #f26419;
 }
 .subs-btn {
-  background-color: #949089;
+  background-color: #e4960f;
   border-radius: 0px 10px 10px 0px;
 }
 .menu-btn {
@@ -540,10 +531,10 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
 }
 .link-tab:hover {
-  transform: scaleY(1.04);
-  border-radius: 4px;
-  background-color: #1f998b;
-  transition: all 0.2s;
+  transform: scaleY(1.03);
+  border-radius: 6px;
+  background-color: #07b6a1;
+  transition: all 0.2s ease-in-out;
 }
 
 .single-link {
@@ -557,7 +548,7 @@ export default {
 }
 
 .dropdown-link:hover {
-  color: #d3d3d3;
+  color: #fff7f7;
   cursor: pointer;
 }
 .link-description-text {

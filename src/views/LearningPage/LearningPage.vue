@@ -1,62 +1,51 @@
 <template>
   <div class="side-bar">
+    <div class="pointer">
+      <i id="arrow" class="fa fa-arrow-right" aria-hidden="true"></i>
+    </div>
     <i class="fa fa-book" aria-hidden="true"></i>
     <ul>
       <li @click="scrollToSection('section1')">
-        1.
-        <p>Introduction</p>
+        <p>1. Introduction</p>
       </li>
       <li @click="scrollToSection('section2')">
-        2.
-        <p>Vue Instance</p>
+        <p>2. Vue Instance</p>
       </li>
       <li @click="scrollToSection('section3')">
-        3.
-        <p>Template Syntax</p>
+        <p>3. Template Syntax</p>
       </li>
       <li @click="scrollToSection('section4')">
-        4.
-        <p>Conditional Rendering</p>
+        <p>4. Conditional Rendering</p>
       </li>
       <li @click="scrollToSection('section5')">
-        5.
-        <p>List Rendering</p>
+        <p>5. List Rendering</p>
       </li>
       <li @click="scrollToSection('section6')">
-        6.
-        <p>Event Handeling</p>
+        <p>6. Event Handeling</p>
       </li>
       <li @click="scrollToSection('section7')">
-        7.
-        <p>Computed Prop and Watchers</p>
+        <p>7. Computed Prop and Watchers</p>
       </li>
       <li @click="scrollToSection('section8')">
-        8.
-        <p>Components</p>
+        <p>8. Components</p>
       </li>
       <li @click="scrollToSection('section9')">
-        9.
-        <p>Directives</p>
+        <p>9. Directives</p>
       </li>
       <li @click="scrollToSection('section10')">
-        10.
-        <p>Transitions and Animations</p>
+        <p>10. Transitions and Animations</p>
       </li>
       <li @click="scrollToSection('section11')">
-        11.
-        <p>Routing</p>
+        <p>11. Routing</p>
       </li>
       <li @click="scrollToSection('section12')">
-        12.
-        <p>Vuex</p>
+        <p>12. Vuex</p>
       </li>
       <li @click="scrollToSection('section13')">
-        13.
-        <p>Vue CLI and Tools</p>
+        <p>13. Vue CLI and Tools</p>
       </li>
       <li @click="scrollToSection('section14')">
-        14.
-        <p>Miscellaneous</p>
+        <p>14. Miscellaneous</p>
       </li>
       <li @click="scrollToSection('section14')">
         <p>Thank You</p>
@@ -1616,12 +1605,7 @@ export default {
 .main {
   padding-left: 4dvw;
 }
-.side-bar i {
-  font-size: 18px;
-  margin-left: 40%;
-  margin-top: 1dvh;
-  color: #fff;
-}
+
 .side-bar {
   word-wrap: break-word;
   overflow: scroll;
@@ -1634,15 +1618,28 @@ export default {
   position: fixed;
   flex-direction: column;
   transition: all 0.4s ease-in-out;
+  position: relative;
+}
+.pointer {
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  padding: 1px 6px;
+  z-index: 1000;
+}
+
+.side-bar i {
+  font-size: 18px;
+  margin-left: 40%;
+  margin-top: 1dvh;
+  color: #fff;
 }
 .side-bar::-webkit-scrollbar {
   display: none;
 }
 .side-bar:hover {
   width: 15dvw;
-}
-.side-bar:hover ~ ::-webkit-scrollbar-track {
-  background-color: #fff;
 }
 .side-bar ul {
   padding: 0;
@@ -1657,13 +1654,21 @@ export default {
   cursor: pointer;
   border-bottom: 1px solid #238075;
 }
-
+.side-bar ul li p {
+  display: none;
+}
+.side-bar:hover > ul > li > p {
+  display: block;
+}
 .side-bar ul li:hover {
   background-color: rgb(30, 143, 130);
+  display: block;
 }
 .side-bar ul li:active {
   background-color: rgb(30, 143, 130);
 }
+
+/*content styling */
 .sec-text {
   padding: 0px 6px;
   background-color: #f2f2f2;
