@@ -22,9 +22,29 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim1/vanilla1.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim1/react1.js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim1/anim1.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -56,9 +76,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim2/vanilla2.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim2/react2.js"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim2/anim2.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -89,9 +128,27 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim3/vanilla3.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim3/react3.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim3/anim3.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -122,9 +179,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim4/vanilla4.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim4/react4.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim4/anim4.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -155,9 +231,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim5/vanilla5.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim5/react5.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim5/anim5.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -189,9 +284,29 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim6/vanilla6.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim6/react6.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim6/anim6.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -222,9 +337,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim7/vanilla7.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim7/react7.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim7/anim7.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -255,9 +389,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim8/vanilla8.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim8/react8.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim8/anim8.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -289,9 +442,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim9/vanilla9.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim9/react9.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim9/anim9.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -322,9 +494,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim10/vanilla10.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim10/react10.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim10/anim10.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -355,9 +546,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim11/vanilla11.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim11/react11.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim11/anim11.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -388,9 +598,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim12/vanilla12.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim12/react12.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim12/anim12.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -422,9 +651,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim13/vanilla13.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim13/react13.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim13/anim13.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -454,9 +702,28 @@
           understanding of the code.
         </p>
         <div class="links">
-          <button class="code-btn">Vanilla Js</button>
-          <button class="code-btn">React.Js</button>
-          <button class="code-btn">Vue.Js</button>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim14/vanilla14.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim14/react14.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button></a
+          >
+
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Animations/anim14/anim14.vue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
           <button class="tutorial-btn">
             Watch Tuttorial
             <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
