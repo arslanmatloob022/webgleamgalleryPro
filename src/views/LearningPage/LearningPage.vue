@@ -1,9 +1,20 @@
 <template>
-  <div class="side-bar">
+  <div
+    class="side-bar"
+    @mouseenter="toggleArrow()"
+    @mouseleave="closeSidebar()"
+  >
     <div class="pointer">
-      <i id="arrow" class="fa fa-arrow-right" aria-hidden="true"></i>
+      <i
+        id="arrows"
+        :class="{
+          'fa fa-arrow-circle-left': sidebaropen,
+          'fa fa-arrow-circle-right': !sidebaropen,
+        }"
+        aria-hidden="true"
+      ></i>
     </div>
-    <i class="fa fa-book" aria-hidden="true"></i>
+    <i class="fa fa-book booktick" aria-hidden="true"></i>
     <ul>
       <li @click="scrollToSection('section1')">
         <p>1. Introduction</p>
@@ -1223,6 +1234,7 @@ export default {
   name: "FeaturesPage",
   data() {
     return {
+      sidebaropen: false,
       showNavbar: true,
       messages: "<p>{{ message }}</p>",
       message1: "{{ }}",
@@ -1583,6 +1595,18 @@ export default {
   },
 
   methods: {
+    toggleArrow() {
+      const sidebar = document.querySelector(".side-bar");
+      if ((sidebar.style.width = "15dvw")) {
+        this.sidebaropen = !this.sidebaropen;
+      }
+    },
+    closeSidebar() {
+      const sidebar = document.querySelector(".side-bar");
+      sidebar.style.width = "3.9dvw";
+      this.sidebaropen = false;
+    },
+
     toggleNavbar() {
       this.showNavbar = !this.showNavbar;
     },
@@ -1618,19 +1642,24 @@ export default {
   position: fixed;
   flex-direction: column;
   transition: all 0.4s ease-in-out;
-  position: relative;
 }
 .pointer {
   border-radius: 50%;
   position: absolute;
-  right: 0;
+  right: -8px;
   top: 45%;
+  font-size: 18px;
   padding: 1px 6px;
   z-index: 1000;
+  transition: all 1.4s ease-in-out;
+  background-color: #2a9d8f;
 }
-
-.side-bar i {
-  font-size: 18px;
+#arrows {
+  color: #f1f1f1;
+  transition: all 1.4s ease-in-out;
+}
+.booktick {
+  font-size: 22px;
   margin-left: 40%;
   margin-top: 1dvh;
   color: #fff;
@@ -1657,9 +1686,11 @@ export default {
 .side-bar ul li p {
   display: none;
 }
+
 .side-bar:hover > ul > li > p {
   display: block;
 }
+
 .side-bar ul li:hover {
   background-color: rgb(30, 143, 130);
   display: block;
@@ -1721,10 +1752,10 @@ export default {
   }
   .side-bar {
     z-index: 1;
-    width: 8dvw;
+    width: 10dvw;
   }
   .side-bar:hover {
-    width: 35dvw;
+    width: 40dvw;
   }
   .side-bar ul li {
     font-size: 0.8rem;

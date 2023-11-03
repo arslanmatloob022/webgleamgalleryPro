@@ -4,13 +4,13 @@
       <img src="@/assets/logo.png" alt="Logo" />
     </div>
     <div class="nav" :class="{ active: showMenu }">
-      <a to="/" class="nav-link">Home</a>
-      <a to="/movies" class="nav-link">Movies</a>
-      <a to="/tv-shows" class="nav-link">TV Shows</a>
-      <a to="/music" class="nav-link">Music</a>
-      <a to="/games" class="nav-link">Games</a>
-      <a to="/news" class="nav-link">News</a>
-      <a to="/events" class="nav-link">Events</a>
+      <a to="" class="nav-link">Home</a>
+      <a to="" class="nav-link">Movies</a>
+      <a to="" class="nav-link">TV Shows</a>
+      <a to="" class="nav-link">Music</a>
+      <a to="" class="nav-link">Games</a>
+      <a to="" class="nav-link">News</a>
+      <a to="" class="nav-link">Events</a>
     </div>
     <div class="user-actions">
       <button @click="openProfile">Profile</button>
@@ -55,7 +55,7 @@ export default {
   background-color: #4caf50;
   color: white;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 .header:hover {
@@ -75,6 +75,12 @@ export default {
   position: relative;
   justify-content: space-between;
   animation: slide 0.3s;
+}
+.nav-link:hover {
+  transition: all 0.4s ease-in-out;
+  border-bottom: 3px solid #e1f5fe;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
 }
 @keyframes slide {
   from {
