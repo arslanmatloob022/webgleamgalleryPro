@@ -32,9 +32,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf1/vanilla1.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf1/react1.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf1/vue1.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -77,9 +97,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf2/vanilla2.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf2/react2.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf2/vue2.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -123,9 +163,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf3/vanilla3.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf3/react3.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf3/vue3.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -169,9 +229,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf4/vanilla4.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf4/react4.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf4/vue4.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -214,9 +294,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf5/vanilla5.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf5/react5.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf5/vue5.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
@@ -258,9 +358,29 @@
         understanding of the code.
       </p>
       <div class="links">
-        <button class="code-btn">Vanilla Js</button>
-        <button class="code-btn">React.Js</button>
-        <button class="code-btn">Vue.Js</button>
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf6/vanilla6.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vanilla Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf6/react6.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">React.Js</button></a
+        >
+
+        <a
+          href="https://github.com/arslanmatloob022/webgleamcode/blob/main/LoginForms/lf6/vue6.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="code-btn">Vue.Js</button></a
+        >
         <button class="tutorial-btn">
           Watch Tuttorial
           <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
