@@ -3,13 +3,9 @@
     <div class="header" ref="dropdown">
       <div class="logo-div">
         <router-link class="linker" to="/">
-          <img
-            class="logo"
-            src="@/components/Media/Images/finalgleam.png"
-            alt="WebGleamGallery"
-          />
+          <img class="logo" src="@/assets/SingleHi.png" alt="Web Dazzels" />
         </router-link>
-        <h3>WGG</h3>
+        <h3>Web Dazzels</h3>
       </div>
       <div class="links" :class="{ active: linksActive }">
         <router-link class="linker" to="/">
@@ -389,6 +385,9 @@ export default {
 }
 .logo-div h3 {
   margin-top: 10px;
+  font-weight: 500;
+  color: #ffa916;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .logo {
   height: 45px;

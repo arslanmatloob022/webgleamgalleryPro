@@ -15,7 +15,7 @@
           </video>
 
           <div class="content">
-            <h4>{{ typedText }}</h4>
+            <h3>{{ typedText }}</h3>
           </div>
           <div class="text-content">
             <div class="empower">
@@ -193,7 +193,7 @@ export default {
   data() {
     return {
       /* Hero Banner Code*/
-      text: "Web Gleam Gallery!",
+      text: "Web Dazzels",
       typedText: "",
       capText: "Your Gateway to Effortless Web Design-",
       cap: "",
@@ -319,8 +319,8 @@ h4 {
   width: 100%;
   display: flex;
 }
-.content h4 {
-  color: #f1f1f1;
+.content h3 {
+  color: #ffa916;
   text-align: left;
 }
 .caption {

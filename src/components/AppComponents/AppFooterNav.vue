@@ -8,8 +8,8 @@
     </div>
 
     <div class="footerMenu row">
-      <div class="col-lg-2 col-md-4 col-sm-12 col-12 footerLogo">
-        <img src="@/components/Media/Images/finalgleam.png" />
+      <div class="col-lg-2 col-md-4 col-sm-6 col-6 footerLogo">
+        <img src="@/assets/SingleHi.png" />
       </div>
 
       <!-- first column section -->
