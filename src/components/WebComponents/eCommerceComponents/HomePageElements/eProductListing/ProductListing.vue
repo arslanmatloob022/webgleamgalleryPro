@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import FilterAndSorting from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/FilterAndSorting.vue";
-import ProductCard from "@/components/WebComponents/eCommerceComponents/HomePageElements/eProductListing/ProductCard.vue";
+import FilterAndSorting from "./FilterAndSorting.vue";
+import ProductCard from "./ProductCard.vue";
 export default {
   components: {
     FilterAndSorting,
