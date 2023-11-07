@@ -14,9 +14,7 @@
             Your browser does not support the video tag.
           </video>
 
-          <div class="content">
-            <h3>{{ typedText }}</h3>
-          </div>
+          <div class="content"></div>
           <div class="text-content">
             <div class="empower">
               <h3>Empowering Developers:</h3>
@@ -193,8 +191,7 @@ export default {
   data() {
     return {
       /* Hero Banner Code*/
-      text: "Web Dazzels",
-      typedText: "",
+
       capText: "Your Gateway to Effortless Web Design-",
       cap: "",
       caption: ["Explore,", "Copy,", "Create!"],
@@ -205,7 +202,7 @@ export default {
 
   mounted() {
     // hero banner
-    this.typeText();
+    // this.typeText();
     this.typeCap();
     setTimeout(() => {
       this.typeCaption();
@@ -213,7 +210,7 @@ export default {
   },
   methods: {
     // Hero banner
-    typeText() {
+    /* typeText() {
       let i = 0;
       const typingInterval = setInterval(() => {
         this.typedText += this.text[i];
@@ -222,7 +219,7 @@ export default {
           clearInterval(typingInterval);
         }
       }, 80);
-    },
+    },*/
     typeCap() {
       let i = 0;
       const typingInterval = setInterval(() => {
@@ -278,7 +275,8 @@ h4 {
   color: #28b173;
 }
 .textContent h4 {
-  color: #202020;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #28b173;
   padding: 6pt 0pt;
 }
 .textContent p {
@@ -301,10 +299,14 @@ h4 {
 
 .mediaContent {
   width: 50%;
+  display: flex;
+  justify-content: center;
   padding: 10px 10px;
   background-color: #f1f1f1;
 }
 .ui-img {
+  display: flex;
+  justify-content: center;
   width: 80%;
   height: 400px;
 }

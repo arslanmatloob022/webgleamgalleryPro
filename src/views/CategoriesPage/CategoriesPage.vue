@@ -5,23 +5,28 @@
     </h2>
     <!-- ecoomerce content -->
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="textContent">
-        <h2>E-Commerce Extravaganza</h2>
-        <h4>Elevate Your Online Store with Our UI Elements!</h4>
+        <h2>Revolutionize Your Online Store with E-Commerce Components!</h2>
+        <h4>
+          E-Commerce Components: Building Seamless Online Shopping Experiences
+        </h4>
         <p>
-          Step into the Future of Online Retail! Our curated UI elements
-          redefine the e-commerce experience. From sleek product cards to
-          intuitive checkout forms, our designs ensure your online store stands
-          out. Elevate customer engagement, enhance shopping journeys, and boost
-          conversions. Explore Now!
+          In the dynamic world of online retail, providing exceptional shopping
+          experiences is paramount. Our E-Commerce Components are meticulously
+          crafted to empower your online store with innovative features, sleek
+          designs, and robust functionalities. Step into the Future of Online
+          Retail! Our curated UI elements redefine the e-commerce experience.
+          From sleek product cards to intuitive checkout forms, our designs
+          ensure your online store stands out. Elevate customer engagement,
+          enhance shopping journeys, and boost conversions. Explore Now!
         </p>
         <router-link class="a" to="/ecomweb">
           <a
@@ -44,26 +49,32 @@
 
     <!-- CRM content -->
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="mediaContent bg-color">
         <img src="@/assets/categoriesMedia/worktech.png" alt="" />
       </div>
       <div class="textContent bg-color">
-        <h2>CRM Revolution</h2>
-        <h4>Cutomer Relationship Management Website.</h4>
+        <h2>Empower Your Business with CRM Components!</h2>
+        <h4>CRM Components: Elevating Customer Relationships to New Heights</h4>
         <p>
-          Transform Connections into Relationships! Our CRM-focused UI elements
-          streamline customer interactions. With intuitive dashboards,
-          interactive forms, and seamless navigation, managing relationships has
-          never been easier. Empower your team, enhance productivity, and
-          nurture lasting customer connections.
+          In the age of customer-centricity, managing relationships effectively
+          is pivotal to success. Our CRM Components offer a comprehensive suite
+          of tools designed to transform your customer interactions. Transform
+          Connections into Relationships! Our CRM-focused UI elements streamline
+          customer interactions. With intuitive dashboards, interactive forms,
+          and seamless navigation, managing relationships has never been easier.
+          Empower your team, enhance productivity, and nurture lasting customer
+          connections.From streamlined lead management and robust contact lists
+          to efficient task tracking and insightful analytics, our CRM
+          components are crafted to enhance every facet of your customer
+          relationships.
         </p>
         <router-link class="a" to="/crmweb">
           <a
@@ -136,14 +147,23 @@
         </div>
       </div>
       <div class="textContent bg-color">
-        <h2>Analytics Website</h2>
-        <h4>Elevate Insights with Our UI Elements!</h4>
+        <h2>
+          Analytics Website Components: Unraveling Insights, One Component at a
+          Time
+        </h2>
+        <h4>Explore Our Cutting-Edge Analytics Website Components!</h4>
         <p>
-          In the world of data and analytics, clarity is essential. At
-          Web-Gleams-Code, our UI elements are meticulously designed to enhance
-          analytics websites. From clean dashboard elements to data
-          visualization cards and filterable search bars, our components make
-          insights accessible and engaging.
+          At our Analytics Website, we believe in turning raw data into
+          actionable insights. Our array of advanced components are meticulously
+          designed to empower you with the tools needed to decipher complex data
+          sets. From intuitive charts and interactive maps to machine learning
+          algorithms and real-time monitoring, our components enable you to
+          unlock the full potential of your data, transforming it into valuable
+          business intelligence. In the world of data and analytics, clarity is
+          essential. At Web-Gleams-Code, our UI elements are meticulously
+          designed to enhance analytics websites. From clean dashboard elements
+          to data visualization cards and filterable search bars, our components
+          make insights accessible and engaging.
         </p>
         <router-link class="a" to="/analyticsweb">
           <a
@@ -193,8 +213,8 @@ h2 {
   padding: 20px 30px;
   background-color: #f1f1f1;
 }
-.textContent h2,
-h4 {
+.textContent h2 {
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
 }

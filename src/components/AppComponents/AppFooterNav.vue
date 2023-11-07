@@ -1,9 +1,7 @@
 <template>
   <section class="footerSection">
     <div class="row footerTop">
-      <h1 class="footer-heading">
-        See all you accomplish with WebGleamGallery
-      </h1>
+      <h1 class="footer-heading">See all you accomplish with Web Dazzels</h1>
       <div class="row buttons"></div>
     </div>
 

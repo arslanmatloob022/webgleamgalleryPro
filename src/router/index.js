@@ -3,17 +3,7 @@ import AboutUsPageVue from "@/views/AboutUsPage/AboutUsPage.vue";
 import CategoriesPageVue from "@/views/CategoriesPage/CategoriesPage.vue";
 import LandingPageVue from "@/views/LandingPage/LandingPage.vue";
 import learningsPageVue from "@/views/LearningPage/LearningPage.vue";
-import SubscritionPage from "@/views/SubscriptionPage/SubscriptionPage.vue";
 import ElementsPageVue from "@/views/ElementsPage/ElementsPage.vue";
-import AnalyticsWebPageVue from "@/views/WebComponents/AnalyticalPage/AnalyticsWebPage.vue";
-import CrmWebPageVue from "@/views/WebComponents/CrmPage/CrmWebPage.vue";
-import EComWeb from "@/views/WebComponents/ECommercePage/EcomWebPage.vue";
-import EntertainmentWebPageVue from "@/views/WebComponents/EntertainmentPage/EntertainmentWebPage.vue";
-import GamingWebPageVue from "@/views/WebComponents/GamingPage/GamingWebPage.vue";
-import ShippingAndBillingVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingAndBilling.vue";
-import ShippingOptionsVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingOptions.vue";
-import PaymentMethodVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/PaymentMethod.vue";
-import OrderSummaryVue from "@/components/WebComponents/eCommerceComponents/eComCheckOut/OrderSummary.vue";
 const routes = [
   {
     path: "/",
@@ -49,60 +39,67 @@ const routes = [
   {
     path: "/subscribe",
     name: "subscribe",
-    component: SubscritionPage,
+    component: () =>
+      import(/*"subscribe"*/ "@/views/SubscriptionPage/SubscriptionPage.vue"),
   },
 
   // Web components Pages
   {
     path: "/analyticsweb",
     name: "analyticsweb",
-    component: AnalyticsWebPageVue,
+    component: () =>
+      import(
+        /* "analyticsweb"*/ "@/views/WebComponents/AnalyticalPage/AnalyticsWebPage.vue"
+      ),
   },
 
   {
     path: "/crmweb",
     name: "crmweb",
-    component: CrmWebPageVue,
+    component: () =>
+      /* "crmweb"*/ "@/views/WebComponents/CrmPage/CrmWebPage.vue",
   },
 
   {
     path: "/ecomweb",
     name: "ecomweb",
-    component: EComWeb,
-  },
-
-  {
-    path: "/entertainmentweb",
-    name: "entertainmentweb",
-    component: EntertainmentWebPageVue,
+    component: () =>
+      /*"ecomweb" */ "@/views/WebComponents/ECommercePage/EcomWebPage.vue",
   },
 
   {
     path: "/gamingweb",
     name: "gamingweb",
-    component: GamingWebPageVue,
+    component: () =>
+      /*"gamingweb" */ "@/views/WebComponents/GamingPage/GamingWebPage.vue",
   },
 
   // Order Replacement Components
   {
     path: "/checkout",
     name: "checkout",
-    component: ShippingAndBillingVue,
+    component: () =>
+      /* "checkout "*/ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingAndBilling.vue",
   },
   {
     path: "/shipping-options",
     name: "shipping-options",
-    component: ShippingOptionsVue,
+    component: () =>
+      /*"shipping-options" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingOptions.vue",
   },
   {
     path: "/payment-methods",
     name: "payment-methods",
-    component: PaymentMethodVue,
+    component:
+      /* "payment-methods" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/PaymentMethod.vue",
   },
   {
     path: "/summary",
     name: "summary",
-    component: OrderSummaryVue,
+    component: () =>
+      import(
+        /*"summary"*/ "@/components/WebComponents/eCommerceComponents/eComCheckOut/OrderSummary.vue"
+      ),
   },
 
   // Basic elements
