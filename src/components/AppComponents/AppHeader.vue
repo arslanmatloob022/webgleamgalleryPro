@@ -299,7 +299,7 @@
       <div class="nav-buttons">
         <button class="login-btn">Login</button>
         <router-link to="/subscribe"
-          ><button class="subs-btn">Subscribe for Pro</button></router-link
+          ><button class="subs-btn">Order Now</button></router-link
         >
       </div>
       <div class="menu-btn" @click="toggleLinks">&#9776;</div>

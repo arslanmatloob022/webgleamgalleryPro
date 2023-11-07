@@ -57,21 +57,25 @@ const routes = [
     path: "/crmweb",
     name: "crmweb",
     component: () =>
-      /* "crmweb"*/ "@/views/WebComponents/CrmPage/CrmWebPage.vue",
+      import(/* "crmweb"*/ "@/views/WebComponents/CrmPage/CrmWebPage.vue"),
   },
 
   {
     path: "/ecomweb",
     name: "ecomweb",
     component: () =>
-      /*"ecomweb" */ "@/views/WebComponents/ECommercePage/EcomWebPage.vue",
+      import(
+        /*"ecomweb" */ "@/views/WebComponents/ECommercePage/EcomWebPage.vue"
+      ),
   },
 
   {
     path: "/gamingweb",
     name: "gamingweb",
     component: () =>
-      /*"gamingweb" */ "@/views/WebComponents/GamingPage/GamingWebPage.vue",
+      import(
+        /*"gamingweb" */ "@/views/WebComponents/GamingPage/GamingWebPage.vue"
+      ),
   },
 
   // Order Replacement Components
@@ -79,19 +83,25 @@ const routes = [
     path: "/checkout",
     name: "checkout",
     component: () =>
-      /* "checkout "*/ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingAndBilling.vue",
+      import(
+        /* "checkout "*/ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingAndBilling.vue"
+      ),
   },
   {
     path: "/shipping-options",
     name: "shipping-options",
     component: () =>
-      /*"shipping-options" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingOptions.vue",
+      import(
+        /*"shipping-options" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/ShippingOptions.vue"
+      ),
   },
   {
     path: "/payment-methods",
     name: "payment-methods",
-    component:
-      /* "payment-methods" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/PaymentMethod.vue",
+    component: () =>
+      import(
+        /* "payment-methods" */ "@/components/WebComponents/eCommerceComponents/eComCheckOut/PaymentMethod.vue"
+      ),
   },
   {
     path: "/summary",
