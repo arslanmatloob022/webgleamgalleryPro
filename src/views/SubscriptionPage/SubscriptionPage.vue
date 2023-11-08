@@ -35,7 +35,7 @@ export default {
         method: "POST",
       })
         .then(() => {
-          this.responseMessage = `Thank You! <br />We will respond you ASAP!`;
+          this.responseMessage = "Thank You! <br /> We will respond you ASAP!";
           this.$router.push("/subscribe");
         })
         .catch((error) => {
