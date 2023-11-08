@@ -2,12 +2,7 @@
   <section>
     <h2>Contact Us</h2>
     <p>To get the customize template for your complete website.</p>
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
