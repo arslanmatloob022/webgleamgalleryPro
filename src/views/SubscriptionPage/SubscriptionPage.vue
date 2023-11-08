@@ -1,8 +1,8 @@
 <template>
   <section>
     <h2>Contact Us</h2>
-    <p>To get the customize template for your complete website.</p>
-    <form name="contact" method="POST" data-netlify="true">
+    <p>To get the customize template your complete website.</p>
+    <form name="contact" @submit.prevent="submitForm" method="POST" netlify>
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
@@ -16,11 +16,33 @@
         <button type="submit">Send</button>
       </p>
     </form>
+    <div class="result">{{ responseMessage }}</div>
   </section>
 </template>
 <script>
 export default {
   name: "SubscritionPage",
+  data() {
+    return {
+      responseMessage: "",
+    };
+  },
+  methods: {
+    submitForm() {
+      const formData = new FormData(this.$refs.fileForm);
+      fetch("/", {
+        body: formData,
+        method: "POST",
+      })
+        .then(() => {
+          this.responseMessage = "Thank You! we will respond you ASAP!";
+          this.$router.push("/");
+        })
+        .catch((error) => {
+          this.responseMessage = `Failed: ${error}`;
+        });
+    },
+  },
 };
 </script>
 
