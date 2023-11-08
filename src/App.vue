@@ -3,7 +3,6 @@
   <header-space></header-space>
   <router-view />
   <app-footer-nav></app-footer-nav>
-  <!-- <ribbon-view-vue></ribbon-view-vue> -->
 </template>
 
 <script>
