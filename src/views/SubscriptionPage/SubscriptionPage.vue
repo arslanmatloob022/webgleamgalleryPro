@@ -36,7 +36,7 @@ export default {
       })
         .then(() => {
           this.responseMessage = "Thank You! we will respond you ASAP!";
-          this.$router.push("/");
+          this.$router.push("/subscribe");
         })
         .catch((error) => {
           this.responseMessage = `Failed: ${error}`;
