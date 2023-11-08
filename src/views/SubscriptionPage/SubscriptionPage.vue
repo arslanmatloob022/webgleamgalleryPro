@@ -2,7 +2,7 @@
   <section>
     <h2>Contact Us</h2>
     <p>To get the customize template for your complete website.</p>
-    <form name="contact" netlify>
+    <form name="contact" method="POST" netlify>
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
