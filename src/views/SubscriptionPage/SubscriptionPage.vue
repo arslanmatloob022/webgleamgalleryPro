@@ -10,7 +10,7 @@
         <label>Email <input type="email" name="email" /></label>
       </p>
       <p>
-        <label>Message: <input type="text" name="name" /></label>
+        <label>Message: <input type="text" name="message" /></label>
       </p>
       <p>
         <button type="submit">Send</button>
@@ -35,7 +35,7 @@ export default {
         method: "POST",
       })
         .then(() => {
-          this.responseMessage = "Thank You! we will respond you ASAP!";
+          this.responseMessage = `Thank You! <br />We will respond you ASAP!`;
           this.$router.push("/subscribe");
         })
         .catch((error) => {
