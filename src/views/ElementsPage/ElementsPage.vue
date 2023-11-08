@@ -1,20 +1,30 @@
 <template>
   <section class="page">
+    <div class="cont-container">
+      <h3>
+        Welcome to the web-development era! where you got each and everything
+        about web development eaither you want to learn anything about
+        web-development journey or you want to get access to the free and
+        ultimate web-elements or web-components or you want to get a fully
+        customize and complete website template.
+      </h3>
+    </div>
+
     <!-- headers content -->
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="textContent">
         <h2>
           Explore Header Excellence Elevate Your Website’s First Impression
         </h2>
-        <h4>Elevate Your Website’s First Impression</h4>
+        <h3>Elevate Your Website’s First Impression</h3>
         <p>
           Welcome to our Header Repository, where creativity meets
           functionality! Our curated selection of meticulously crafted website
@@ -69,7 +79,7 @@
       </div>
       <div class="textContent bg-color">
         <h2>Elevate Your Digital Presence</h2>
-        <h4>Unveiling Our Card Collection!</h4>
+        <h3>Unveiling Our Card Collection!</h3>
         <p>
           Welcome to our versatile card collection, where stunning design meets
           seamless functionality, transforming ordinary websites into
@@ -105,7 +115,7 @@
     >
       <div class="textContent">
         <h2>Discover Seamless Search: Where Functionality Meets Style!</h2>
-        <h4>🔍 Embrace the future of search with our visual search bars!</h4>
+        <h3>🔍 Embrace the future of search with our visual search bars!</h3>
         <p>
           Introducing our diverse range of search bars designed to elevate user
           experience and add a touch of sophistication to your website. Whether
@@ -160,7 +170,7 @@
         <h2>
           Navigate Seamlessly: Introducing Our Versatile Sidebar Collection!
         </h2>
-        <h4>Tailor our sidebars to match your brand's identity!</h4>
+        <h3>Tailor our sidebars to match your brand's identity!</h3>
         <p>
           Welcome to our Sidebar Sanctuary, where intuitive navigation meets
           stunning design. Whether you're managing a corporate website, a
@@ -200,7 +210,7 @@
           Button Brilliance: Explore Our Diverse Collection for Every Web
           Experience!
         </h2>
-        <h4>Ready to transform user interactions?</h4>
+        <h3>Ready to transform user interactions?</h3>
         <p>
           Welcome to our Button Emporium, where functionality meets flair! No
           matter the vibe of your website – corporate, creative, or commercial –
@@ -260,11 +270,11 @@ export default {
   background-color: #f1f1f1;
 }
 .textContent h2,
-h4 {
+h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
 }
-.textContent h4 {
+.textContent h3 {
   color: #202020;
   padding: 6pt 0pt;
 }
@@ -306,7 +316,7 @@ h4 {
   width: 100%;
   display: flex;
 }
-.content h4 {
+.content h3 {
   color: #f1f1f1;
   text-align: left;
 }
@@ -323,7 +333,7 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  .content h4 {
+  .content h3 {
     text-align: left;
     font-size: 1rem;
   }
@@ -352,10 +362,10 @@ h4 {
     padding: 10px 16px;
   }
   .textContent h2,
-  h4 {
+  h3 {
     font-size: calc(1rem + 1vw);
   }
-  .textContent h4 {
+  .textContent h3 {
     padding: 10pt 0pt;
   }
   .textContent p {

@@ -37,22 +37,25 @@
     </div>
 
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="textContent">
         <h2>Empowering Developers, Inspiring Designs</h2>
-        <h4>You Apply and build logics leave UI on us.</h4>
+        <h4>Web developers Get free frontend Elements of Your website.</h4>
         <p>
           As our concern we are here to serve you with the code of each UI
           Element that you think will be use in your website's frontend
           development. You must attend to the logics and learn the more and
-          small ways out to the probelms and save your precious Time!
+          small ways out to the probelms and save your precious Time! We offer
+          free frontend web elements to the developers. So they just implement
+          the logic and by saving their time we offer the ready made components
+          to use in anytype of their web-development project.
         </p>
         <router-link class="a" to="/elements">
           <a
@@ -75,20 +78,20 @@
     </div>
 
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/animrem.png" alt="" />
       </div>
       <div class="textContent bg-color">
-        <h2>Modern and Attractive Animations</h2>
-        <h4>Eyecatching Animatoins available for each element.</h4>
+        <h2>Modern and Attractive Animations for website</h2>
+        <h4>Eyecatching Animatoins available for each type of website.</h4>
         <p>
           Crafting Digital Dreams: Welcome to a World Where Imagination Meets
           Code. Explore Our Treasury of Seamless UI Elements and Expert Web
@@ -107,13 +110,13 @@
     </div>
 
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="textContent">
         <h2>
@@ -146,19 +149,21 @@
     </div>
 
     <div
+      class="cont-container"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
       data-aos-easing="ease-in-out"
       data-aos-once="false"
-      class="cont-container"
     >
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/teambuild.png" alt="" />
       </div>
       <div class="textContent bg-color">
-        <h2>Unleashing Creativity, Empowering Futures</h2>
+        <h2>
+          Unleashing Website Creativity, Empowering Web development Future
+        </h2>
         <h4>
           Explore Expert Web Development Tools and Learn Frontend and Backend
           Mastery!
@@ -182,6 +187,49 @@
                 aria-hidden="true"
               ></i></span></a
         ></router-link>
+      </div>
+    </div>
+
+    <div
+      class="cont-container"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
+      <div class="textContent bg-color">
+        <h2>
+          Learn web development roadmaps Either for full-stack, backend or
+          frontend web-development.
+        </h2>
+        <h4>
+          Explore Expert Web Development Tools, Teachnologies, Languages and
+          Learn Frontend and Backend Mastery!
+        </h4>
+        <p>
+          Your Gateway to Expert Web Development Tools, Comprehensive Frontend
+          and Backend Learning Resources. Transform Ideas into Interactive
+          Reality! <br />From our platform you can get access to all of your
+          require resources because We also offers you a single page learning
+          materials and resources you might need in your web-development
+          journey.
+        </p>
+
+        <router-link class="a" to="/learningspage">
+          <a href="#"
+            >View Learninig gateway and Resources.
+
+            <span
+              ><i
+                class="fa fa-arrow-circle-o-right"
+                aria-hidden="true"
+              ></i></span></a
+        ></router-link>
+      </div>
+      <div class="mediaContent bg-color">
+        <img src="@/assets/AppMedia/teambuild.png" alt="" />
       </div>
     </div>
   </section>
@@ -269,15 +317,17 @@ export default {
   padding: 20px 30px;
   background-color: #f1f1f1;
 }
-.textContent h2,
-h4 {
+.textContent h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 .textContent h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
   padding: 6pt 0pt;
+  font-size: 1.4rem;
 }
 .textContent p {
   color: #202020;
@@ -379,6 +429,7 @@ h4 {
 }
 .text-content h3 {
   font-size: 32pt;
+  color: #f1f1f1;
 }
 @keyframes typing {
   from {
@@ -391,7 +442,7 @@ h4 {
 }
 
 @media screen and (max-width: 678px) {
-  .content h4 {
+  .content h3 {
     text-align: left;
     font-size: 1rem;
   }
@@ -416,11 +467,12 @@ h4 {
   }
   .text-content .empower h3 {
     font-size: 1.4rem;
+    color: #f1f1f1;
   }
   .multi-lines {
     width: 95%;
   }
-  .multi-lines h4 {
+  .multi-lines h3 {
     font-size: 1rem;
   }
 
@@ -435,10 +487,10 @@ h4 {
     padding: 10px 16px;
   }
   .textContent h2,
-  h4 {
+  h3 {
     font-size: calc(1rem + 1vw);
   }
-  .textContent h4 {
+  .textContent h3 {
     padding: 10pt 0pt;
   }
   .textContent p {
