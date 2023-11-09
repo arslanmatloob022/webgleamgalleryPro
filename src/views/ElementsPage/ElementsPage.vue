@@ -1,15 +1,5 @@
 <template>
   <section class="page">
-    <div class="cont-container">
-      <h3>
-        Welcome to the web-development era! where you got each and everything
-        about web development eaither you want to learn anything about
-        web-development journey or you want to get access to the free and
-        ultimate web-elements or web-components or you want to get a fully
-        customize and complete website template.
-      </h3>
-    </div>
-
     <!-- headers content -->
     <div
       class="cont-container"
