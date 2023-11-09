@@ -141,7 +141,7 @@ export default {
   background-color: #f1f1f1;
 }
 .wd-content h1 {
-  background-image: url("@/assets/neogirl.jpg");
+  background-image: url("@/assets/Aboutus/neogirl.jpg");
   background-attachment: fixed;
   color: transparent;
   background-clip: text;
