@@ -96,7 +96,7 @@
 </template>
 <script>
 export default {
-  name: "aboutus",
+  name: "AboutUsPage",
   data() {
     return {};
   },
