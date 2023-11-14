@@ -454,6 +454,7 @@ export default {
   }
 
   .searchBar {
+    overflow: hidden;
     width: 100%;
     height: fit-content;
   }

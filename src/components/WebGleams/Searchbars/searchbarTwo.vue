@@ -38,7 +38,7 @@ export default {
   padding: 10px;
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: fit-content;
+  width: min-content;
 }
 
 .search-bar input {
