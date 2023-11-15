@@ -306,6 +306,7 @@
       </div>
 
       <div class="nav-buttons">
+        <button @click="LoginSignup" class="login-btn">Signup</button>
         <router-link to="/subscribe"
           ><button class="subs-btn">Order Now</button></router-link
         >
