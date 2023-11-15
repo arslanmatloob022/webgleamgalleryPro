@@ -4,6 +4,7 @@
       <div class="main">
         <div class="media-content">
           <video
+            preload="@/assets/AppMedia/poster.png"
             playsinline
             autoplay
             muted
@@ -36,15 +37,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Empowering Developers, Inspiring Designs</h2>
         <h4>Web developers Get free frontend Elements of Your website.</h4>
@@ -77,15 +70,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/animrem.png" alt="" />
       </div>
@@ -109,15 +94,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>
           Your Ultimate Source for Seamless UI Elements and Web Development
@@ -148,15 +125,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <img src="@/assets/AppMedia/teambuild.png" alt="" />
       </div>
@@ -190,15 +159,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent bg-color">
         <h2>
           Learn web development roadmaps Either for full-stack, backend or

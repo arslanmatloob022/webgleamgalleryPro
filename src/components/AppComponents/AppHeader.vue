@@ -15,8 +15,8 @@
           <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
           >
-          <span class="arrow" @click="toggleDropdown('dropdown1')">
-            {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</span
+          <i class="arrow" @click="toggleDropdown('dropdown1')">
+            {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</i
           >
         </div>
         <transition name="dropdown-slide">
@@ -296,26 +296,45 @@
         >
       </div>
 
+      <div
+        v-if="(user, userId) in $store.state.users"
+        :key="userId"
+        class="user"
+      >
+        <p>Welcome, {{ user.username }}</p>
+        <button @click="$store.dispatch('logout')">Logout</button>
+      </div>
+
       <div class="nav-buttons">
-        <button class="login-btn">Login</button>
         <router-link to="/subscribe"
           ><button class="subs-btn">Order Now</button></router-link
         >
       </div>
       <div class="menu-btn" @click="toggleLinks">&#9776;</div>
     </div>
+
+    <login-signup-vue
+      @closeLoginForm="closeForm"
+      v-if="showForm"
+    ></login-signup-vue>
   </section>
 </template>
 
 <script>
+import LoginSignupVue from "./LoginSignup.vue";
 export default {
   name: "AppHeader",
+
   data() {
     return {
       linksActive: false,
       ShowDropdown: null,
       setTimeId: null,
+      showForm: false,
     };
+  },
+  components: {
+    LoginSignupVue,
   },
   methods: {
     toggleLinks() {
@@ -342,6 +361,13 @@ export default {
       if (this.$refs.dropdown && !this.$refs.dropdown.contains(event.target)) {
         this.ShowDropdown = null;
       }
+    },
+
+    LoginSignup() {
+      this.showForm = !this.showForm;
+    },
+    closeForm() {
+      this.showForm = false;
     },
   },
   mounted() {

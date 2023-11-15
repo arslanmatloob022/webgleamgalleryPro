@@ -4,15 +4,7 @@
       Welcome to Our Digital Universe: Tailored UI Elements for Every Web Realm!
     </h2>
     <!-- ecoomerce content -->
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Revolutionize Your Online Store with E-Commerce Components!</h2>
         <h4>
@@ -48,15 +40,7 @@
     </div>
 
     <!-- CRM content -->
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <img src="@/assets/categoriesMedia/worktech.png" alt="" />
       </div>
@@ -89,15 +73,7 @@
     </div>
 
     <!-- gaming content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Gaming Wonderland.</h2>
         <h4>Level Up Your Gaming Interface!</h4>
@@ -132,15 +108,7 @@
     </div>
 
     <!-- analytics content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <div class="image">
           <img src="@/assets/categoriesMedia/seokeywrds.png" alt="" />

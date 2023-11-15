@@ -2,6 +2,7 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
+    users: [],
     cart: [],
     isCartOpen: false,
 
@@ -32,6 +33,16 @@ export default createStore({
   },
 
   mutations: {
+    // login sginup
+    addUser(state, user) {
+      state.users.push(user);
+    },
+
+    clearUser(state, user) {
+      state.users.pop(user);
+    },
+
+    // shopiing mutations
     addToCart(state, product) {
       const existingItem = state.cart.find(
         (item) => item.product.id === product.id
@@ -130,6 +141,31 @@ export default createStore({
   },
 
   actions: {
+    // login signup
+    login({ state }, { email, password }) {
+      const user = state.users.find(
+        (u) => u.email === email && u.password === password
+      );
+      if (user) {
+        return Promise.resolve({ status: "OK", user });
+      } else {
+        return Promise.reject({
+          status: "UserNotFound",
+          message: "User does not exist. Please sign up.",
+        });
+      }
+    },
+
+    signup({ commit }, user) {
+      const userId = generateUniqueID();
+      const userWithId = { ...user, userId };
+      commit("addUser", userWithId);
+    },
+
+    logout({ commit }) {
+      commit("clearUser");
+    },
+
     saveShippingInfo({ commit, state }) {
       commit("updateFullName", state.fullName);
       commit("updateAddress", state.address);
@@ -154,3 +190,6 @@ export default createStore({
     },
   },
 });
+function generateUniqueID() {
+  return Math.random().toString(36).substr(2, 9);
+}

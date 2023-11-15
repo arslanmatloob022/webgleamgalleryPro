@@ -1,15 +1,7 @@
 <template>
   <section class="page">
     <!-- headers content -->
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>
           Explore Header Excellence Elevate Your Website’s First Impression
@@ -49,15 +41,7 @@
     </div>
 
     <!-- Cards content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <div class="image">
           <img
@@ -94,15 +78,7 @@
     </div>
 
     <!-- Searchbars content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Discover Seamless Search: Where Functionality Meets Style!</h2>
         <h3>🔍 Embrace the future of search with our visual search bars!</h3>
@@ -142,15 +118,7 @@
     </div>
 
     <!-- sidebars content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="mediaContent bg-color">
         <div class="image">
           <img src="@/assets/elementsMedia/sidebars.png" alt="" />
@@ -186,15 +154,7 @@
     </div>
 
     <!-- buttons content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="textContent bg-color">
         <h2>
           Button Brilliance: Explore Our Diverse Collection for Every Web

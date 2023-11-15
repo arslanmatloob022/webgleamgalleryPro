@@ -1,15 +1,7 @@
 <template>
   <section class="page">
     <!-- headers content -->
-    <div
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-      class="cont-container"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Embark on Your Vue.js Journey!</h2>
         <h4>Master the Basics of Vue.js!</h4>
@@ -46,15 +38,7 @@
       </div>
     </div>
 
-    <div
-      class="cont-container"
-      data-aos="fade-up"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-once="false"
-    >
+    <div class="cont-container">
       <div class="textContent">
         <h2>Chart Your Path to Full Stack Mastery!</h2>
         <h4>Learn and know the basics of Full-Stack Development</h4>
