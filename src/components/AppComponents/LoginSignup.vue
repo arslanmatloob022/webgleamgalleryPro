@@ -30,17 +30,21 @@
           ></i>
         </div>
         <div class="option_field">
-          <span class="checkbox">
+          <div class="checkbox">
             <input type="checkbox" id="check" />
             <label for="check">Remember me</label>
-          </span>
-          <a href="#" id="forgetpswrd" class="forgot_pw">Forgot password?</a>
+          </div>
+          <div>
+            <a href="#" id="forgetpswrd" class="forgot_pw"
+              ><p>Forgot password?</p>
+            </a>
+          </div>
         </div>
 
         <button class="button">Login</button>
         <div class="signupBtn">
           <p>Don't Have Account?</p>
-          <a @click="toggleForms">Register Now !</a>
+          <a @click="toggleForms"><p>Register Now !</p></a>
         </div>
       </form>
     </div>
@@ -85,7 +89,7 @@
         <button type="submit" class="button">Register</button>
         <div class="signupBtn">
           <p>Already Have an Account?</p>
-          <a @click="toggleForms">Login Now!</a>
+          <a @click="toggleForms"><p>Login Now!</p> </a>
         </div>
       </form>
     </div>
@@ -165,12 +169,12 @@ export default {
   margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 4px;
 }
 .signupBtn p {
   cursor: default;
   font-size: 0.7rem;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(249, 255, 252);
 }
 .signupBtn a {
   cursor: pointer;
@@ -183,7 +187,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%) scale(1.2);
   z-index: 101;
-  background: #ececec;
+  background: #2a9d8f;
   padding: 25px;
   border-radius: 28px 0px;
   border: 2px solid #ececec;
@@ -198,22 +202,22 @@ export default {
   padding: 4px;
   top: 10px;
   right: 20px;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(242, 255, 249);
   font-size: 22px;
   opacity: 0.8;
   cursor: pointer;
 }
 .form_close:hover {
   border-radius: 5px 0px;
-  background-color: rgba(18, 216, 121, 0.6);
-  color: white;
+  background-color: rgba(247, 255, 251, 0.6);
   opacity: 1;
+  color: #2a9d8f;
   transform: rotate(180deg);
   cursor: pointer;
 }
 .form_container h2 {
   font-size: 22px;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 .input_box {
@@ -231,20 +235,23 @@ export default {
   border: none;
   outline: none;
   padding: 0 30px;
-  background-color: #ececec;
-  color: rgba(18, 216, 121, 1);
+  background-color: #2a9d8f;
+  color: rgb(255, 255, 255);
   transition: all 0.2s ease;
-  border-bottom: 1.5px solid #aaaaaa;
+  border-bottom: 1.5px solid #d1d1d1;
 }
 .input_box input:focus {
-  border-color: rgba(18, 216, 121, 1);
+  border-color: rgb(255, 255, 255);
+}
+.input_box input::placeholder {
+  color: #f1f1f1;
 }
 .input_box i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(255, 255, 255);
 }
 .input_box i.email,
 .input_box i.password {
@@ -252,10 +259,10 @@ export default {
 }
 .input_box input:focus ~ i.email,
 .input_box input:focus ~ i.password {
-  color: rgba(18, 216, 121, 1);
+  color: rgb(249, 255, 252);
 }
 .input_box i.pw_hide {
-  color: rgba(18, 216, 121, 1);
+  color: rgb(245, 245, 245);
   right: 0;
   font-size: 18px;
   cursor: pointer;
@@ -265,12 +272,12 @@ export default {
 .option_field {
   margin-top: 20px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-items: center;
+  gap: 30px;
 }
 .form_container a {
   text-decoration: none;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(255, 255, 255);
   font-size: 12px;
 }
 .form_container a:hover {
@@ -278,26 +285,26 @@ export default {
 }
 .checkbox {
   display: flex;
+  align-items: center;
   column-gap: 8px;
-  white-space: nowrap;
 }
 .checkbox input {
-  accent-color: rgba(18, 216, 121, 1);
+  accent-color: rgb(255, 255, 255);
 }
 .checkbox label {
   font-size: 12px;
   cursor: pointer;
   user-select: none;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(255, 255, 255);
 }
 .form_container .button {
-  background: #ececec;
-  border: 2px solid rgba(18, 216, 121, 1);
+  background: #2a9d8f;
+  border: 2px solid rgb(248, 255, 252);
   margin-top: 30px;
   width: 100%;
   padding: 7px 0;
   border-radius: 10px 0px;
-  color: rgba(18, 216, 121, 1);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   cursor: pointer;
 }
@@ -309,15 +316,3 @@ export default {
   color: rgba(18, 216, 121, 1);
 }
 </style>
-<!-- 
-
-  .signup_form {
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
-
-.signup_form .active {
-  display: block;
-}
- -->
