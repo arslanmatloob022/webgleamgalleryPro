@@ -1,32 +1,246 @@
 <template>
-  <div class="dashboard">
-    <div class="dashboard-content">
-      <div class="dashboard-card">
-        <div class="card-header">
-          <h3>Sales Statistics</h3>
-        </div>
-        <div class="card-body row">
-          <!-- Placeholder for sales statistics chart -->
-          <div class="col-md-6 col-6 col-sm-12 col-12 charty">
-            <canvas id="myChart"> </canvas>
-          </div>
-          <div class="col-md-6 col-6 col-sm-12 col-12 charty">
-            <canvas id="productionChart"></canvas>
-          </div>
+  <section>
+    <!-- Placeholder for sales statistics chart -->
+    <div class="main-container">
+      <div class="charty">
+        <canvas class="chart" id="myChart"> </canvas>
+      </div>
+      <div class="text-content">
+        <h3>Interactive Line Charts for Data Visualization</h3>
+        <p>
+          Welcome to our dynamic world of data visualization! Explore our
+          powerful line charts designed to transform raw data into actionable
+          insights. Whether you're tracking trends, monitoring progress, or
+          analyzing patterns, our interactive line charts provide a visually
+          engaging experience that makes complex data easy to understand.<br />
+          Ready to enhance your data storytelling? Explore the power of our line
+          charts and elevate your website's visual appeal.
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart1.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart1.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart1.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
 
-          <div class="col-md-6 col-lg-4 col-sm-12 col-12 charty">
-            <canvas id="polarchart"></canvas>
-          </div>
-          <div class="col-md-6 col-lg-4 col-sm-12 col-12 charty">
-            <canvas id="donutChart"></canvas>
-          </div>
-          <div class="col-md-6 col-lg-4 col-sm-12 col-12 charty">
-            <canvas id="pieChart"></canvas>
-          </div>
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
         </div>
       </div>
     </div>
-  </div>
+
+    <div class="main-container">
+      <div class="charty">
+        <canvas class="chart" id="productionChart"></canvas>
+      </div>
+      <div class="text-content">
+        <h3>Dynamic Bar Charts for Impactful Data Presentation</h3>
+        <p>
+          Step into the realm of data visualization excellence with our powerful
+          bar charts. Designed to transform raw data into compelling visual
+          narratives, our dynamic bar charts offer an engaging way to present
+          information, analyze trends, and make informed decisions. Explore the
+          possibilities of data storytelling like never before!
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart2.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart2.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart2.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="charty">
+        <canvas
+          style="height: min-content"
+          class="chart"
+          id="polarchart"
+        ></canvas>
+      </div>
+      <div class="text-content">
+        <h3>
+          Explore Data in Circles: Polar Area Charts for a 360-Degree View
+        </h3>
+        <p>
+          Embark on a journey of nuanced data exploration with our Polar Area
+          Charts. Beyond traditional data representations, our charts offer a
+          unique circular perspective, allowing you to unravel intricate
+          patterns, trends, and relationships in your information. Elevate your
+          data visualization game and bring a fresh perspective to your
+          audience.
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart3.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart3.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart3.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="charty">
+        <canvas
+          style="height: min-content"
+          class="chart"
+          id="donutChart"
+        ></canvas>
+      </div>
+      <div class="text-content">
+        <h3>
+          Delve into Data Delicacies: Doughnut Charts for Distinctive Data
+          Display
+        </h3>
+        <p>
+          Satisfy your appetite for insightful data representation with our
+          Doughnut Charts. Beyond the ordinary, our charts offer a delightful
+          and unique way to showcase proportions and relationships within your
+          data. Elevate your visual storytelling and captivate your audience
+          with this eye-catching and informative data visualization.
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart4.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart4.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart4.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="charty">
+        <canvas
+          style="height: min-content"
+          class="chart"
+          id="pieChart"
+        ></canvas>
+      </div>
+      <div class="text-content">
+        <h3>Interactive Doughnut-Chart for Data Visualization</h3>
+        <p>
+          Satisfy your appetite for insightful data representation with our
+          Doughnut Charts. Beyond the ordinary, our charts offer a delightful
+          and unique way to showcase proportions and relationships within your
+          data. Elevate your visual storytelling and captivate your audience
+          with this eye-catching and informative data visualization.
+        </p>
+        <div class="links">
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart5.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vanilla Js</button></a
+          >
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart5.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">React.Js</button>
+          </a>
+          <a
+            href="https://github.com/arslanmatloob022/webgleamcode/blob/main/Charts/chart5.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="code-btn">Vue.Js</button></a
+          >
+
+          <button class="tutorial-btn">
+            Watch Tuttorial
+            <span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -207,68 +421,75 @@ export default {
 </script>
 
 <style scoped>
-#productionChart,
-#myChart {
+.main-container {
+  margin-top: 20px;
   width: 100%;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-.dashboard {
-  width: 100%;
-  margin: 0;
-  padding: 20px;
-}
-
-.dashboard-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.dashboard-card {
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
-.card-header {
-  background: #007bff;
-  color: #fff;
   padding: 10px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  background-color: #f1f1f1;
+  display: flex;
 }
-
-.card-header h3 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
 .charty {
+  width: 50%;
   padding: 10px;
-  width: fit-content;
+}
+.text-content {
+  padding: 10px;
+  width: 50%;
+}
+.text-content {
+  padding: 10px 20px;
 }
 
-.task-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.text-content h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20pt;
+  color: #0f0f0f;
+  font-size: 2.2vw;
+}
+.text-content p {
+  font-family: "Onest", "AR One Sans", sans-serif;
+  font-size: 1.3vw;
+}
+.links {
+  display: -webkit-flex;
+  gap: 12pt;
+}
+.links button {
+  font-size: 1dvw;
+  border-radius: 6px;
+  padding: 4pt 6pt;
+  transition: all 0.2s ease-in-out;
+}
+.code-btn {
+  background-color: transparent;
+  color: #267ff3;
+  border: 3px solid #267ff3;
+}
+.tutorial-btn {
+  border: 3px solid #b2071d;
+  color: #b2071d;
+  background-color: transparent;
 }
 
-.task-list li {
-  margin-bottom: 10px;
+.links button:hover {
+  transform: scale(1.02);
 }
 
-.interaction-feed {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.interaction-feed li {
-  margin-bottom: 5px;
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .charty {
+    width: 100%;
+  }
+  .text-content {
+    width: 100%;
+  }
+  .text-content p {
+    font-size: 1.4vw;
+  }
+  .text-content h3 {
+    font-size: 2.4vw;
+  }
 }
 </style>

@@ -15,8 +15,8 @@
           <router-link class="linker" to="/categories"
             ><a class="link">Categories</a></router-link
           >
-          <i class="arrow" @click="toggleDropdown('dropdown1')">
-            {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</i
+          <span class="arrow" @click="toggleDropdown('dropdown1')">
+            {{ ShowDropdown === "dropdown1" ? "&#11165;" : "&#11167;" }}</span
           >
         </div>
         <transition name="dropdown-slide">

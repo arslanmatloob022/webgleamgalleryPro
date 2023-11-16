@@ -1,10 +1,14 @@
 <template>
-  <h1>this is gaming web page</h1>
+  <dashboard-one-vue></dashboard-one-vue>
 </template>
 
 <script>
+import DashboardOneVue from "@/components/WebComponents/CRMWebComponents/Dashboards/DashboardOne.vue";
 export default {
   name: "GamingWebPage",
+  components: {
+    DashboardOneVue,
+  },
 };
 </script>
 
