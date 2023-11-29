@@ -108,6 +108,11 @@
 <script>
 export default {
   name: "AboutUsPage",
+  head() {
+    return {
+      title: "",
+    };
+  },
 };
 </script>
 <style scoped>

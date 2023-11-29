@@ -162,6 +162,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Categories page",
+    };
+  },
   data() {
     return {};
   },
