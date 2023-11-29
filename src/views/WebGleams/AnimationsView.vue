@@ -105,6 +105,17 @@
         </div>
       </div>
     </div>
+    <amp-ad
+      width="100vw"
+      height="320"
+      type="adsense"
+      data-ad-client="ca-pub-8669892053343108"
+      data-ad-slot="7266400903"
+      data-auto-format="rspv"
+      data-full-width=""
+    >
+      <div overflow=""></div>
+    </amp-ad>
 
     <!-- Animated fireworks animations -->
     <div class="container-box">
@@ -156,7 +167,17 @@
         </div>
       </div>
     </div>
-
+    <amp-ad
+      width="100vw"
+      height="320"
+      type="adsense"
+      data-ad-client="ca-pub-8669892053343108"
+      data-ad-slot="7266400903"
+      data-auto-format="rspv"
+      data-full-width=""
+    >
+      <div overflow=""></div>
+    </amp-ad>
     <!-- Flying balloons animations -->
     <div class="container-box">
       <div class="media">

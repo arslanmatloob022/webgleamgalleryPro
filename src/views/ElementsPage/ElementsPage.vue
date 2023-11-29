@@ -33,7 +33,7 @@
         <div class="image">
           <img
             class="ui-img"
-            src="@/assets/elementsMedia/navbars.png"
+            src="@/assets/elementsMedia/headersbgrs.png"
             alt="UI Element Image"
           />
         </div>
@@ -77,6 +77,18 @@
       </div>
     </div>
 
+    <amp-ad
+      width="100vw"
+      height="320"
+      type="adsense"
+      data-ad-client="ca-pub-8669892053343108"
+      data-ad-slot="7266400903"
+      data-auto-format="rspv"
+      data-full-width=""
+    >
+      <div overflow=""></div>
+    </amp-ad>
+
     <!-- Searchbars content -->
     <div class="cont-container">
       <div class="textContent">
@@ -110,7 +122,7 @@
         <div class="image">
           <img
             class="ui-img"
-            src="@/assets/elementsMedia/searchbars.png"
+            src="@/assets/elementsMedia/bgsb-rbg.png"
             alt=""
           />
         </div>
@@ -120,8 +132,29 @@
     <!-- sidebars content -->
     <div class="cont-container">
       <div class="mediaContent bg-color">
-        <div class="image">
-          <img src="@/assets/elementsMedia/sidebars.png" alt="" />
+        <div class="media">
+          <div class="sidebar-div">
+            <img
+              src="@/components/WebGleams/Sidebars/sb1l.png"
+              alt="sidebar image"
+              srcset=""
+            />
+            <img
+              src="@/components/WebGleams/Sidebars/sb1s.png"
+              alt="sidebar image"
+              srcset=""
+            />
+            <img
+              src="@/components/WebGleams/Sidebars/sb1l.png"
+              alt="sidebar image"
+              srcset=""
+            />
+            <img
+              src="@/components/WebGleams/Sidebars/sb1s.png"
+              alt="sidebar image"
+              srcset=""
+            />
+          </div>
         </div>
       </div>
       <div class="textContent bg-color">
@@ -201,6 +234,32 @@ export default {
 </script>
 
 <style scoped>
+.media {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  flex-direction: column;
+  padding: 20pt 10pt;
+  background-color: #f1f1f1;
+}
+.sidebar-div {
+  width: 100%;
+  padding: 0;
+  display: -webkit-flex;
+  border-radius: 8px;
+  height: 360px;
+  display: flex;
+  gap: 94px;
+  justify-content: center;
+}
+.sidebar-div img {
+  height: 100%;
+}
+.sidebar-div video {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
 .page {
   width: 100%;
   background-color: #ffffff;
@@ -251,7 +310,7 @@ h3 {
   background-color: #f1f1f1;
 }
 .mediaContent .image {
-  width: 80%;
+  width: 90%;
   height: 100%;
 }
 .mediaContent img {

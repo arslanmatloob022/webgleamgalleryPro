@@ -1,5 +1,5 @@
 <template>
-  <h1>this is entertainment web page</h1>
+  <h1>Under maintenance</h1>
 </template>
 
 <script>

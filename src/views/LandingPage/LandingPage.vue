@@ -4,7 +4,7 @@
       <div class="main">
         <div class="media-content">
           <video
-            preload="@/assets/AppMedia/poster.png"
+            preload
             playsinline
             autoplay
             muted
@@ -177,16 +177,14 @@
           frontend web-development.
         </h2>
         <h4>
-          Explore Expert Web Development Tools, Teachnologies, Languages and
-          Learn Frontend and Backend Mastery!
+          Explore and learn Web Development roadmaps and technologies to become
+          a fullstack web developer.
         </h4>
         <p>
-          Your Gateway to Expert Web Development Tools, Comprehensive Frontend
-          and Backend Learning Resources. Transform Ideas into Interactive
-          Reality! <br />From our platform you can get access to all of your
-          require resources because We also offers you a single page learning
-          materials and resources you might need in your web-development
-          journey.
+          In your web development journey you might need a batter guidence and
+          roadmaps to learn and become the full-stack web developer.<br />
+          Here we serve you with the batter approach and resources to become a
+          full-stack developer.
         </p>
 
         <router-link class="a" to="/learningspage">
@@ -201,7 +199,11 @@
         ></router-link>
       </div>
       <div class="mediaContent bg-color">
-        <img src="@/assets/AppMedia/teambuild.png" alt="" />
+        <img
+          style="width: 30dvw"
+          src="@/assets/AppMedia/devroadmap.png"
+          alt=""
+        />
       </div>
     </div>
   </section>
@@ -292,14 +294,14 @@ export default {
 .textContent h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
-  font-size: 1.7rem;
+  font-size: 2dvw;
   font-weight: 700;
 }
 .textContent h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #28b173;
   padding: 6pt 0pt;
-  font-size: 1.4rem;
+  font-size: 1.5dvw;
 }
 .textContent p {
   color: #202020;
@@ -398,6 +400,7 @@ export default {
 }
 .multi-lines h4 {
   color: #2beb95;
+  font-size: 2.3vw;
 }
 .text-content h3 {
   font-size: 32pt;
